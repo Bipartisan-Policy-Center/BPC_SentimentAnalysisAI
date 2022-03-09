@@ -4,6 +4,8 @@
 
 * [About](#about)
 * [Replicate](#replicate)
+  * [CURL Request for HTML/web-based frameworks](#curl-request)
+  * [Python File for text-based frameworks](#text-frameworks)
 * [Future work](#future-work)
 * [Results](#results)
 * [Data used](#data-used)
@@ -34,6 +36,10 @@ This is a repository containing data input used, results found, and steps to rec
     
     ```gh repo clone Bipartisan-Policy-Center/BPC_SentimentAnalysisAI```
 
+
+### CURL Request
+
+For web/html based frameworks:
 
  - Test that curl is installed on your machine by running the command `curl -V`
     
@@ -68,6 +74,15 @@ This is a repository containing data input used, results found, and steps to rec
     curl -X POST -u "apikey:{apikey}" --header "Content-Type: application/json" --data "{\"url\":\"https://www.intelligence.gov/artificial-intelligence-ethics-framework-for-the-intelligence-community\",\"features\":{\"sentiment\":{},\"categories\":{},\"concepts\":{},\"entities\":{},\"keywords\":{}}}" "{url}/v1/analyze?version=2019-07-12"
     ```
 
+
+### Text Frameworks
+
+For pdf/text-based frameworks
+
+- run `pip install --upgrade "ibm-watson>=5.3.0"`
+- Change the `{API Key}` (line 8) to your own key and the `{url}` (line 14) to your service URL as provided by IBM
+- Change the name of the file called on `convert_file_to_string` to the name of the file for the framework you're analyzing (line 24)
+- run the command `python3 text_sentiment.py`
 
 ## Future work
 

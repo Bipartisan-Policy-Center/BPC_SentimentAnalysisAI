@@ -79,6 +79,7 @@ For web/html based frameworks:
 
 For pdf/text-based frameworks
 
+- Ensure that you have python3 installed on your machine by running `python --version`
 - run `pip install --upgrade "ibm-watson>=5.3.0"`
 - Change the `{API Key}` (line 8) to your own key and the `{url}` (line 14) to your service URL as provided by IBM
 - Change the name of the file called on `convert_file_to_string` to the name of the file for the framework you're analyzing (line 24)

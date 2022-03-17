@@ -1,0 +1,396 @@
+AMoralFrameworkforUnderstandingFairML throughEconomicModelsofEqualityofOpportunity 
+HodaHeidari ETHZürich hheidari@inf.ethz.ch 
+KrishnaP.Gummadi MPI-SWS gummadi@mpi-sws.org 
+MicheleLoi UniversityofZürich michele.loi@uzh.ch 
+AndreasKrause ETHZürich krausea@ethz.ch 
+ABSTRACT 
+Wemaptherecentlyproposednotionsofalgorithmicfairnessto economicmodelsofEqualityofopportunity(EOP)—anextensively studiedidealoffairnessinpoliticalphilosophy.Weformallyshow thatthroughourconceptualmapping,manyexistingdefinitionof algorithmicfairness,suchaspredictivevalueparityandequality ofodds,canbeinterpretedasspecialcasesofEOP.Inthisrespect, ourworkservesasaunifyingmoralframeworkforunderstand­ingexistingnotionsofalgorithmicfairness.Mostimportantly,this frameworkallowsustoexplicitlyspelloutthemoralassumptions underlyingeachnotionoffairness,andinterpretrecentfairness impossibilityresultsinanewlight.Lastbutnotleastandinspired byluckegalitarianmodelsofEOP,weproposeanewfamilyofmea­suresforalgorithmicfairness.Weillustrateourproposalempirically andshowthatemployingameasureofalgorithmic(un)fairness whenitsunderlyingmoralassumptionsarenotsatisfied,canhave devastatingconsequencesforthedisadvantagedgroup’swelfare. 
+CCSCONCEPTS •Computingmethodologies.Supervisedlearning;Batch learning;•Appliedcomputing.Economics;Sociology; 
+KEYWORDS 
+EqualityofOpportunity(EOP),FairnessforMachineLearning, RawlsianandLuckEgalitarianEOP,StatisticalParity,Equalityof Odds,PredictiveValueParity 
+ACMReferenceFormat: 
+HodaHeidari,MicheleLoi,KrishnaP.Gummadi,andAndreasKrause.2019. AMoralFrameworkforUnderstandingFairML,throughEconomicModels ofEqualityofOpportunity.InFAT*’19:ConferenceonFairness,Account­ability,andTransparency(FAT*’19),January29–31,2019,Atlanta,GA,USA. 
+ACM,NewYork,NY,USA,10pages.https://doi.org/10.1145/3287560.3287584 
+
+Permissiontomakedigitalorhardcopiesofallorpartofthisworkforpersonalor classroomuseisgrantedwithoutfeeprovidedthatcopiesarenotmadeordistributed forprofitorcommercialadvantageandthatcopiesbearthisnoticeandthefullcitation onthefirstpage.CopyrightsforcomponentsofthisworkownedbyothersthanACM mustbehonored.Abstractingwithcreditispermitted.Tocopyotherwise,orrepublish, topostonserversortoredistributetolists,requirespriorspecificpermissionand/ora fee.Requestpermissionsfrompermissions@acm.org. 
+FAT*’19,January29–31,2019,Atlanta,GA,USA 
+©2019AssociationforComputingMachinery. ACMISBN978-1-4503-6125-5/19/01...$15.00 https://doi.org/10.1145/3287560.3287584 
+
+1 INTRODUCTION 
+Equalityofopportunity(EOP)isawidelysupportedidealoffair­ness,andithasbeenextensivelystudiedinpoliticalphilosophy overthepast50years[1,6,8,9,21,26].Theconceptassumesthe 
+existenceofabroadrangeofpositions,someofwhicharemore desirablethanothers.Incontrasttoequalityofoutcomes(orposi­tions),anequalopportunitypolicyseekstocreatealevelplaying fieldamongindividuals,afterwhichtheyarefreetocompetefor differentpositions.Thepositionsthatindividualsearnunderthe conditionofequalityofopportunityreflecttheirmeritordeserv­ingness,andforthatreason,inequalityinoutcomesisconsidered ethicallyacceptable[23]. 
+
+Equalityofopportunityemphasizestheimportanceofpersonal (ornative)qualifications,andseekstominimizetheimpactofcir­cumstancesandarbitraryfactorsonindividualoutcomes[6,8,9,21]. 
+Forinstancewithinthecontextofemployment,one(narrow)in­terpretationofEOPrequiresthatdesirablejobsaregiventothose personsmostlikelytoperformwellinthem—e.g.thosewiththe necessaryeducationandexperience—andnotaccordingtoarbitrary factors,suchasraceorfamilybackground.AccordingtoRawls’s 
+(broader)interpretationofEOP,nativetalentandambitioncanjus­tifyinequalityinsocialpositions,whereascircumstancesofbirth andupbringingsuchassex,race,andsocialbackgroundcannot. Manyconsiderthedistinctionbetweenmorallyacceptableand unacceptableinequalitythemostsignificantcontributionofthe egalitariandoctrine[25]. 
+
+Priorworkineconomicshassoughttoformallycharacterize conditionsofequalityofopportunitytoallowforitsprecisemea­surementinpracticaldomains(seee.g.[11,24]).Atahighlevel, 
+inthesemodelsanindividual’soutcome/positionisassumedto beaffectedbytwomainfactors:his/hercircumstancec andeffort e.Circumstancec ismeanttocaptureallfactorsthataredeemed irrelevant,orforwhichtheindividualshouldnotbeheldmorally accountable;forinstancec couldspecifythesocio-economicstatus he/sheisborninto.Efforte capturesallaccountabilityfactors— thosethatcanmorallyjustifyinequality.(Priorworkineconomics referstoe aseffortforthesakeofconcreteness,bute summarizes allfactorsforwhichtheindividualcanbeheldmorallyaccountable; theterm“effort"shouldnotbeinterpretedinitsordinarysense here.)Foranycircumstancec andanyeffortlevele,apolicy. in­ducesadistributionofutilityamongpeopleofcircumstancec and efforte.Formally,anEOPpolicywillensurethatanindividual’s finalutilitywillbe,totheextentpossible,onlyafunctionoftheir effortandnottheircircumstances. 
+WhileEOPhasbeentraditionallydiscussedinthecontextof employmentpractices,itsscopehasbeenexpandedovertimeto otherareas,includinglending,housing,collegeadmissions,and beyond[28].Decisionsmadeinsuchdomainsareincreasinglyauto­
+matedandmadethroughAlgorithmicDataDrivenDecisionMaking systems(A3DMs).Weargue,therefore,thatitisonlynaturalto studyfairnessforA3DMsthroughthelensofEOP.Inthiswork,we drawaformalconnectionbetweentherecentlyproposednotionsof fairnessforsupervisedlearningandeconomicmodelsofEOP.We observethatinpractice,predictivemodelsinevitablymakeerrors (e.g.themodelmaymistakenlypredictthatacredit-worthyappli­cantwon’tpaybacktheirloanintime).Sometimestheseerrors arebeneficialtothesubject,andsometimestheycauseharm.We positthatinthiscontext,EOPwouldrequiresimilarindividuals (intermsofwhattheycanbeheldaccountablefor)tohavethe sameprospectofreceivingthisbenefit/harm,irrespectiveoftheir irrelevantcharacteristics. 
+Moreprecisely,weassumethataperson’sfeaturescanbepar­titionedintotwosets:thoseforwhichweconsideritmorallyac­ceptabletoholdhim/heraccountable,andthoseforwhichitis notso.Wewillbroadlyrefertotheformersetofattributesasthe individual’saccountabilityfeatures,andthelatter,astheirarbitrary orirrelevantfeatures.Notethatthereisconsiderabledisagreement onthecriteriatodeterminewhatfactorsshouldbelongtoeach category.Roemer[22]forinstanceproposesthatsocietiesdecide thisdemocratically.Wetakeaneutralstanceonthisissueand leaveittodomainexpertsandstake-holderstoreacharesolution. Throughout,weassumethispartitionhasbeenidentifiedandis given. 
+Wedistinguishbetweenanindividual’sactualandeffort-based utilitywhensubjectedtoalgorithmicdecisionmaking.Weassume anindividual’sadvantageortotalutilityastheresultofbeing subjecttoA3DMs,isthedifferencebetweentheiractualandeffort­basedutility(Section2).Ourmainconceptualcontributionisto 
+mapthesupervisedlearningsettingtoeconomicmodelsofEOPby treatingpredictivemodelsaspolicies,irrelevantfeaturesasindivid­ualcircumstance,andeffort-basedutilitiesaseffort(Figure1).We 
+showthatusingthismappingmanyexistingnotionsoffairnessfor classification,suchaspredictivevalueparity[17]andequalityof 
+odds[13],canbeinterpretedasspecialcasesofEOP.Inparticular, equalityofoddsisequivalenttoRawlsianEOP,ifweassumeall individualswiththesametruelabelareequallyaccountablefor theirlabelsandhavethesameeffort-basedutility(Section3.1). 
+Similarly,predictivevalueparityisequivalenttoluckegalitarian EOPifthepredictedlabel/riskisassumedtoreflectanindividual’s effort-basedutility(Section4).Inthisrespect,ourworkservesasa 
+unifyingframeworkforunderstandingexistingnotionsofalgorith­micfairnessasspecialcasesofEOP.Importantly,thisframework allowsustoexplicitlyspelloutthemoralassumptionsunderlying eachnotionoffairness,andinterpretrecentfairnessimpossibility results[17]inanewlight. 
+
+Lastbutnotleast,inspiredbyRoemer’smodelofegalitarianEOP wepresentanewfamilyofmeasuresforalgorithmic(un)fairness, applicabletosupervisedlearningtasksbeyondbinaryclassifica­tion.Weillustrateourproposalonareal-worldregressiondataset, andcompareitwithexistingnotionsoffairnessforregression.We 
+Heidarietal. 
+
+Figure1:OurproposedconceptualmappingbetweenFair MLandeconomicliteratureonEOP. 
+empiricallyshowthatemployingthewrongmeasureofalgorith­micfairness—whenthemoralassumptionsunderlyingitarenot satisfied—canhavedevastatingconsequencesonthewelfareofthe disadvantagedgroup. 
+Weemphasizethatourworkisnotmeanttoadvocateforanypar­ticularnotionofalgorithmicfairness,ratherourgoalistoestablish— bothformallyandviareal-worldexamples—thatimplicitineach notionoffairnessisadistinctsetofmoralassumptionsaboutde­cisionsubjects;therefore,eachnotionoffairnessissuitableonly incertainapplicationdomainsandnotothers.Bymakingthese assumptionsexplicit,ourframeworkpresentspractitionerswitha normativeguidelinetochoosethemostsuitablenotionoffairness specificallyforeveryreal-worldcontextinwhichA3DMsaretobe deployed. 
+
+1.1 EqualityofOpportunity:AnOverview 
+Equalityofopportunityhasbeenextensivelydebatedamongpo-liticalphilosophers.PhilosopherssuchasRawls[21],Dworkin[8], Arneson[1],andCohen[6]contributedtotheegalitarianschoolof thoughtbyproposingdifferentcriteriaformakingthecutbetween arbitraryandaccountabilityfactors.Thedetaileddiscussionoftheir influentialideasisoutsidethescopeofthiswork,andtheinterested readerisreferredtoexcellentsurveysbyArneson[2]andRoemer andTrannoy[25]. 
+
+Inthissection,webrieflymentionseveralprominentinterpre­tationsofEOPanddiscusstheirrelevancetoA3DMs.Following Arneson[3],werecountthreemainconceptionsofequalityof opportunity: 
+• LibertarianEOP:Apersonismorallyatlibertytodowhat shepleaseswithwhatshelegitimatelyowns(e.g.self,busi­ness,etc.)aslongasitdoesnotinfringeuponotherpeople’s moralrights(e.g.theuseofforce,fraud,theft,ordamage onpersonsorpropertyofanotherindividualisconsidereda violationoftheirrights).Otherthantheserestrictions,any outcomethatoccursastheresultofpeople’sfreechoiceson theirlegitimatepossessionsisconsideredjust.Inthecontext ofA3DMsandassumingnogrossviolationsofindividuals’ dataprivacyrights,thisinterpretationofEOPleavestheen­terpriseattotallibertytoimplementanyalgorithmitwishes fordecisionmaking.Thealgorithmcanutilizeallavailable 
+information,includingindividuals’sensitivefeaturessuchas 
+raceorgender,tomake(statistically)accuratepredictions. 
+• 
+FormalEOP:Alsoknownas“careersopentotalents",for­malEOPrequiredesirablesocialpositionstobeopentoall whopossesstheattributesrelevantfortheperformanceof thedutiesoftheposition(e.g.anyonewhomeetstheformal requirementsofthejob)andwishtoapplyforthem[24]. 
+Theapplicationsmustbeassessedonlybasedonrelevant attributes/qualificationsthatadvancesthemorallyinnocent goalsoftheenterprise.Directdiscriminationbasedonfactors deemedarbitrary(e.g.raceorgender)isthereforeprohibited underthisinterpretationofEOP.FormalEOPwouldpermit differencesinpeople’scircumstances—e.g.theirgender—to haveindirect,butnonethelessdeepimpactontheirprospects. Forinstance,ifwomenarelesslikelytoreceivehigheredu­cationduetoprejudiceagainstfemalestudents,aslongas ahiringalgorithmisblindtogenderandappliesthesame educationalrequirementtomaleandfemalejobapplicants, formalequalityofopportunityismaintained.Incontextof A3DMs,FormalEOPisequivalenttotheremovalofthesen­sitivefeatureinformationfromthelearningpipeline.Inthe fairMLcommunity,thisissometimesreferredtoas“fairness throughblindness". 
+
+• 
+SubstantiveEOP:SubstantiveEOPmovesthestartingpoint ofthecompetitionfordesirablepositionsfurtherbackin time,andrequiresnotonlyopencompetitionfordesirable positions,butalsofairaccesstothenecessaryqualifications fortheposition.Thisimpliesaccesstoqualifications(e.g. formalrequirementsforajob)shouldnottobeaffectedby arbitraryfactors,suchasracegenderorsocialclass.The conceptiscloselyrelatedtoindirectdiscrimination:ifthe A3DMindirectlydiscriminatesagainstpeoplewithacertain irrelevantfeature(e.g.womenorAfricanAmericans)this maybeanindicationthattheirrelevant/arbitraryfeaturehas playedaroleintheacquisitionoftherequirements.When therearenoalternativemorallyacceptableexplanationsfor it,indirectdiscriminationisoftenconsideredinviolationof substantiveEOP. 
+
+
+OurfocusinthisworkisonsubstantiveEOP,andinparticular,on twoofitsrefinements,calledRawlsianEOPandLuckEgalitarian EOP. 
+RawlsianEOP.AccordingtoRawls,thosewhohavethesame leveloftalentorabilityandareequallywillingtousethemmust havethesameprospectofobtainingdesirablesocialpositions,re­gardlessofarbitraryfactorssuchassocio-economicbackground[21]. 
+ThisRawlsianconceptionofEOPhasbeentranslatedintopre­cisemathematicaltermsasfollows[18]:letc denotecircumstance, capturingfactorsthatarenotconsideredlegitimatesourcesofin­equalityamongindividuals.Letscalare summarizefactorsthatare viewedaslegitimatesourcesofinequality.Forthesakeofbrevity, theeconomicliteraturerefertoe as“effort",bute ismeanttosum­marizeallfactorsanindividualcanbeheldmorallyaccountable 
+FAT*’19,January29–31,2019,Atlanta,GA,USA 
+for.1Letu specifyindividualutility,whichisaconsequenceofef­fort,circumstance,andpolicy.Formally,letF.(.|c, e) specifythe cumulativedistributionofutilityunderpolicy. atafixedeffort levele andcircumstancec.Rawlsian/FairEOPrequiresthatfor individualswithsimilarefforte,thedistributionofutilityshould bethesame—regardlessoftheircircumstances: 
+Definition1(RawlsianEqalityofOpportunity(R-EOP)). 
+Apolicy. satisfiesRawlsianEOPifforallcircumstancesc, c ' andall effortlevelse, 
+' 
+F.(.|c, e) = F.(.|c , e). 
+NotethatthisconceptionofEOPtakesanabsolutistviewofeffort: itassumese isascalarwhoseabsolutevalueismeaningfulandcan becomparedacrossindividuals.Thisviewrequiresefforte tobe inherenttoindividualsandnotitselfimpactedbythecircumstance c orthepolicy.. 
+LuckEgalitarianEOP.UnlikefairEOP,luckegalitarianEOP offersarelativeviewofeffort,andallowsforthepossibilityofcir­cumstancec andimplementedpolicy. impactingthedistribution ofefforte.Inthissetting,Roemer[23]arguesthat“incomparing effortsofindividualsindifferenttypes[circumstances],weshould somehowadjustforthefactthatthoseeffortsaredrawnfromdistri­butionswhicharedifferent".Asthesolutionhegoesontopropose “measuringaperson’seffortbyhisrankintheeffortdistributionof histype/circumstance,ratherthanbytheabsolutelevelofefforthe expends". 
+c,.
+Formally,letF betheeffortdistributionoftypec underpol-
+E
+icy..Roemerarguesthat“thisdistributionisacharacteristicof thetypec,notofanyindividualbelongingtothetype.Therefore, aninter-typecomparablemeasureofeffortmustfactoroutthe goodnessorbadnessofthisdistribution".Roemerdeclarestwoin­dividualsashavingexercisedthesamelevelofeffortiftheysitat thesamequantileorrankoftheeffortdistributionfortheircorre­spondingtypes.Moreprecisely,lettheindirectutilitydistribution functionF.(.|c, p ) specifythedistributionofutilityforindividuals 
+c,.
+oftypec atthep thquantile(0= p = 1)ofF .Equalizingopportu-
+E
+nitiesmeanschoosingthepolicy. toequalizeutilitydistributions, F.(.|c, p ),acrosstypesatfixedlevelsofp:2 
+
+Definition2(LuckEgalitarianEqalityofOpportunity (e-EOP)).Apolicy. satisfiesLuckEgalitarianEOPifforallp . [0, 1] andanytwocircumstancesc, c ' : 
+' 
+F.(.|c, p ) = F.(.|c , p ). 
+TobetterunderstandthesubtledifferencebetweenRawlsian EOPandluckegalitarianEOP,considerthefollowingexample: supposeinthecontextofemploymentdecisions,weconsideryears ofeducationaseffort,andgenderascircumstance.SupposeAlice 
+1NotethatinRawls’sformulationofEOP,talentandambitionaretreatedasalegiti­matesourceofinequality,evenwhentheyareindependentofaperson’seffortand responsibility.Themathematicalformulationproposedhereincludestalent,abilityand ambitionallinthescalare.Whethernaturaltalentshouldbetreatedasalegitimate sourceofinequalityisasubjectofcontroversy.Asstatedearlier,throughoutthiswork weassumesuchquestionshavebeenalreadyansweredthroughademocraticprocess and/ordeliberationamongstakeholdersanddomainexperts.2NotethatinRoemer’soriginalwork,utilityisassumedtobeadeterministicfunction ofc, e, ..Herewechangedthedefinitionslightlytoallowforthepossibilityof non-deterministicdependence. 
+
+FAT*’19,January29–31,2019,Atlanta,GA,USA Heidarietal. 
+andBobbothhave5yearsofeducation,whereasAnnaandBen have3and7yearsofeducation,respectively.RawlsianEOPwould requireAliceandBobtohavethesameemploymentprospects,so itwouldensurethatfactorssuchassexismwouldn’taffectAlice’s employmentchances,negatively(comparedtoBob).Luckegali­tarianEOPgoesastepfurtherandcalculateseveryone’srank(in termsofyearsofeducation)amongallapplicantsoftheirgender.In ourexample,Aliceisranked1standAnnaisranked2nd.Similarly, Bobisranked2ndandBenisranked1st.AluckegalitarianEOP policywouldensurethatAliceandBenhavethesameemployment prospects,andmayindeedassignBobtoalessdesirableposition thanAlice—eventhoughtheyhavesimilaryearsofeducation. 
+Next,wewilldiscusstheabovetworefinementsofsubstantive EOPinthecontextofsupervisedlearning. 
+2 SETTING 
+Asarunningexampleinthissection,weconsiderabusinessowner whousesA3DMtomakesalarydecisionssoastoimprovebusiness productivity/revenue.Weassumeahighersalaryisconsideredto bemoredesirablebyallemployees.AnA3DMisdesignedtopredict thesalarythatwouldimprovetheemployee’sperformanceatthe job,usinghistoricaldata.Thistargetvariable,aswewillshortly formalize,doesnotalwayscoincidewiththesalarytheemployee ismorallyaccountable/qualifiedfor. 
+Weconsiderthestandardsupervisedlearningsetting.Alearning algorithmreceivesatrainingdatasetT = {(xi, yi)}n =1consisting
+i
+ofn instances,wherexi.X specifiesthefeaturevectorforin­dividuali andyi.Y,thetruelabelforhim/her(thesalarythat wouldimprovehis/herperformance).Unlessotherwisespecified, weassumeY = {0, 1} andX = Rk.Individualsareassumedtobe sampledi.i.d.fromadistributionF .Thegoalofalearningalgorithm istousethetrainingdataT tofitamodel(orpickahypothesis) 
+h :X.Y thataccuratelypredictsthelabelfornewinstances.Let H bethehypothesisclassconsistingofallthemodelsthelearning algorithmcanchoosefrom.AlearningalgorithmreceivesT asthe input;thenutilizesthedatatoselectamodelh .H thatminimizes someempiricalloss,L(T , h).Wedenotethepredictedlabelforan individualwithfeaturevectorxbyyˆ(i.e.yˆ= h(x)). 
+Consideranindividualwhoissubjecttoalgorithmicdecision makinginthiscontext.TodiscussEOP,webeginbyassuming thathis/herobservableattributes,x,canbepartitionedintotwo disjointsets,x= .z, w.,wherez.Z denotestheindividual’s observablecharacteristicsforwhichhe/sheisconsideredmorally notaccountable—thiscouldincludesensitiveattributessuchasrace orgender,aswellaslessobviousattributes,suchaszipcode.We refertozasmorallyarbitraryorirrelevantfeatures.Letw.W denoteobservableattributesthataredeemedmorallyacceptableto holdtheindividualaccountablefor;intherunningexample,this couldincludethelevelofjob-relatededucationandexperience. Werefertowasaccountabilityorrelevantfeatures.Weemphasize onceagainthatdeterminingwhatfactorsshouldbelongtoeach categoryisentirelyoutsidethescopeofthiswork.Weassume throughoutthataresolutionhasbeenpreviouslyreachedinthis regard—throughtheappropriateprocess—andisgiventous. 
+Letd . [0, 1]specifytheindividual’seffort-basedutility—the utilityhe/sheshouldreceivesolelybasedontheiraccountability factors(e.g.thesalaryanemployeeshouldreceivebasedonhis/her yearsofeducationandjob-relatedexperience.Notethatthismay bedifferentfromtheiractualsalary).Effort-basedutilityd isnot directlyobservable,butweassumeitisestimatedviaafunction . :X×Y ×H . R+,suchthat 
+d = .(x, y, h). 
+Function. linkstheobservableinformation,x, y, andh,totheeffort­basedutility,d.Leta . [0, 1]betheactualutilitytheindividual receivessubsequenttoreceivingpredictionyˆ(e.g.theutilitythey getastheresultoftheirpredictedsalary).Weassumethereexists afunctionf :X×Y ×H . R+ thatestimatesa: 
+a = f (x, y, h). 
+Throughout,forsimplicityweassumehighervaluesofa andd correspondtomoredesirableconditions. 
+Letu betheadvantageoroverallutilitytheindividualearnsas theresultofbeingsubjecttopredictivemodelh.Forsimplicityand unlessotherwisespecified,weassumeu hasthefollowingsimple form: 
+u = a - d. (1) 
+Thatis,u capturesthediscrepancybetweenanindividual’sactual utility(a)andtheireffort-basedutilityd.Withthisformulation,an individual’sutilityis0whentheiractualandeffort-basedutilities coincide(i.e.u = 0ifa = d). 
+Weconsiderthepredictiveadvantageu tobethecurrencyof equalityofopportunityforsupervisedlearning.Thatis,u iswhat wehopetoequalizeacrosssimilarindividuals(similarintermsof whattheycanbeheldaccountablefor).Ourmoralargumentforthis choiceisasfollows:thepredictivemodelh inevitablymakeserrors inassigningindividualstotheireffort-basedutilities—thiscouldbe duetothetargetvariablenotproperlyreflectingeffort-basedutility, thepredictionbeingusedimproperly,orsimplyaconsequenceof generalization.Sometimestheseerrorsarebeneficialtothesubject, andsometimestheycauseharm.Advantageu preciselycaptures thisbenefit/harm.EOPinthissettingrequiresthatallindividuals, whodonotdifferinwaysforwhichtheycanbeheldmorally accountable,havethesameprospectofearningtheadvantageu— regardlessoftheirirrelevantattributes.Asanexample,let’sassume thetruelabelsinthetrainingdatareflectsindividuals’effort-based utilities(aswewillshortlyargue,thisassumptionisnotalways morallyacceptable,butfornowlet’signorethisissue).Inthis case,aperfectpredictor—onethatcorrectlypredictsthetruelabel foreveryindividual—willdistributenopredictiveadvantage,but suchpredictoralmostneverexistsinrealworldapplications.The deployedpredictivemodelalmostalwaysdistributessomeutility amongdecision-subjectsthroughtheerrorsitmakes.Afairmodel (withEOPrationale)wouldgiveallindividualswithsimilartrue labelsthesameprospectofearningthisadvantage—regardlessof theirirrelevantattributes. 
+Ourmainconceptualcontributionistomaptheabovesettingto thatofeconomicmodelsofEOP(Section1.1).Wetreatthepredictive 
+modelh asapolicy,arbitraryfeatureszascircumstance,andthe effort-basedutilitiesd aseffort(Figure1).InthenextSection,we 
+showthatthroughourproposedmapping,mostexistingstatistical notionsoffairnesscanbeinterpretedasspecialcasesofEOP. 
+3 EOPFORSUPERVISEDLEARNING 
+InthisSection,weshowthatmanyexistingnotionsofalgorithmic fairness,suchasstatisticalparity[10,15,16],equalityofodds[13], equalityofaccuracy[4],andpredictivevalueparity[17,29,30], 
+canbecastasspecialcasesofEOP.Thesummaryofourresultsin thisSectioncanbefoundinTable1.Toavoidanyconfusionwith thenotation,wedefinerandomvariablesX, Y tospecifythefeature vectorandtruelabelforanindividualdrawni.i.d.fromdistribution F .Similarlygivenapredictivemodelh,randomvariablesYˆ= h(X), Ah , Dh , U hspecifythepredictedlabel,actualutility,theeffort­basedutility,andadvantage,respectively,foranindividualdrawn i.i.d.fromF .Whenthepredictivemodelinreferenceisclearfrom thecontext,wedropthesuperscripth forbrevity. 
+Beforeweformallyestablishaconnectionbetweenalgorithmic fairnessandEOP,weshallbrieflyoverviewtheFairMLlitera­tureandremindthereaderoftheprecisedefinitionofpreviously­proposednotionsoffairness.Existingnotionsofalgorithmicfair­nesscanbedividedintotwodistinctcategories:individual-[7,27] 
+andgroup-levelfairness.Muchoftheexistingworkonalgorithmic fairnesshasbeendevotedtothestudyofgroup(un)fairness,also calledstatisticalunfairnessordiscrimination.Statisticalnotions offairnessrequirethatgivenaclassifier,acertainfairnessmet­ricisequalacrossall(protectedorsociallysalient)groups.More precisely,assumingz.Z specifiesthegroupeachindividualbe­longsto,statisticalparityseekstoequalizethepercentageofpeople receivingaparticularoutcomeacrossdifferentgroups: 
+Definition3(StatisticalParity).Apredictivemodelh satis­fiesstatisticalparityif.z, z '.Z, .yˆ.Y : 
+P(X,Y)~F[h(X) = yˆ|Z= z]= P(X,Y)~F[h(X) = yˆ|Z= z ']. 
+Equalityofoddsrequirestheequalityoffalsepositiveandfalse negativeratesacrossdifferentgroups: 
+Definition4(EqalityofOdds).Apredictivemodelh satisfies equalityofoddsif.z, z '.Z, .y, yˆ.Y : ' 
+P(X,Y)~F[Yˆ= yˆ|Z= z, Y = y]= P(X,Y)~F[Yˆ= yˆ|Z= z, Y = y]. 
+Equalityofaccuracyrequirestheclassifiertomakeequallyac­curatepredictionsacrossdifferentgroups: 
+Definition5(EqalityofAccuracy).Apredictivemodelh satisfiesequalityofaccuracyif.z, z '.Z : 
+E(X,Y)~F[(Yˆ- Y )2|Z= z]= E(X,Y)~F[(Yˆ- Y )2|Z= z ']. 
+Predictivevalueparity(whichcanbethoughtofasaweaker versionofcalibration[17])requirestheequalityofpositiveand negativepredictivevaluesacrossdifferentgroup: 
+Definition6(PredictiveValueParity).Apredictivemodelh satisfiespredictivevalueparityif.z, z '.Z, .y, yˆ.Y : ' 
+ˆ
+P(X,Y)~F[Y = y|Z= z, Yˆ= yˆ]= P(X,Y)~F[Y = y|Z= z, Y = yˆ]. 
+
+3.1 StatisticalParity,EqualityofOddsand AccuracyasRawlsianEOP 
+WebeginbytranslatingRawlsianEOPintothesupervisedlearning settingusingthemappingproposedinFigure1.Recallthatwe proposedreplacinge witheffort-basedutilityd,andcircumstancec 
+FAT*’19,January29–31,2019,Atlanta,GA,USA 
+withvectorofirrelevantfeaturesz.Inorderforthedefinitionof RawlsianEOPtobemorallyacceptable,weneedd tonotbeaffected byzandthemodelh.Inotherwords,itcanonlybeafunctionofw andy.LetFh(.) specifythedistributionofutilityacrossindividuals underpredictivemodelh.WedefineRawlsianEOPforsupervised learningasfollows: 
+Definition7(R-EOPforsupervisedlearning).Supposed = .(w, y).Predictivemodelh satisfiesRawlsianEOPifforallz, z '.Z andalld . [0, 1], 
+' 
+Fh(.|Z= z, D = d) = Fh(.|Z= z, D = d). 
+Inthebinaryclassificationsetting,ifweassumethetruela­belY reflectsanindividual’seffort-basedutilityD,RawlsianEOP translatesintoequalityofoddsacrossprotectedgroups:3 
+
+Proposition1(EqalityofOddsasR-EOP).Considerthe binaryclassificationtaskwhereY = {0, 1}.SupposeU = A - D, A = h(X) = Yˆ(i.e.,theactualutilityisequaltothepredictedlabel) andD = .(W, Y ) where.(W, Y ) = Y (i.e.,effort-basedutilityofan individualisassumedtobethesameastheirtruelabel).Thenthe conditionsofR-EOPareequivalenttothoseofequalityofodds. 
+Proof.RecallthatR-EOPrequiresthat.z, z '.Z, .d .D,and forallpossibleutilitylevelsu: 
+' 
+P(U = u|Z= z, D = d) = P(U = u|Z= z, D = d). 
+ReplacingU with(A-D),D withY ,A withYˆ,theaboveisequivalent to 
+.z, z '.Z, .y .{0, 1}, .u .{0, ±1} : ' 
+P[Yˆ- Y = u|Z= z, Y = y]= P[Yˆ- Y = u|Z= z, Y = y] 
+..z, z '.Z, .y .{0, 1}, .u .{0, ±1} : ' 
+P[Yˆ= u + y|Z= z, Y = y]= P[Yˆ= u + y|Z= z, Y = y] 
+..z, z '.Z, .y .{0, 1}, .yˆ.{0, 1} : ' 
+P[Yˆ= yˆ|Z= z, Y = y]= P[Yˆ= yˆ|Z= z, Y = y] 
+wherethelastlineisidenticaltotheconditionsofequalityofodds forbinaryclassification. . 
+Theimportantroleoftheabovepropositionistoexplicitlyspell outthemoralassumptionunderlyingequalityofoddsasameasure offairness:bymeasuringfairnessthroughequalityofodds,we implicitlyassertthatallindividualswiththesametruelabelhave thesameeffort-basedutility.Thiscanclearlybeproblematicin practice:truelabelsdon’talwaysreflect/summarizeaccountability factors.Atbest,theyareonlyareflectionofthecurrentstateof affairs—whichitselfmightbetaintedbypastinjustices.Forthese reasons,wearguethatequalityofoddscanonlybeusedasa validmeasureofalgorithmicfairness(withanEOPrationale)once thevalidityoftheabovemoralequivalencyassumptionhasbeen carefullyinvestigatedanditsimplicationsarewellunderstoodin thespecificcontextitisutilizedin. 
+Otherstatisticaldefinitionsofalgorithmicfairness—namelysta­tisticalparityandequalityofaccuracy—cansimilarlybethoughtof asspecialinstancesofR-EOP.SeeTable1.Forexamplestatistical 
+3NotethatHardtetal.[13]referredtoaweakermeasureofalgorithmicfairness(i.e. equalityoftruepositiverates)asequalityofopportunity. 
+
+FAT*’19,January29–31,2019,Atlanta,GA,USA Heidarietal. 
+Notionoffairness  Effort-basedutilityD  ActualutilityA  NotionofEOP  
+AccuracyParity  constant(e.g.0)  ( ˆY - Y )2  Rawlsian  
+StatisticalParity  constant(e.g.1)  ˆY  Rawlsian  
+EqualityofOdds  Y  ˆY  Rawlsian  
+PredictiveValueParity  ˆY  Y  egalitarian  
+
+Table1:InterpretationofexistingnotionsofalgorithmicfairnessforbinaryclassificationasspecialinstancesofEOP. 
+paritycanbeinterpretedasR-EOPifweassumeallindividuals havethesameeffort-basedutility.4 
+
+Proposition2(StatisticalParityasR-EOP).Considerthe binaryclassificationtaskwhereY = {0, 1}.SupposeU = A - D, A = YˆandD = .(W, Y ) where.(W, Y ) isaconstantfunction(i.e., effort-basedutilityofallindividualsisassumedtobethesame).Then theconditionsofR-EOPisequivalenttostatisticalparity. 
+Proof.Withoutlossofgenerality,suppose.(X, Y , h) = 1,i.e. allindividualseffort-basedutility1.RecallthatR-EOPrequiresthat 
+.z, z '.Z, .d .D, .u . R : ' 
+P(U = u|Z= z, D = d) = P(U = u|Z= z, D = d). 
+ˆ
+ReplacingU with(A - D),D with1,andA withY ,theaboveis equivalentto 
+.z, z '.Z, .d .{1}, .u .{0, -1} : ' 
+P[Yˆ- D = u|Z= z, D = 1]= P[Yˆ- D = u|Z= z, D = 1] 
+..z, z '.Z, .u .{0, -1} : P[Yˆ= u + 1|Z= z]= P[Yˆ= u + 1|Z= z 
+'] 
+..z, z '.Z, .yˆ.{0, 1} : P[Yˆ= yˆ|Z= z]= P[Yˆ= yˆ|Z= z 
+'] 
+wherethelastlineisidenticaltotheconditionsofstatisticalparity forbinaryclassification. . 
+Asareal-worldexamplewherestatisticalparitycanbeapplied, considerthefollowing:supposethesocietyconsidersallpatientsto havethesameeffort-basedutility—whichcanbeenjoyedbyaccess toproperclinicalexaminations.Nowsupposethatundergoingan invasiveclinicalexaminationhasutility1ifonehasthesuspected diseasesand-1otherwise,whereasavoidingthesameclinicalinves­tigationhasutility1ifonedoesnothavethesuspecteddisease,and -1otherwise.Forallsubjects,theeffort-basedutilityisthesame (themaximumutility,letussuppose).Inotherwords,allpeople withadiseasedeservetheinvasiveclinicalinvestigationandall peoplewithoutthediseasedeservetoavoidit.Considerapolicyof givingclinicalinvestigationtoallthepeoplewithoutthedisease andtonopeoplewithoutthedisease.Thiswouldachieveanequal distributionofeffort-basedutility(D)anddistributenoadvantage U .Suchpolicy,however,couldonlybeachievedwithaperfect accuracypredictor.Foranimperfectaccuracypredictor,R-EOP wouldrequirethedistributionof(negative,inthiscase)utility(U) togivethesamechancetoAfricanAmericansandwhitepatients with(without)thediseasetoreceive(avoid)aninvasiveclinical exam. 
+4Statisticalparitycanbeunderstoodasequalityofoutcomesaswell,ifweassumeYˆ 
+Proposition3(EqalityofAccuracyasR-EOP).Consider thebinaryclassificationtaskwhereY = {0, 1}.SupposeU = A - D, A = (Yˆ- Y )2andD = .(W, Y ) where.(W, Y ) = 0(i.e.,effort-based utilityofallindividualsareassumedtobethesameandequalto0). ThentheconditionsofR-EOPisequivalenttoequalityofaccuracy. 
+Proof.RecallthatR-EOPrequiresthat.z, z '.Z, .d .D, .u . 
+R : 
+' 
+P(U = u|Z= z, D = d) = P(U = u|Z= z, D = d). 
+ReplacingU with(A -D),D with0,andA with(Yˆ-Y )2,theabove isequivalentto.z, z '.Z, .d .{0}, .u .{0, 1} : 
+' 
+P[(Yˆ-Y )2-D = u|Z= z, D = d]= P[(Yˆ-Y )2-D = u|Z= z, D = d] 
+Wecanthenwrite: 
+' 
+..z, 
+z, .u :P[(Yˆ- Y )2 = u|Z= z]= P[(Yˆ- Y )2 = u|Z= z '] 
+
+..z, 
+z '.Z :E[(Yˆ- Y )2|Z= z]= E[(Yˆ- Y )2|Z= z '] 
+
+
+wherethelastlineisidenticaltotheconditionsofequalityof accuracyforbinaryclassification. . 
+Thecriticalmoralassumptionunderlyingequalityofaccuracy asameasureoffairness(withEOPrationale)isthaterrorsreflect theadvantagedistributedbythepredictivemodelamongdecision subjects.Thisexposesthefundamentalethicalproblemwithadopt­ingequalityofaccuracyasameasureofalgorithmicfairness:it failstodistinguishbetweenerrorsthatarebeneficialtothesubject andthosethatareharmful.Forexample,inthesalaryprediction example,equalityofaccuracywouldmakenodistinctionbetween anindividualwhoearnsasalaryhigherthanwhattheydeserve, andsomeonewhoearnslowerthantheireffort-based/deserved salary. 
+Max-mindistributionvs.strictequality.Atahighlevel,R-EOP prescribesequalizingadvantagedistributionacrosspersonswith thesameeffort-basedutility.Someegalitarianphilosophershave arguedthatwecanremainfaithfultothespirit(thoughnotthe letter)ofEOPbydeliveringamax-mindistributionofadvantage, insteadofastrictegalitarianone[23].Themax-mindistribution 
+deviatesfromequalityonlywhenthismakestheworstoffgroup betteroff.Eventhoughthisdistributionpermitsinequalitiesthatdo notreflectaccountabilityfactors,itisconsideredamorallysuperior alternativetoequality,ifitimprovestheutilityofleastfortunate.5 
+Themax-mindistributionaddressesthe“levelingdown"objection toequality:thedisadvantagedgroupmaybemoreinterestedin 
+5Theideathatinequalitiesarejustifiableonlywhentheyresultfromaschemearranged tomaximallybenefittheworstoffpositionisexpressedthroughtheDifferencePrinciple 
+
+reflectstheoutcome. byJohnRawlsinhistheoryof“justiceasfairness"[20]. 
+
+maximizingtheirabsolutelevelofutility,asopposedtotheirrelative utilitycomparedtothatoftheadvantagedgroup. 
+
+
+3.2 PredictiveValueParityasEgalitarianEOP 
+Notethatpredictivevalueparity(equalityofpositiveandnegative predictivevaluesacrossdifferentgroups)cannotbethoughtof asaninstanceofR-EOP,asitrequirestheeffort-basedutilityof anindividualtobeafunctionofthepredictivemodelh (aswe willshortlyshow,itassumesD = h(X)).Thisisinviolationof theabsolutistviewofRawlsianEOP.InthisSection,weshowthat predictivevalueparitycanbecastasaninstanceofluckegalitarian EOP. 
+WefirstspecializeRoemer’smodelofEgalitarianEOPtothe supervisedlearningsetting.RecallthategalitarianEOPallowsthe effort-basedutilitytobeafunctionofthepredictivemodelh,thatis D = f (X, Y , h).Whenthisisthecase,followingtheargumentput forwardbyRoemerwepositthatthedistributionofeffort-based utilityforagiventypez(denotedbyF z,h)isacharacteristicofthe 
+D 
+typez,notsomethingforwhichanyindividualbelongingtothe typecanbeheldaccountable.Therefore,aninter-typecomparable measureofeffort-basedutilitymustfactoroutthegoodnessor badnessofthisdistribution.Weconsidertwoindividualsasbeing equallydeservingiftheysitatthesamequantileorrankofthe distributionofD fortheircorrespondingtype. 
+Moreformally,lettheindirectutilitydistributionfunction,de­notedbyFh(.|z, p ),specifythedistributionofutilityforindividuals oftypezatthep thquantile(0= p = 1)ofeffort-basedutilitydis­tribution,F z,h .Equalizingopportunitiesmeanschoosingthepre-
+D
+dictivemodelh toequalizetheindirectutilitydistributionacross types,atfixedlevelsofp: 
+Definition8(e-EOPforsupervisedlearning).Supposed = f (x, y, h).Predictivemodelh satisfiesegalitarianEOPifforallp . [0, 1]andz, z '.Z, 
+' 
+Fh(.|Z= z, . = p ) = Fh(.|Z= z, . = p ). (2) 
+Next,weshowthatpredictivevalueparitycanbethoughtof asaspecialcaseofe-EOP,wherethepredictedlabel/riskh(X) is assumedtoreflecttheindividual’seffort-basedutility,andthetrue labelY reflectshis/heractualutility. 
+Proposition4(predictivevalueparityase-EOP).Consider thebinaryclassificationtaskwhereY = {0, 1}.SupposeU = A - D, A = Y andD = .(X, Y , h) where.(X, Y , h) = h(X) = Yˆ(i.e.,effort­basedutilityofanindividualunderh isassumedtobethesameas theirpredictedlabel).Thentheconditionsofe-EOPareequivalentto thoseofpredictivevalueparity. 
+Proof.Recallthate-EOPrequiresthat.z, z '.Z, .p . [0, 1], and.u . R : ' 
+P[U = u|Z= z, . = p ]= P[U = u|Z= z, . = p ]. 
+NotethatsinceD = Yˆandinthebinaryclassification,Yˆcanonly takeontwovalues,thereareonlytworanks/quantilespossiblein termsoftheeffort-basedutility—correspondingtoYˆ= 0andYˆ= 1. Sotheaboveconditionisequivalentto.z, z '.Z, .yˆ.{0, 1}, .u . {0, ±1} : 
+'
+ˆ
+P[U = u|Z= z, Y = yˆ]= P[U = u|Z= z, Yˆ= yˆ]. 
+FAT*’19,January29–31,2019,Atlanta,GA,USA 
+ReplacingU with(A-D),D withYˆ,A withY ,theaboveisequivalent to 
+.z, z '.Z, .yˆ.{0, 1}, .u .{0, ±1} : '
+ˆˆ
+P[Y - Yˆ= u|Z= z, Y = yˆ]= P[Y - Yˆ= u|Z= z, Y = yˆ] 
+..z, z '.Z, .yˆ.{0, 1}, .u .{0, ±1} : '
+ˆˆ
+P[Y = u + yˆ|Z= z, Y = yˆ]= P[Y = u + yˆ|Z= z, Y = yˆ] 
+..z, z '.Z, .yˆ.{0, 1}, .y .{0, 1} : '
+ˆˆ
+P[Y = y|Z= z, Y = yˆ]= P[Y = y|Z= z, Y = yˆ] 
+wherethelastlineisidenticaltopredictivevalueparity. . 
+Notethattherearetwoassumptionsneededtocastpredictive valueparityasaninstanceofe-EOP:1)thepredictedlabel/risk h(x) reflectstheindividual’seffort-basedutility;and2)thetrue labelY reflectshis/heractualutility.Theplausibilityofsuchmoral assumptionsmustbecriticallyevaluatedinagivencontextbefore predictiveparitycaneemployedasavalidmeasureoffairness. Next,wediscusstheplausibilityoftheseassumptionsthrough severalreal-worldexamples. 
+Plausibilityofassumption1.Thechoiceofpredictedlabel,h(X), astheindicatorofeffort-basedutility,maysoundoddatfirst.How­ever,thereareseveralreal-worldsettingsinwhichthisassumption isconsideredappropriate.Considerthecaseofdrivingunderinflu­ence(DUI):thelawconsidersalldriversequallyatriskofcausing anaccident—duetotheconsumptionofalcoholordrugs—equally accountablefortheirriskandpunishesthemsimilarly,eventhough onlysomeofthemwillendupinanactualaccident,andtherest won’t.Inthiscontext,thepotential/riskofcausinganaccident—as opposedtotheactualoutcome—justifiesunequaltreatment,because webelievedifferencesinactualoutcomesamongequallyriskyin­dividualsismainlydrivenbyarbitraryfactors,suchasbruteluck. Arguably,suchfactorsshouldneverspecifyaccountability. 
+Canassumptions1and2holdsimultaneously?Thefollowingis anexampleinwhichssumptions1and2holdsimultaneously(in particular,thetruelabelY specifiestheactualutilityanindividual receivessubsequenttobeingsubjecttoautomateddecisionmak­ing).Considerthestudentsofacourse,offeredonlineandopento studentsfromallovertheworld.Thefinalassessmentofstudents enrolledinthecourseincludesanessentialoralexam.Theoral examisverychallengingandextremelycompetitive.Theinstruc­torsholdanexamsessioneverymonth.Everystudentisallowed totaketheoralexam,butsinceresourcesfororalexaminations arelimited,todiscourageparticipationwithoutpreparation,the ruleisthat,ifastudentfailstheexam,he/shehastowaitone yearbeforetakingtheexamagain.Supposethatstudentsbelong tooneofthetwogroups:AfricanAmericansandAsians.African AmericanandAsianstudentsstudyindifferentways,withdifferent cognitivestrategies.Asaresult,anAfricanAmericanstudentwith 0.9passingscoremaycorrespondtoaverydifferentfeaturevector comparedtoanAsianstudentwitha0.9passingscore.Supposea predictivemodelisusedtopredicttheoutcomeoftheoralexamfor individualstudents,basedonthestudent’sbehavioraldata.(The onlinelearningplatformrecordsdataonhowstudentsinteract 
+
+FAT*’19,January29–31,2019,Atlanta,GA,USA Heidarietal. 
+withthecoursematerials.)Studentsaregivenasimple“pass/fail" predictiontohelpthemmakeaninformedchoiceaboutwhento taketheexam.Inthisexample,wearguethatbothassumptions underlyingpredictivevalueparityaresatisfied: 
+(1)A = Y :Passingtheexamisanetutility,notpassingtheexam isanetdisutility(duetotheoneyeardelay).Also,being predictedtopasspersehasnoutilityassociatedwithit. 
+(2)D = Yˆ.Itisplausibletoconsiderstudentsmorallyrespon­siblefortheirchancesofsuccess,becausethepredictions arecalculatedbasedonhowtheyhavestudiedthecourse material. 
+Inthisexample,afairpredictor(withEOPrationale)shouldsatisfies predictivevalueparity.Thatmeans:studentswhoarepredictedto pass,shouldbeequallylikelytopasstheexam,irrespectiveoftheir race. 
+OnRecentFairnessImpossibilityResults.Severalpapershavere­centlyshownthatgroup-levelnotionsoffairness,suchaspredictive valueparityandequalityofodds,aregenerallyincompatiblewith oneanotherandcannotholdsimultaneously[12,17].Ourapproach 
+confersamoralmeaningtotheseimpossibilityresults:theycanbe interpretedascontradictionsbetweenfairnessdesideratareflect­ingdifferentandirreconcilablemoralassumptions.Forexample predictivevalueparityandequalityofoddsmakeverydifferent assumptionsabouttheeffort-basedutilityd:Equalityofoddsas­sumesallpersonswithsimilartruelabelsareequallyaccountable fortheirlabels,whereaspredictivevalueparityassumesallpersons withthesamepredictedlabel/riskareequallyaccountablefortheir predictions.Notethatdependingonthecontext,usuallyonlyone (ifany)oftheseassumptionsismorallyacceptable.Weargue,there­fore,thatunlessweareinthehighlyspecialcasewhereY = h(X), itisoftenunnecessary—fromamoralstandpoint—toaskforboth ofthesefairnesscriteriatobesatisfiedsimultaneously. 
+4 EGALITARIANMEASURESOFFAIRNESS 
+Inthissection,inspiredbyRoemer’smodelofegalitarianEOPwe presentanewfamilyofmeasuresforalgorithmicfairness.Our proposalisapplicabletosupervisedlearningtasksbeyondbinary classification,andtoutilityfunctionsbeyondthesimplelinearform specifiedinEquation1.Weillustrateourproposalempirically,and compareitwithexistingnotionsof(un)fairnessforregression.Our empiricalfindingssuggestthatemployingameasureofalgorithmic (un)fairnesswhenitsunderlyingassumptionsarenotmet,canhave devastatingconsequencesonthewelfareofdecisionsubjects. 
+4.1 ANewFamilyofMeasures 
+Forsupervisedlearningtasksbeyondbinaryclassification(e.g.mul­ticlassclassificationorregression),therequirementofequation2 
+becomestoostringent,astherewillbe(infinitely)manyquantiles toequalizeutilitiesover.Theproblempersistsevenifwerelaxthe requirementofequalutilitydistributionstomaximizingthemini­mumexpectedutilityateachquantile.Moreformally,letvz(p, h)specifytheexpectedutilityofindividualsoftypezatthepthquan­tileoftheeffort-basedutilitydistribution.Forp . [0, 1],wesay thatapredictivemodelhpsatisfiesegalitarianEOPatthep -slice ofthepopulation,if: 
+hp. argmaxminv z(p, h). 
+h.H z.Z 
+Assumingweareconcernedonlywiththep-slice,thenhpwould betheequal-opportunitypredictivemodel.Unfortunately,when wemovebeyondbinaryclassification,wegenerallycannotfind amodelthatissimultaneouslyoptimalforallranksp . [0, 1]. Therefore,weneedtofindacompromise.FollowingRoemer,we definethee-EOPpredictivemodelasfollows: 
+Z 1 
+h *. argmaxmin v z(p, h)dp . (3)h.H z.Z 0 
+Thatis,weconsiderh * tobeane-EOPpredictivemodelifitmaxi-
+R 1
+mizestheexpectedutilityoftheworstoffgroup(i.e. vz(p, h)dp).6 
+
+0
+Replacingtheexpectationwithitsin-sampleanalogue,ourpro­posedfamilyofe-EOPmeasurescanbeevaluatedonthedatasetT asfollows: 
+
+1 
+F (h,T ) = min u(xi, yi, h)
+z.Z nz
+i.T:zi=z 
+whereu(xi, yi, h) istheutilityanindividualwithfeaturevectorxi andtruelabelyireceiveswhenpredictivemodelh isdeployed;and nzisthenumberofindividualsinT whosearbitraryfeaturesvalue isz.Z.(Thearbitraryfeaturesvaluezspecifiesthe(intersectional) groupeachindividualbelongsto.Weusem todenotethenumber ofsuch(intersectional)groups.Forsimplicityinourillustration, werefertothesegroupsasG1, ··· , Gm.) 
+Toguaranteefairness,weproposethefollowingin-processing method:maximizetheexpectedutilityoftheworstoffgroup,sub­jecttoerrorbeingupperbounded(by.). 
+max F (h,T )
+h.H 
+s.t. L(T , h) = . (4) 
+NotethatifthelossfunctionL isconvexandF isconcaveinmodel parameters,Optimization4isconvexandcanbesolvedefficiently. 
+Weremarkthatournotionoffairnessdoesnotrequireusto explicitlyspecifytheeffort-basedutilityD,sinceitonlycompares theoverallexpectedutilityofdifferentgroupswithoneanother— withouttheneedtoexplicitlycomparetheutilityobtainedbyindi­vidualsataparticularrankofD acrossdifferentgroups.Further­more,theutilityfunction,u(x, y, h),doesnothavetoberestricted totakethesimplelinearformspecifiedinEquation1. 
+
+
+
+4.2 Illustration 
+Next,weillustrateourproposalontheCrimeandCommunitiesdata set[19].Thedataconsistsof1994observations,eachcorresponding 
+toacommunity/neighborhoodintheUnitedStates.Eachcommu­nityisdescribedby101features,specifyingitssocio-economic,law enforcement,andcrimestatisticsextractedfromthe1995FBIUCR. Communitytype(e.g.urbanvs.rural),averagefamilyincome,and 
+6Roemerinfactproposestwofurtheralternatives:inthefirstsolution,theobjective functionforeachp-sliceofthepopulationisassumedtobeminz.Z vz(p, h)—which isthenweightedbythesizeoftheslice.Inthesecondsolution,hedeclaresthe equalopportunitypolicytobetheaverageofthepolicieshp.Roemerexpressesno strongpreferenceforanyofthesealternatives,otherthanthefactthatcomputational simplicitysometimessuggestsoneovertheothers[23].Thisisinfactthereasoning 
+behindourchoiceofEquation3. 
+
+
+
+(a) (b) (c) 
+Figure2:NRD,PRD,andaverageutilityofthedisadvantagedgroupasafunctionof. (theupperboundonmeansquarederror). Thenotionoffairnessenforcedonalgorithmicdecisionscanhaveadevastatingimpactonthewelfareofthedisadvantaged 
+group. 
+thepercapitanumberofpoliceofficersinthecommunityarea fewexamplesoftheexplanatoryvariablesincludedinthedataset. Thetargetvariable(Y )isthe“percapitanumberofviolentcrimes". Wetrainalinearregressionmodel,. . Rk,onthisdatasettopre­dictthepercapitanumberofviolentcrimesforanewcommunity. Wehypothesizethatcrimepredictionscanaffectthelawenforce­mentresourcesassignedtothecommunity,thevalueofproperties locatedintheneighborhood,andbusinessinvestmentsdrawntoit. 
+Wepreprocesstheoriginaldatasetasfollows:weremovethe instancesforwhichtargetvalueisunknown.Also,weremovefea­tureswhosevaluesaremissingformorethan80%ofinstances.We standardizethedatasothateachfeaturehasmean0andvariance 1.Wedividealltargetvaluesbyaconstantsothatlabelsrange from0to1.Furthermore,weflipalllabels(y . 1- y),sothat highery valuescorrespondtomoredesirableoutcomes.Weassume aneighborhoodbelongstotheprotectedgroup(G1)ifthemajority ofitsresidentsarenon-Caucasian,thatis,thepercentageofAfrican American,Hispanic,andAsianresidentsoftheneighborhoodcom­bined,isabove50%.Thisdividesthetraininginstancesintotwo groupsG0, G1.Weincludethisgroupmembershipinformationas the(sensitive)featurez inthetrainingdata(zi= 1[i . G1]). 
+Forsimplicity,weassumetheutilityfunctionu hasthefollowing functionaldependenceonxand.:u(z, y, yˆ);thatis,u’sdependence onxand. arethroughz andyˆ= . .x,respectively.Forcommunities belongingtoG0andG1,weassumeu(z, y, yˆ) = f (z, y, yˆ) -.(z, y, yˆ) isrespectivelydefinedasfollows: 
+• 
+Foramajority-Caucasianneighborhood, 
+
+u(0, y, yˆ) = (1+ 0.5ˆyy) - (0.5ˆy). 
+
+• 
+Foraminority-Caucasianneighborhood, 
+
+
+u(1, y, yˆ) = (1+ 3ˆyy + 2ˆy) - (y). 
+Atahighlevel,neighborhoodsinbothgroupsenjoyahighutilityif theirpredictedandactualcrimeratesarelow,simultaneously(note thattheabsolutevalueofutilityderivedfromthiscaseishigherfor theminority).Theminority-Caucasiangroupfurtherbenefitsfrom lowcrimepredictions(regardlessofactualcrimerates).Weassume theeffort-basedutilityfortheminoritygroup,isoneminusthe actualcrimerate(y),andforthemajoritygroup,itisproportional tooneminusthepredictedcrimerate(0.5yˆ).Notethattheseutility functionsaremadeupforillustrationpurposesonly,anddonot reflectanydeepknowledgeofhowcrimeandlawenforcement affectthewell-beingofaneighborhood’sresidents. 
+Toillustrateourproposal,wesolvethefollowingconvexopti­mizationproblemfordifferentvaluesof.: 
+max  s  
+s,. s.t.  1 n0  X -0.5. .xii.G0  + 0.5(. .xi)yi + 1= s  
+
+
+1 
+2. .xi+ 3(. .xi)yi- yi+ 1= s 
+n1
+i.G1 
+n
+
+1 
+(. .xi- yi)2+ ... .1= . (5) 
+n i=1 
+Wechoosethevalueof. byrunninga10-foldcrossvalidationon thedataset.Foreachvalueof. (MeanSquaredError),wemeasure thefollowingquantitiesvia5-foldcrossvalidation: 
+• Positiveresidualdifference[5]istheequivalentoffalse positiverateinregression,andiscomputedbytakingthe absolutedifferenceofmeanpositiveresidualsacrossthetwo groups: 
+
+11 
+max{0, (yˆi- yi)}- max{0, (yˆi- yi)} .
+++
+nn
+1i.G10i.G0 
++
+Intheabove,n isthenumberofindividualsingroup. .
+. 
+{0, 1} whogetapositiveresidual,i.e.yˆi- yi= 0. 
+• Negativeresidualdifference[5]istheequivalentoffalse negativerateinregression,andiscomputedbytakingthe absolutedifferenceofmeannegativeresidualsacrossthe twogroups. 
+• Averageutilityofthedisadvantagedgroupiscomputedby takingtheaverageutilityofallindividualsinthetestdata set: 
+
+... 11 ...
+min u(xi, yi, h), u(xi, yi, h) . 
+n0 n1
+.. ..
+i.G0 i.G1 
+
+FAT*’19,January29–31,2019,Atlanta,GA,USA Heidarietal. 
+Figure2showstheresultsofoursimulations.Bluecurvescorre­spondtoourproposal(Optimization5).AsevidentinFigures2a 
+and2b,positiveandnegativeresidualdifferenceincreasewith., whiletheaverageutilityincreases(seeFigure2c). 
+
+Tocompareourproposalwithexistingmeasuresof(un)fairness forregression,weutilizethein-processingmethodofHeidarietal. [14].ThemethodenforcesanupperboundonP i(yˆi- yi),andhas beenshowntocontrolthepositiveandnegativeresidualdiffer­enceacrossthetwogroups.Moreprecisely,wesolvethefollowing optimizationproblemfordifferentvaluesof.: 
+n
+
+11 
+max . .xi- yis.t. (. .xi- yi)2+ ... .1= . (6) 
+. nn
+i.Ti=1 
+RedcurvesinFigure2correspondtothisbaseline.Asevidentin Figures2aand2b,byenforcingalowerboundon P i(yˆi- yi), positiveandnegativeresidualdifferencegoto0veryquickly—as expected.However,thetrainedmodelperformsverypoorlyin termsofaverageutilityofthedisadvantagedgroup. 
+5 CONCLUSION 
+Ourworkmakesanimportantcontributiontotherapidlygrowing lineofresearchonalgorithmicfairness—byprovidingaunifying moralframeworkforunderstandingexistingnotionsoffairness throughphilosophicalinterpretationsandeconomicmodelsofEOP. Weshowedthatthechoicebetweenstatisticalparity,equalityof odds,andpredictivevalueparitycanbemappedsystematicallyto specificmoralassumptionsaboutwhatdecisionsubjectsmorally deserve.Determiningaccountabilityfeaturesandeffort-basedutil­ityisarguablyoutsidetheexpertiseofcomputerscientists,andhas toberesolvedthroughtheappropriateprocesswithinputfrom stakeholdersanddomainexperts.Inanygivenapplicationdomain, reasonablepeoplemaydisagreeonwhatconstitutesfactorsthat peopleshouldbeconsideredmorallyaccountablefor,andthere willrarelybeaconsensusonthemostsuitablenotionoffairness. This,however,doesnotimplythatinagivencontextallexisting notionsofalgorithmicfairnessareequallyacceptablefromamoral standpoint. 
+ACKNOWLEDGMENT 
+H.HeidariandA.KrauseacknowledgesupportfromCTIgrant no.27248.1PFES-ES.K.P.Gummadiissupportedinpartbythe EuropeanResearchCouncil(ERC)AdvancedGrantfortheproject “FoundationsforFairSocialComputing",fundedundertheEuro­peanUnion’sHorizon2020FrameworkProgramme(grantagree­mentno.789373).MicheleLoiissupportedbytheCANVASproject, fundedundertheEuropeanUnion’sHorizon2020Researchand InnovationProgramme(grantagreementno.700540). 
+REFERENCES 
+[1]RichardJ.Arneson.1989.Equalityandequalopportunityforwelfare.Philosophi­
+calStudies:AnInternationalJournalforPhilosophyintheAnalyticTradition56,1 
+(1989),77–93. 
+[2]RichardJ.Arneson.2015.EqualityofOpportunity.IntheStanfordEncyclopedia 
+ofPhilosophy(summer2015ed.),EdwardN.Zalta(Ed.).MetaphysicsResearch 
+Lab,StanfordUniversity. 
+[3]RichardJ.Arneson.2018.FourConceptionsofequalopportunity.(2018). 
+[4]JoyBuolamwiniandTimnitGebru.2018.Gendershades:Intersectionalaccuracy disparitiesincommercialgenderclassification.InProceedingsoftheConference onFairness,AccountabilityandTransparency.77–91. 
+[5]ToonCalders,AsimKarim,FaisalKamiran,WasifAli,andXiangliangZhang.2013. Controllingattributeeffectinlinearregression.InProceedingsoftheInternational ConferenceonDataMining.IEEE,71–80. 
+[6]GeraldA.Cohen.1989.Onthecurrencyofegalitarianjustice.Ethics99,4(1989), 906–944. 
+[7]CynthiaDwork,MoritzHardt,ToniannPitassi,OmerReingold,andRichard Zemel.2012.Fairnessthroughawareness.InProceedingsoftheInnovationsin TheoreticalComputerScienceConference.ACM,214–226. 
+[8]RonaldDworkin.1981.Whatisequality?Part1:Equalityofwelfare.Philosophy &PublicAffairs10,3(1981),185–246. [9]RonaldDworkin.1981.Whatisequality?Part2:Equalityofresources.Philosophy &PublicAffairs10,4(1981),283–345. 
+[10]MichaelFeldman,SorelleA.Friedler,JohnMoeller,CarlosScheidegger,and SureshVenkatasubramanian.2015.Certifyingandremovingdisparateimpact. InProceedingsoftheInternationalConferenceonKnowledgeDiscoveryandData Mining.ACM,259–268. 
+[11]MarcFleurbaey.2008.Fairness,responsibility,andwelfare.OxfordUniversity Press. 
+[12]SorelleA.Friedler,CarlosScheidegger,andSureshVenkatasubramanian.2016. Onthe(im)possibilityoffairness.arXivpreprintarXiv:1609.07236(2016). 
+[13]MoritzHardt,EricPrice,andNatiSrebro.2016.Equalityofopportunityin supervisedlearning.InProceedingsofthe30thConferenceonNeuralInformation ProcessingSystems.3315–3323. 
+[14]HodaHeidari,ClaudioFerrari,KrishnaP.Gummadi,andAndreasKrause.2018. FairnessBehindaVeilofIgnorance:AWelfareAnalysisforAutomatedDecision Making.InProceedingsofthe32ndConferenceonNeuralInformationProcessing Systems. 
+[15]FaisalKamiranandToonCalders.2009.Classifyingwithoutdiscriminating.In Proceedingsofthe2ndInternationalConferenceonComputer,ControlandCommu-nication.IEEE,1–6. 
+[16]ToshihiroKamishima,ShotaroAkaho,andJunSakuma.2011.Fairness-aware learningthroughregularizationapproach.InProceedingsoftheInternational ConferenceonDataMiningWorkshops.IEEE,643–650. 
+[17]JonKleinberg,SendhilMullainathan,andManishRaghavan.2017.Inherent trade-offsinthefairdeterminationofriskscores.InInproceedingsofthe8th InnovationsinTheoreticalComputerScienceConference. 
+[18]ArnaudLefranc,NicolasPistolesi,andAlainTrannoy.2009.Equalityofopportu­nityandluck:Definitionsandtestableconditions,withanapplicationtoincome inFrance.JournalofPublicEconomics93,11-12(2009),1189–1207. 
+[19]M.Lichman.2013.UCIMachineLearningRepository:CommunitiesandCrime DataSet.http://archive.ics.uci.edu/ml/datasets/Communities+and+Crime. 
+
+[20]JohnRawls.1958. Justiceasfairness. Thephilosophicalreview67,2(1958), 164–194. 
+[21]JohnRawls.1971.Atheoryofjustice.Harvarduniversitypress. 
+[22]JohnE.Roemer.1993.Apragmatictheoryofresponsibilityfortheegalitarian planner.Philosophy&PublicAffairs(1993),146–166. 
+[23]JohnE.Roemer.2002.Equalityofopportunity:Aprogressreport.SocialChoice andWelfare19,2(2002),455–471. 
+[24]JohnE.Roemer.2009.Equalityofopportunity.HarvardUniversityPress. 
+[25]JohnE.RoemerandAlainTrannoy.2015.Equalityofopportunity.InHandbook ofincomedistribution.Vol.2.Elsevier,217–300. 
+[26]AmartyaSen.1979.EqualityofWhat?TheTannerLectureonHumanValues (1979). 
+[27]TillSpeicher,HodaHeidari,NinaGrgic-Hlaca,KrishnaP.Gummadi,AdishSingla, AdrianWeller,andMuhammadBilalZafar.2018.AUnifiedApproachtoQuanti­fyingAlgorithmicUnfairness:MeasuringIndividualandGroupUnfairnessvia InequalityIndices.InProceedingsoftheInternationalConferenceonKnowledge DiscoveryandDataMining. 
+[28]Wikipedia.2018. Equalopportunity. https://en.wikipedia.org/wiki/Equal_ 
+opportunity. 
+
+[29]MuhammadBilalZafar,IsabelValera,ManuelGomezRodriguez,andKrishnaP Gummadi.2017.Fairnessbeyonddisparatetreatment&disparateimpact:Learn­ingclassificationwithoutdisparatemistreatment.InProceedingsofthe26th InternationalConferenceonWorldWideWeb.1171–1180. 
+[30]MuhammadBilalZafar,IsabelValera,ManuelGomezRodriguez,andKrishnaP. Gummadi.2017.FairnessConstraints:MechanismsforFairClassification.In Proceedingsofthe20thInternationalConferenceonArtificialIntelligenceand Statistics. 
+
+
+
+
+

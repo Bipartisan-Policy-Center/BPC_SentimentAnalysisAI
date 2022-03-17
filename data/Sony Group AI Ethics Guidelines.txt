@@ -1,0 +1,65 @@
+AI Engagement within Sony Group 
+ 
+Through the utilization of artificial intelligence (AI), Sony aims to contribute to the development of a peaceful and sustainable society while delivering kando - a sense of excitement, wonder or emotion - to the world. Starting from the electronics business, Sony has continued to expand its business area and has become a diverse global company that offers entertainment such as music and movies, as well as financial services. To operate these business areas based on Sony’s Purpose to ”Fill the world with emotion, through the power of creativity and technology.”, Sony Group AI Ethics Guidelines are hereby set forth below to ensure and promote a dialogue with various stakeholders and the proper utilization and research and development (hereafter “R&D”) of AI within Sony Group. 
+ 
+ 
+Sony Group AI Ethics Guidelines 
+ 
+Scope of the Guidelines 
+The “Sony Group AI Ethics Guidelines” (Guidelines) set forth the guidelines that must be followed by all officers and employees of Sony when utilizing AI and/or conducting AI-related R&D. 
+"Utilization of AI" within Sony means the following: 
+1. The provision of products and services by Sony, including entertainment content and financial services, which utilize AI; and 
+
+2. The usage of AI for various purposes by Sony in its business activities such as R&D, product manufacturing, service provision, and other operational activities. 
+
+
+ 
+Definitions in the Guidelines 
+“AI” means any functionality or its enabling technology that performs information processing for various purposes that people perceive as intelligent, and that is embodied by machine learning based on data, or by rules or knowledge extracted in some methods. 
+“Sony” means Sony Group Corporation and any company where more than 50% of voting rights are directly or indirectly owned by Sony Group Corporation. 
+ 
+Revision of the Guidelines 
+Sony will review and evolve the Guidelines as needed based on national and regional AI-related guidelines, changes in people’s lifestyles and environments, accumulation of practices in the relevant industry, and information exchanged with its various stakeholders. 
+ 
+ 
+  
+1. Supporting Creative Life Styles and Building a Better Society 
+
+
+Through advancing its AI-related R&D and promoting the utilization of AI in a manner harmonized with society, Sony aims to support the exploration of the potential for each individual to empower their lives, and to contribute to enrichment of our culture and push our civilization forward by providing novel and creative types of kando. Sony will engage in sustainable social development and endeavor to utilize the power of AI for contributing to global problem-solving and for the development of a peaceful and sustainable society. 
+2. Stakeholder Engagement 
+
+
+In order to solve the challenges arising from use of AI while striving for better AI utilization, Sony will seriously consider the interests and concerns of various stakeholders including its customers and creators, and proactively advance a dialogue with related industries, organizations, academic communities and more. For this purpose, Sony will construct the appropriate channels for ensuring that the content and results of these discussions are provided to officers and employees, including researchers and developers, who are involved in the corresponding businesses, as well as for ensuring further engagement with its various stakeholders. 
+3. Provision of Trusted Products and Services 
+
+
+Sony understands the need for safety when dealing with products and services utilizing AI and will continue to respond to security risks such as unauthorized access. AI systems may utilize statistical or probabilistic methods to achieve results. In the interest of Sony’s customers and to maintain their trust, Sony will design whole systems with an awareness of the responsibility associated with the characteristics of such methods. 
+4. Privacy Protection 
+
+
+Sony, in compliance with laws and regulations as well as applicable internal rules and policies, seeks to enhance the security and protection of customers' personal data acquired via products and services utilizing AI, and build an environment where said personal data is processed in ways that respect the intention and trust of customers. 
+5. Respect for Fairness 
+
+
+In its utilization of AI, Sony will respect diversity and human rights of its customers and other stakeholders without any discrimination while striving to contribute to the resolution of social problems through its activities in its own and related industries. 
+6. Pursuit of Transparency 
+
+
+During the planning and design stages for its products and services that utilize AI, Sony will strive to introduce methods of capturing the reasoning behind the decisions made by AI utilized in said products and services. Additionally, it will endeavor to provide intelligible explanations and information to customers about the possible impact of using these products and services. 
+7. The Evolution of AI and Ongoing Education 
+
+
+People’s lives have continuously changed with the advance in technology across history. Sony will be cognizant of the effects and impact of products and services that utilize AI on society and will proactively work to contribute to developing AI to create a better society and foster human talent capable of shaping our collective bright future through R&D and/or utilization of AI. 
+ 
+ 
+Issued 
+25th September 2018  
+ 
+Amended 
+1st March 2019 
+ 
+Amended 
+1st April 2021 
+ 
+

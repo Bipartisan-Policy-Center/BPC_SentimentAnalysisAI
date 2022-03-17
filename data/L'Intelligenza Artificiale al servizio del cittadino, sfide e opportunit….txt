@@ -1,0 +1,743 @@
+
+Libro Bianco sull’Intelligenza Artificiale al servizio del cittadino 
+Versione 1.0 Marzo 2018 A cura della Task force sull’Intelligenza Artificiale dell’Agenzia per l’Italia Digitale ia.italia.it 
+Gruppo di coordinamento 
+Benedetta Arese Lucini, Giuseppe Attardi, Ernesto Belisario, Marco Bicocchi Pichi, Barbara Caputo, Antonella Cascitelli, Maria Chiara Carrozza, Lorenza Ciprandi, Juan Carlos De Martin, Fernanda Faini, Roberto Fini, Luigi Fiorentino, Emilia Garito, Fabio Gasparetti, Claudio Grego, Salvatore Iaconesi, Sandro Marco Incerti, Domenico Marino, Paolo Merialdo, Alessandro Micarelli, Alessandro Nasini, Manuela Pizzagalli, Eugenio Prosperetti, Stefano Quintarelli, Riccardo Torlone, Barbara Ubaldi, Giuseppe Vaciago, Enrico Verga, Guido Vetere, Alessandro Vitale 
+
+Agenzia per l’Italia Digitale e Dipartimento della funzione pubblica 
+Antonio Samaritani, Marco Bani, Pia Marconi Giuseppe Ariano, Claudio Biancalana, Michela Calanna, Patrizio Caligiuri, Alessandro Casacchia, Concettina Cassa, Manuel Ciocci, Francesca Cocomero, Angela Creta, Daniela De Blasis, Mauro Draoli, Marta Falzone, Valeria Favasuli, Sergio Gambacorta, Flavia Gamberale, Jacopo Gandin, Glenda Gentili, Francesca Grande, Elio Gullo, Enzo Maria Le Fevre, Giulio Lepri, Giuseppe Mancinelli, Elisa Petrucci, Davide Porrovecchio, Umberto Rosini, Luca Ruggeri, Erica Sirgiovanni, Matteo Trapani e Zanzabot 
+Si ringraziano per il contributo tecnico alla stesura della bozza del Libro Bianco Egidio Falorico, Fabio Fossa, Riccardo Piselli, Gianluca Podda, Matteo Testi, Lorenzo Vannucci 
+Inoltre si ringrazia per la collaborazione alla stesura del Libro Bianco il Centro Nexa su Internet e Società del Politecnico di Torino e in particolare Antonio Santangelo per il supporto alla Task force l’Associazione AI*IA e FormezPA per l’evento di lancio del Libro Bianco Meet the Media Guru 
+Il testo è disponibile secondo la licenza Creative Commons Attribuzione 4.0 (https://creativecommons.org/licenses/by/4.0/deed.it) 
+
+Grafica e impaginazione: Alessandro Burigana Immagine di copertina: agsandrew/istockphoto 
+
+GOVERNANCE E CAPACITË ISTITUZIONALE 2014-2020 
+
+
+
+Indice 
+Sfruttare al meglio la diffusione dell’Intelligenza Artificiale, in Italia e in Europa Una nuova cultura comune per l’innovazione dei servizi pubblici 
+Per chi non ha tempo: la sintesi del Libro Bianco 
+L’ITALIA E I SERVIZI DIGITALI 
+Introduzione La situazione italiana La strategia digitale italiana Schede progetti Piano Triennale 
+INTELLIGENZA ARTIFICIALE OGGI 
+I principali ambiti di applicazione Le potenzialità dell’IA nella PA Scenario ipotetico 
+LE SFIDE DELL’IA AL SERVIZIO DEL CITTADINO 
+Sfida 1: Etica Sfida 2: Tecnologia Sfida 3: Competenze Sfida 4: Ruolo dei dati Sfida 5: Contesto legale Sfida 6: Accompagnare la trasformazione Sfida 7: Prevenire le disuguaglianze Sfida 8: Misurare l’impatto Sfida 9: L’Essere umano 
+RACCOMANDAZIONI 
+E ora? Prossimi passi per una PA – AI ready 
+APPENDICE 
+Breviario termini tecnici Bibliografia 
+P. 07 
+P. 08 
+P. 09 
+P. 14 
+P. 15 P. 16 P. 18 P. 20 
+P. 24 
+P. 28 P. 31 P. 34 
+P. 36 
+P. 38 P. 42 P. 48 P. 52 P. 55 P. 57 P. 62 P. 66 P. 69 
+P. 72 
+P. 75 
+P. 78 
+P. 79 P. 81 
+
+
+
+Una nuova cultura comune per l’innovazione dei servizi pubblici 
+L’Intelligenza Artificiale ridisegnerà le nostre vite. La nostra quotidianità di esseri umani, cittadini, lavoratori, genitori e figli, sta cambiando sotto gli occhi di tutti. Quello di cui già oggi possiamo essere certi è che tutte le nostre abitudini e consuetudini verranno ridisegnate producendo cambiamenti sociali che necessitano di una riflessione approfondita (individuale e collettiva) e in alcuni casi, forse, anche tormentata. La tecnologia, di per sé neutrale, non lo è nella sua applicazione e lo è ancora meno per chi lavorando per lo sviluppo delle società si trova spesso a decidere cosa sia giusto o sbagliato o, in un dato contesto, quale sia il bene migliore o il male minore. Lo spirito con cui l’Agenzia per l’Italia Digitale si è assunta questo impegno è riassunto in queste poche righe. Nelle pagine che seguiranno la prefazione di questo Libro Bianco c’è la volontà di studiare, analizzare e comprendere le opportunità e i rischi generati dalla diffusione delle tecnologie di Intelligenza Artificiale nel settore pubblico, dunque dalla definizione di un perimetro condiviso all’interno del quale affrontare tutte le sfide che questa presenta. Questo documento segna l’inizio di un percorso nel quale la Pubblica amministrazione italiana sta già cominciando ad incamminarsi: in questi mesi abbiamo creato una comunità con la quale abbiamo lavorato per condividere le linee di lavoro che ci aiutassero a definire l’approccio all’Intelligenza Artificiale nella Pubblica amministrazione che da oggi ci impegneremo a trasformare in tappe operative. Ma è proprio alla fine di questa prima fase di studio, analisi e confronto che mi convinco ulteriormente che, mai come in questo caso, fosse necessario dare vita ad una piattaforma all’interno della quale tessere insieme alle amministrazioni e al mercato, una cornice valoriale di riferimento. Avere le idee chiare rispetto al modello di sviluppo della tecnologia e con una visione capace di contrastare gli scenari apocalittici, escludenti e non governati. Una riflessione che, oltre ad essere il fil rouge del Libro Bianco, muove dalla lucida consapevolezza che la Pubblica amministrazione necessita - per la portata delle sue decisioni - di essere competitiva su questi temi, senza nascondersi. Oggi più che mai chi comprende e governa i fenomeni che lo circondano prosegue nel percorso di innovazione; chi li subisce perde terreno. Per questo il lavoro appena cominciato diventa precondizione per affacciarsi all’utilizzo di tecnologie di frontiera che permettano all’amministrazione di capitalizzare l’innovazione introdotta dai progetti infrastrutturali già avviati e, partendo da essi, consenta di organizzare il modello di sviluppo delle sue progettualità future. Le raccomandazioni che vengono pubblicate in questo documento nascono con l’intento di diventare criteri di design dei nuovi servizi, asset metodologici capaci di guidare la nascita e lo sviluppo di progetti pilota. Sia per il portato innovativo delle tecnologie che verranno utilizzate, sia per l’approccio valoriale comune. Solo così riusciremo a ricondurre i benefici portati dall’Intelligenza Artificiale nella “pratica” quotidiana dei cittadini. 
+
+Antonio Samaritani Direttore Generale AgID 
+
+
+Inoltre bisogna formulare diversi principi generali di equità con la necessità di soddisfare, per mezzo di queste nuove tecnologie, alcuni bisogni universali come il rispetto delle libertà e dei principali diritti individuali e collettivi. Più nello specifico, nell’ambito dell’etica alcuni problemi sono sollevati dal funzionamento dell’Intelligenza Artificiale, vale a dire quelli della qualità e della neutralità dei dati, della responsabilità di chi utilizza gli algoritmi, della trasparenza e dell’apertura di questi ultimi, nonché della tutela della privacy. L’obiettivo è mostrare come un uso scorretto delle tecnologie a nostra disposizione possa contribuire allo sviluppo di una società più ingiusta che alimenta le disuguaglianze, mentre la consapevolezza dei rischi che si corrono, nell’affidarsi alle macchine “intelligenti”, può aiutarci a minimizzare questi ultimi e a progettare un mondo migliore. 
+La seconda sfida che viene affrontata è quella tecnologica: l’Intelligenza Artificiale non è ancora in grado di riprodurre il funzionamento complesso della mente umana, ma solo alcune sue capacità circoscritte. Uno degli obiettivi è dunque quello di rendere queste tecnologie un po’ più simili al nostro modo di relazionarci col mondo, pur essendo qualcosa ancora da costruire. Nell’immediato si lavora sui concetti di personalizzazione e adattività, per fare in modo che i dati e gli algoritmi a nostra disposizione siano sempre più efficaci nel permetterci di operare individualmente in alcuni specifici ambiti della nostra vita quotidiana che, in questo Libro Bianco, sono ancora una volta strettamente legati al lavoro della Pubblica amministrazione (oltre ai settori già segnalati sopra, vengono messi a fuoco quello tributario, della mobilità e dei trasporti). 
+Si passa quindi al tema, fondamentale, delle competenze che è necessario sviluppare nell’epoca dell’Intelligenza Artificiale e lo si fa da due punti di vista: quello dei cittadini e quello del personale della Pubblica amministrazione. Per i primi, è necessario innanzitutto capire come funzionano gli algoritmi e le basi di dati su cui questi ultimi operano, per inserirsi come lavoratori nel settore informatico che produce questo genere di applicazioni. Ma anche per chi intende impegnarsi in altri settori, sarà necessario sapersi muovere in ambiti che devolveranno sempre più alle macchine compiti che prima venivano svolti dalle persone (tipicamente, quelli più semplici e ripetitivi). Infine, più semplicemente, in ogni momento della vita quotidiana sarà fondamentale capire come relazionarsi con le macchine stesse, per poter esercitare nella maniera migliore il proprio diritto di cittadinanza, in un mondo sempre più popolato da queste ultime. A tutte queste esigenze, lo Stato deve fornire delle risposte, sia approntando un sistema scolastico al passo coi tempi, sia favorendo la formazione permanente. Ma per raggiungere questi obiettivi, è fondamentale che anche il personale dello Stato sia adeguatamente preparato. Non solo i docenti delle scuole di ogni ordine e grado, quindi, ma più in generale chi lavora negli uffici della Pubblica amministrazione dovrà essere in grado di capire quali strumenti di Intelligenza Artificiale integrare nei propri processi lavorativi e quali proporre ai cittadini. In questo senso, una Pubblica amministrazione adeguatamente formata può divenire una vera e propria palestra di innovazione. 
+
+
+Il principio di fondo è che l’Intelligenza Artificiale debba servire soprattutto per affiancare le persone e aiutarle a svolgere le loro attività, ma non per sostituirle. Si evidenzia poi l’importanza del coinvolgimento degli utenti finali in tutte le fasi del design dei servizi pubblici. 
+Quest’ultimo punto anticipa il tema della settima sfida: prevenire le disuguaglianze. L’Intelligenza Artificiale, infatti, deve essere accessibile a tutti, in modo che chiunque possa godere dei suoi vantaggi. Per questo, è necessario che sia di semplice e immediato utilizzo. D’altra parte, questo genere di tecnologia può ridurre le disuguaglianze sociali, come si è già visto per l’istruzione e la formazione, la sanità e la disabilità, la conoscenza e la garanzia dei diritti. Ma l’Intelligenza Artificiale può anche aumentare le disuguaglianze, se i dati di cui si nutre o gli algoritmi che la costituiscono sono affetti da bias (pregiudizi) di tipo discriminatorio. È dunque necessario che la Pubblica amministrazione usi grande cura nell’acquisire o nell’indirizzare lo sviluppo di questo tipo di soluzioni, al fine di garantire che siano inclusive, accessibili e trasparenti, che rispettino i requisiti imposti dalla legge, che non presentino, per l’appunto, profili discriminatori e che siano esenti da pregiudizi. 
+Al fine di verificare gli effettivi vantaggi derivanti dall’uso dell’Intelligenza Artificiale nella Pubblica amministrazione, l’ottava sfida riguarda la misurazione dell’impatto di questo genere di tecnologie. Questo problema viene affrontato, ancora una volta, da due punti di vista: quello del cittadino e quello delle Istituzioni. Nel primo caso, si ragiona nei termini del miglioramento della qualità della vita delle persone e della customer satisfaction, nel secondo si riflette sull’ottimizzazione dei processi organizzativi, in termini di efficienza ed efficacia. Su tutti e due i temi, comunque, si sottolinea che è necessario condurre ricerche sia quantitative sia qualitative, improntate alla multidisciplinarità, poiché l’impatto della tecnologia nell’esistenza degli individui e delle organizzazioni ha diverse sfaccettature, economiche e tecniche, ma anche sociali, culturali, psicologiche e antropologiche. Le misurazioni di tutte queste variabili non vengono generalmente condotte dalla Pubblica amministrazione con la necessaria frequenza, ma su un argomento delicato come l’introduzione dell’Intelligenza Artificiale nei meccanismi di funzionamento dello Stato, è necessario che queste pratiche vengano portate avanti con decisione. 
+L’ultima sfida, l’essere umano, è quella della costruzione del senso attorno all’Intelligenza Artificiale, intesa come la necessità di fare in modo che tutti, sia i cittadini, sia le Istituzioni, siano consapevoli del significato profondo che può assumere l’utilizzo di questi strumenti, dei loro vantaggi, ma anche dei loro problemi. A questo scopo, si propongono sperimentazioni nell’ambito del design, delle arti, della psicologia, dell’antropologia, della sociologia e, in generale, delle discipline umanistiche, che possono creare ponti tra ricerca, industria e società. 
+
+
+
+L’Italia e i servizi digitali 
+La misura dell’intelligenza è la capacità di cambiare. Albert Einstein 
+
+
+
+
+
+La situazione italiana 
+
+Prima di descrivere lo stato dell’arte e le prospettive future dell’Intelligenza Artificiale nella nostra società e nella Pubblica amministrazione, può essere utile analizzare ciò che sta avvenendo nel campo della trasformazione digitale nel settore pubblico per capire la situazione attuale e immaginare come l’IA può creare sinergie con il processo di digitalizzazione del Paese. 
+Stando ai dati riportati nell’ultimo Rapporto dell’Organizzazione per la cooperazione e lo Sviluppo Economico (OCSE) sulla Digital Transformation1, il nostro Paese si colloca al 5° posto mondiale per quanto riguarda la produzione di documenti scientifici maggiormente citati sul machine learning dopo gli Stati Uniti, la Cina, l’India e Gran Bretagna (sezione scienza, innovazione e rivoluzione digitale). Sempre nello stesso Rapporto (sezione crescita, lavoro e trasformazione digitale), i dati 2015 sulla diffusione dei robot industriali mostrano che l’Italia è tra le economie leader in Europa (dietro Germania, Repubblica Ceca, Repubblica Slovacca e Slovenia) in termini di utilizzo di robot (es. numero di robot rispetto al valore aggiunto nella manifattura), pur mostrando indici pari a 1/3 rispetto a quelli del leader mondiale (la Corea del Sud). 
+Come evidenzia il Digital Economy and Society Index - DESI 20172, l’Italia cresce, ma si riscontra ancora un divario tra l’offerta di servizi digitali e il loro effettivo utilizzo. Il nostro Paese ha comunque fatto progressi sulla connettività, condizione di base per permettere lo sviluppo di un ecosistema digitale, grazie anche al Piano Banda Ultra Larga3 . Secondo i dati della Relazione annuale 2017 dell’Autorità per le garanzie nelle comunicazioni (AGCOM), al momento il 90,7% delle famiglie in cui vi è almeno un minorenne dispone di connessione a banda larga fissa e mobile, dato che si ferma al 20,7% per le famiglie con ultrasessantacinquenni. Allo stesso tempo, il 91,6% delle famiglie con almeno un componente laureato possiede una connessione a banda larga, valore che scende al 55,3% per le famiglie in cui il titolo di studio più elevato è la licenza media. 
+
+1 OECD Science, Technology and Industry Scoreboard 2017, Cfr. Highlights relativi alla Digital Transformation in Italia: https://www.oecd.org/italy/sti-scoreboard-2017-italy.pdf. 2 Cfr. https://ec.europa.eu/digital-single-market/en/desi. 3 Cfr. bandaultralarga.italia.it. 
+
+
+La strategia digitale italiana 
+Nel quadro dell’Agenda Digitale Europea9, l’Italia ha sviluppato la propria strategia nazionale declinando gli obiettivi comunitari in iniziative finalizzate alla trasformazione digitale della Pubblica amministrazione10. Così facendo, gli interventi nel settore pubblico diventano volano dello sviluppo delle imprese e per la crescita delle competenze dei cittadini. La strategia 2014-2020 dell’Agenda digitale è diventata quindi un vero e proprio strumento per perseguire i grandi obiettivi della crescita, dell’occupazione, della qualità della vita e della partecipazione democratica. 
+Le sfide della trasformazione digitale però sono cambiate velocemente: Internet of Things (IoT), Big Data Analytics, Intelligenza Artificiale e Blockchain sono i vettori attraverso i quali si muove la nuova economia digitale. 
+
+DA AGENDA DIGITALE A PIANO TRIENNALE 
+
+LA STRATEGIA APPROVATA  IL MODELLO STRATEGICO DI  IL PIANO TRIENNALE  
+DAL GOVERNO  TRASFORMAZIONE DIGITALE  DEFINISCE GLI OBIETTIVI DA  
+DELLA PA  RAGGIUNGERE  
+
+Per affrontare anche queste tematiche è stato approvato, nel 2017, il Piano Triennale per l’informatica nella Pubblica amministrazione11, che contiene indicazioni operative (azioni, tempi e obiettivi) per lo sviluppo di quattro pilastri: ecosistemi digitali o aree di policy (sanità, scuola, giustizia, etc.), infrastrutture immateriali (che comprendono le piattaforme abilitanti e i dati della PA), infrastrutture fisiche e cybersecurity. 
+9 L’Agenda Digitale Europea, lanciata dalla Commissione europea nel maggio 2010, ha definito con precisione gli obiettivi per sviluppare l’economia e la cultura digitale in Europa nel quadro della strategia Europa 2020. 10 I principali obiettivi sono: centralizzare la programmazione e la spesa pubblica in materia; puntare alla centralità dell’esperienza e dei bisogni dell’utenza; utilizzare un approccio architetturale basato su logiche aperte e standard; ricercare soluzioni per stimolare la riduzione dei costi e migliorare la qualità dei servizi. 11 Cfr. https://pianotriennale-ict.italia.it 
+Il Piano è nato per guidare operativamente la trasformazione digitale del Paese, diventando riferimento per le amministrazioni centrali e locali nello sviluppo dei propri sistemi informativi. Esso fissa i principi architetturali fondamentali, le regole di usabilità e interoperabilità e razionalizza le spese ICT. 
+EVOLUZIONE DEL MODELLO STRATEGICO ATTRAVERSO L’INTELLIGENZA ARTIFICIALE 
+
+Il confronto con queste sfide, che appaiono ancora “nuove”, impone però di individuare un nuovo framework tecnico, etico e regolatorio che abiliti il settore pubblico ad affrontare e governare nuovi scenari, valorizzando i progetti di oggi e fornendo strumenti e competenze al servizio di quelli a venire. Al contempo, si rende necessario progettare le modalità con le quali stimolare e accompagnare l’evoluzione culturale del Paese, coinvolgendo la popolazione, superando diversità, reticenze e conflitti, e identificando nuove prospettive. 
+L’utilizzo di strumenti di Intelligenza Artificiale applicati ai servizi, argomento centrale di questo Libro Bianco, è solo uno dei settori in cui l’Italia sta cercando di raggiungere gli obiettivi del Piano Triennale per l’informatica nella Pubblica amministrazione. A questo specifico scopo, è stata istituita la “Task force Intelligenza Artificiale al servizio del cittadino”12 che ha il compito di ragionare sulle nuove possibilità offerte da questo genere di tecnologie, in generale nella nostra vita quotidiana e, più nello specifico, nella costruzione di un nuovo rapporto tra Stato e cittadini. 
+
+
+Dati aggiornati a Marzo 2018 dal sito Avanzamento Digitale (https://avanzamentodigitale.italia.it/it) 
+Fatturazione elettronica 
+La fattura elettronica è un documento in formato digitale la cui autenticità e integrità sono garantite dalla presenza della firma elettronica di chi emette la fattura e dalla sua trasmissione ad uno specifico Sistema di Interscambio (SDI). Le pubbliche amministrazioni hanno l’obbligo di emettere, trasmettere, gestire e conservare le fatture esclusivamente in formato elettronico, secondo la normativa vigente. 
+
+FATTURE GESTITE  UFFICI DI FATTURAZIONE  AMMINISTRAZIONI  
+ELETTRONICA SU INDICEPA  PRESENTI SU INDICEPA  
+21  
+
+
+PagoPA 
+PagoPA è un’iniziativa che consente a cittadini e imprese di pagare in modalità elettronica la Pubblica amministrazione sulla base di regole, standard e strumenti definiti da AgID e accettati dalla PA, dalle Banche, Poste ed altri istituti di pagamento (Prestatori di servizi di pagamento - PSP) aderenti. 
+
+PA ADERENTI PA ATTIVE TRANSAZIONI TOTALI 
+
+
+
+
+Intelligenza Artificiale oggi 
+Il principale pericolo dell’Intelligenza Artificiale è senza dubbio rappresentato dalla possibilità che le persone arrivino troppo presto alla conclusione di averla capita. 
+Eliezer Yudkowsky 
+
+Cos’è l’Intelligenza Artificiale? Esistono molteplici definizioni, fra le quali si annovera quella dell’Università di Stanford, che la identifica come “una scienza e un insieme di tecniche computazionali che vengono ispirate - pur operando tipicamente in maniera diversa - dal modo in cui gli esseri umani utilizzano il proprio sistema nervoso e il proprio corpo per sentire, imparare, ragionare e agire”13. 
+Romanzi e film di fantascienza cavalcano e avvalorano la paura dell’ignoto: l’Intelligenza Artificiale spesso viene rappresentata in maniera negativa, come un pericolo per l’umanità, potenzialmente capace di prendere il sopravvento e di dominarci14 ma nella realtà l’IA fa già parte della nostra quotidianità. 
+Con gli assistenti digitali dei telefoni cellulari, i sistemi di guida assistita delle automobili, i chatbot15 che rispondono quando chiamiamo soggetti pubblici o privati, i sistemi di traduzione automatica di testi e discorsi, i robot in fabbrica, gli algoritmi che ci raccomandano prodotti e servizi di nostro gradimento e quelli che ci assistono nell’apprendimento, o videogiochi sempre più realistici e coinvolgenti. 
+
+L’Intelligenza Artificiale, ad esempio, può migliorare la nostra vita guidando al posto nostro, prendendosi cura delle persone anziane bisognose di assistenza, svolgendo lavori pericolosi e usuranti, aiutandoci a prendere decisioni ponderate, gestendo in maniera razionale grandi moli di dati che altrimenti faticheremmo a interpretare, permettendoci di comunicare pur non conoscendo la lingua dei nostri interlocutori, seguendoci nello studio o aumentando le esperienze culturali e di intrattenimento, velocizzando le pratiche burocratiche. 
+Questo è possibile in alcuni specifici ambiti di applicazione16 grazie ai recenti sviluppi nelle tecniche di IA dovuti essenzialmente alla larga disponibilità di dati annotati, al miglioramento delle tecniche di apprendimento e alla disponibilità di elevata capacità computazionale a costi sempre più accessibili. 
+
+AMBITI DI RICERCA IA 
+Alcuni degli ambiti attualmente prioritari non lo erano in passato ed è probabile che aree diverse potranno emergere in futuro. 
+
+LARGE-SCALE MACHINE LEARNING 
+Molti problemi basici nel machine learning (come l’apprendimento supervisionato e non) sono ben noti. Un focus centrale negli studi attuali riguarda la possibilità di aumentare la capacità degli algoritmi di lavorare su dataset estremamente ampi. 
+
+
+
+DEEP LEARNING 
+Ad esempio la capacità di apprendere delle reti neurali convoluzionali ha apportato molti benefici al settore della computer vision, con applicazioni come il riconoscimento degli oggetti, il video labelling ed altre varianti. 
+
+REINFORCEMENT LEARNING 
+
+
+Mentre il machine learning tradizionale ha un chiaro focus sul pattern mining (estrazione di regole), l’apprendimento per rinforzo (reinforce learning) ha trasferito il focus sul processo decisionale e sulle sue leve motivazionali. Questa tecnologia può favorire l’avanzamento della capacità dell’IA di apprendere ed eseguire azioni nel mondo reale. 
+ROBOTICS 
+La Robotic navigation negli ambienti statici è ampiamente risolta. Gli sforzi attuali sono incentrati sul fornire ai robot la capacità di interagire con la realtà circostante in modo prevedibile. 
+16 Cfr. “Artificial Intelligence and life in 2030, One hundred year study on Artificial Intelligence”, Stanford University, 2016, p. 9. 
+
+
+
+
+Oppure nell’ambito della prevenzione dei disastri ambientali, dove è possibile operare simulazioni delle conseguenze dei fenomeni naturali, sia prima che questi si verifichino, sia durante il loro svolgimento, aiutando le autorità a decidere come intervenire. Simili tecnologie possono essere utilizzate anche dalle forze dell’ordine, per pattugliare le città, in funzione dei dati continuamente aggiornati, legati ai crimini commessi nelle varie zone e ad altre variabili significative. 
+Infine, anche i decisori pubblici possono servirsi di algoritmi intelligenti, capaci di processare grandi moli di dati, per esempio sulle risorse disponibili nelle aree disagiate, oppure sull’andamento dei vari settori - sanitario, giudiziario, scolastico, agroalimentare, etc. - al fine di ottenere una visione più chiara delle scelte che devono o che vogliono compiere. È possibile, come si sta sperimentando in Giappone21, che il personale degli uffici pubblici risponda in maniera personalizzata a tutte le richieste dei cittadini, servendosi di strumenti di Intelligenza Artificiale adeguatamente istruiti, che producono automaticamente i contenuti da inviare. Spetterà alle amministrazioni decidere come utilizzare le risorse liberate dall’introduzione di queste nuove tecnologie, in un ventaglio di opzioni che includono il miglioramento qualitativo dei servizi e la riduzione dei costi per il loro esercizio.  
+SICUREZZA 
+Uno dei principali problemi, in tutti questi settori, è quello di garantire la sicurezza dei sistemi di IA: l’ingresso di un malintenzionato all’interno di sistemi che, per esempio, potranno pilotare un autobus, può mettere a repentaglio la vita di chi vi si troverà a bordo, così come la manomissione degli strumenti di sorveglianza di un luogo pubblico possono renderlo vulnerabile ad attacchi, oppure la conoscenza, da parte di un pirata informatico, del modello utilizzato dall’Intelligenza Artificiale per la gestione dei dati sensibili può rendere questi dati insicuri. Per affrontare efficacemente questi temi, è necessario mettere in campo diverse soluzioni, alcune tecniche, altre di carattere più generale, sensibilizzando i cittadini e le amministrazioni. Da un punto di vista tecnico è importante lavorare affinché per legge vengano garantiti alcuni standard, sia per la sicurezza dei dati di cui si nutrono gli algoritmi sia per la sicurezza degli algoritmi stessi, imponendo che, per la loro implementazione, venga sempre seguito il paradigma security by design 22. 
+21 Hila Mehr, Artificial Intelligence for Citizen Services and Government, Harvard Ash Center for Democratic Governance and Innovation, 2017, p. 8. 22 In sostanza, questo paradigma prevede che la sicurezza venga perseguita già al momento del design delle banche dati e degli algoritmi di Intelligenza Artificiale. 
+-
+
+La PA potrà, inoltre, avvalersi delle metodologie e delle tecnologie di IA per supportare la razionalizzazione e l’integrazione delle proprie basi dati, in una prospettiva di interoperabilità semantica che renda più semplice circolazione delle informazioni tra le amministrazioni a beneficio degli utenti finali27. L’enorme patrimonio di conoscenza generata e raccolta nel tempo in tali basi di dati è spesso “invisibile”, perché destrutturato, disperso in molteplici archivi e in gran parte nella memoria delle persone piuttosto che dell’organizzazione. Rendere visibile la “conoscenza invisibile” è uno dei potenziali e più promettenti ambiti di applicazione della IA nella Pubblica amministrazione con soluzioni in grado di leggere, comprendere e classificare i contenuti dei documenti e delle relazioni prodotte in decenni per arrivare a ottenere le informazioni più rilevanti. 
+L’IA inciderà anche nella ridefinizione del rapporto tra pubblico e privato in un’ottica di maggiore trasparenza attraverso l’implementazione delle pratiche di e-procurement. Tra gli ambiti che nel prossimo decennio trarranno beneficio dalla rivoluzione IA ci sarà, infatti, proprio quello degli acquisti pubblici. 
+
+QUALI POSSONO ESSERE I POTENZIALI DANNI ASSOCIATI A SISTEMI IA 
+DIGITALI FISICI POLITICI 
+Phishing automatizzato, 
+Terrorismo automatizzato che 
+Propaganda, attraverso 
+creazione di email false, siti web utilizza droni o veicoli autonomi immagini e video falsi e link per sottrarre informazioni. come armi. facilmente generabili. 
+Hacking massivo, attraverso la 
+Sciami di Robot che cercano di 
+Rimozione automatica del 
+scoperta automatizzata delle raggiungere lo stesso obiettivo. dissenso, grazie alla possibilità vulnerabilità dei sistemi. di trovare, analizzare e 
+Attacchi remoti, resi possibili rimuovere automaticamente Ingannare sistemi IA sfruttando 
+dal fatto che i robot autonomi testi ed immagini. 
+a proprio vantaggio i difetti possono essere controllati da nell’interpretazione della realtà qualunque distanza. 
+Persuasione personalizzata, da parte dell’IA. con l’utilizzo di informazioni 
+pubbliche per influenzare l’opinione di qualcuno. 
+Fonte: AI experts list the real dangers of artificial intelligence, Dave Gershgorn Feb. 2018 
+SVILUPPI PREVISTI DELL’IA 
+
+Supporta l’essere umano in Capace di realizzare molti dei Nettamente superiore al alcuni ambiti specifici come il compiti che l’essere umano cervello umano in tutti i suoi riconoscimento vocale. può svolgere. aspetti. Una tecnologia capace 
+di mostrare capacità di giudizio, competenze sociali e creatività. 
+Fonte: Destination unknown: Exploring the impact of Artificial Intelligence on Government September 2017- Centre for public impact 
+27 Cfr. Il modello d’interoperabilità del Piano Triennale: https://pianotriennale-ict.italia.it/interoperabilita. 
+
+
+
+Scenario ipotetico 
+Giulia, suo padre Tommaso e la piccola Gaia sono oggi personaggi di fantasia. Non sappiamo ancora se qualcuno vivrà le loro vite o alcuni scorci di esse. Quello che è certo è che l’Intelligenza Artificiale sta cambiando la nostra quotidianità sotto tutti i punti di vista. 
+Come saranno le nostre giornate lavorative tra 5, 10 o 25 anni? Quale sarà il nostro rapporto con le città in cui viviamo con l’introduzione consistente di soluzioni IA? 
+
+Giulia ha da poco spento il pc. Sono le cinque del pomeriggio e ha appena varcato i tornelli d’uscita del Ministero. È lunedì e sta correndo verso la fermata dell’autobus. Non le pare vero di poter tornare a casa così presto e poi andare a quella mostra di arte contemporanea che tanto le interessa. Questo per lei è un periodo molto impegnativo sia sul lavoro che in famiglia. Ha sintetizzato migliaia di questionari per conto del Ministero; l’attività che un tempo le sarebbe costata interi pomeriggi china sulle carte oggi è diventata un compito che è possibile portare a termine in pochi giorni senza troppo sforzo. Grazie alla piattaforma online di elaborazione dati a cui ha accesso dall’ufficio, Giulia è riuscita ad avere in meno di una settimana una sintesi automatica dei documenti sui quali sta lavorando. Quando è stata assunta circa 15 anni fa, un lavoro del genere avrebbe portato via il doppio, forse il triplo, del tempo a lei e ai suoi colleghi. Chi lo avrebbe mai detto che un giorno lei, nata nell’epoca della comunicazione analogica, cresciuta col walkman e con i libri sotto il braccio, non avrebbe più potuto fare a meno degli algoritmi? Oggi Giulia si sposta in città evitando il traffico. Attraverso un’app installata sul telefonino, il Comune le consiglia quale mezzo di trasporto pubblico utilizzare per arrivare prima a casa e lei può scegliere la soluzione meno inquinante. Mentre sta seduta in autobus Giulia naviga sulla pagina Facebook del Palazzo che ospita la mostra. Vuole sapere l’orario esatto di apertura e se, all’interno della struttura, c’è un’area riservata ai bambini. Chiede a Marina, non una segretaria ma il chatbot del museo, che dal display le risponde in tempo reale. “Fantascienza” rispetto a quando qualche anno fa doveva passare attraverso una selva di pagine di siti Internet e centralini telefonici per ottenere le informazioni più semplici. 
+
+
+Le sfide dell’IA al servizio del cittadino 
+L’Intelligenza Artificiale è il futuro non solo della Russia, ma dell’umanità. Qui risiedono possibilità e minacce colossali difficili da prevedere oggi. Chiunque diventerà un leader in questa sfera sarà sovrano del mondo. 
+Putin, nel discorso ufficiale per l’inaugurazione dell’anno scolastico russo a Settembre 2017 
+La competizione tra nazioni per la supremazia in campo IA sarà probabilmente la causa della terza guerra mondiale. Elon Musk, fondatore di SpaceX, cofondatore e CEO di Tesla, risponde su Twitter al Messaggio di Putin, Settembre 2017 
+
+
+
+ETICA 
+TECNOLOGIA 
+COMPETENZE 
+RUOLO DEI DATI 
+CONTESTO LEGALE 
+
+ACCOMPAGNARE LA TRASFORMAZIONE 
+PREVENIRE LE DISUGUAGLIANZE 
+MISURARE L’IMPATTO 
+L’ESSERE UMANO 
+
+
+
+
+Il tema dell’Intelligenza Artificiale, come la comparsa e l’affermazione di ogni nuova tecnologia, ripropone la contrapposizione tra “apocalittici e integrati”28. 
+Gli apocalittici temono che l’Intelligenza Artificiale prenderà il sopravvento sulle persone, deciderà per loro, ruberà loro il lavoro, le discriminerà, ne violerà la privacy, e le controllerà di nascosto condizionandone la vita. 
+Gli integrati sognano invece un mondo dove le macchine siano capaci di condurre autonomamente processi burocratici, di essere impiegate come potenti strumenti di calcolo per elaborare e interpretare nella maniera migliore grandi quantità di dati, sostituendo gli uomini nei compiti più gravosi e ripetitivi, e di creare soluzioni in grado di diminuire crimini e debellare malattie. 
+
+GLI APOCALITTICI 
+•
+ IA avrà il sopravvento sulle persone 
+
+•
+ IA deciderà per loro 
+
+•
+ IA ruberà loro il lavoro 
+
+•
+ IA le discriminerà 
+
+•
+ IA ne violerà la privacy 
+
+
+
+GLI INTEGRATI 
+•
+ IA conduce autonomamente processi burocratici 
+
+•
+ IA è un potente strumento di calcolo 
+
+•
+ IA può sostituire gli uomini nei compiti più gravosi 
+
+•
+ IA può creare soluzioni per diminuire crimini 
+
+•
+ IA può creare soluzioni per debellare malattie 
+
+
+
+
+In sostanza esistono due percezioni della tecnologia, di segno diametralmente opposto. 
+Quella degli “apocalittici” valuta negativamente l’inserimento dell’IA nella Pubblica amministrazione (PA) adducendo come motivazione una serie di criticità che rischierebbero di avere effetti negativi non solo su efficienza ed efficacia dei provvedimenti ma anche sui diritti dei cittadini. Quella degli “integrati”, invece, giudica l’utilizzo dell’IA come estremamente positivo, ritiene che l’implementazione di queste tecnologie possa migliorare significativamente non solo l’azione della PA ma anche la qualità di vita dei cittadini e che sia quindi necessario un totale ed incondizionato processo di ricerca e sviluppo in tale ambito29. 
+28 Cfr. Umberto Eco, Apocalittici e integrati, Bompiani, 1964. 29 Alle utopie della “ideologia californiana” (Richard Barbrook, Imaginary Futures: From Thinking Machines to the Global Village, 2007) si contrappongono oggi critiche radicali al “soluzionismo” tecnologico (Eugenij Morozov, To Save Everything, Click Here. The Folly of Technological Solutionism, 2013). 
+
+Due punti di vista estremi, ognuno con differenti peculiarità, che vanno analizzati criticamente per poter risolvere i punti deboli segnalati dagli “apocalittici” e regolare i punti di forza sostenuti dagli “integrati”. 
+Gli esempi sopra richiamati non sono scelti a caso, ma sono il frutto del dibattito che in questi anni si è sollevato nella comunità scientifica e nella società civile rispetto all’impatto dei sistemi di IA sulle nostre vite. 
+La sfida etica dell’introduzione di soluzioni di Intelligenza Artificiale è rappresentata dall’esigenza di rispondere in maniera equilibrata alla polarizzazione di queste due visioni, integrando l’innovazione e tenendo conto degli effetti che questa ha già avuto e continuerà ad avere nello sviluppo della società, rispettando e salvaguardando i valori fondamentali universalmente riconosciuti. 
+L’utilizzo di IA basata su algoritmi di analisi dei dati all’interno di processi decisionali legati a questioni sociali, sanitarie, giudiziarie (come ad esempio la valutazione del rischio) impone pertanto una riflessione approfondita in termini etici e, più in senso lato, di governance. 
+Gli algoritmi per l’analisi dei dati implicano costi elevati che abbracciano tutto il ciclo evolutivo del loro funzionamento: dall’implementazione al mantenimento evolutivo, fino alla verifica dei risultati e alla formazione degli utenti che li devono utilizzare in modo responsabile. Parlare di maggiore efficienza o di tagli alle tasse grazie all’utilizzo delle tecnologie IA nei servizi pubblici può essere un registro narrativo fuorviante in quanto un corretto sviluppo di tali strumenti implica elevati costi ed una grande attenzione agli aspetti etici legati al loro utilizzo. 
+L’attenzione sullo sviluppo funzionale di tale tecnologia necessita delle risorse economiche e professionali adatte ad uno sviluppo etico e soprattutto in linea con i dati che tratta e le decisioni che indirizza. Altrimenti quello che verrà fuori dalle analisi contribuirà solo a finanziare il settore privato, con l’illusione di aiutare le persone. Oppure, peggio ancora, ad introdurre una distorsione o una fuga di responsabilità, rimbalzando di volta in volta la causa degli errori decisionali agli algoritmi invece che ai decisori. Capitalizzare sui benefici della tecnologia richiede da parte della PA un investimento serio e un profondo impegno per migliorare la qualità e l’efficienza dei servizi ed avere sistemi sicuri e atti a ridurre veramente le disuguaglianze. 
+
+
+
+Per comprenderne la portata è possibile analizzare quelli che rappresentano gli elementi centrali nel dibattito pubblico e nell’analisi scientifica. 
+
+QUALITÀ E NEUTRALITÀ DEI DATI30 
+I sistemi di apprendimento automatico hanno bisogno di dati “annotati”31 da esseri umani (supervised learning) o quantomeno selezionati e preparati (unsupervised learning). Assimilano con questo anche gli errori o i pregiudizi (bias) introdotti anche involontariamente dai progettisti, replicandoli in ogni futura applicazione. Ad esempio, dataset con bias propagano gli stessi errori di valutazione nel significato di un’immagine o di un concetto, come è avvenuto, per esempio, con alcuni algoritmi utilizzati per prevenire i crimini, dove i dati erano viziati da una serie storica che enfatizzava differenze etniche32. Oppure dataset sbilanciati, che sovrastimano o sottostimano il peso di alcune variabili nella ricostruzione della relazione causa–effetto necessaria per spiegare certi eventi e, soprattutto, per prevederli. 
+
+RESPONSABILITÀ (ACCOUNTABILITY E LIABILITY)33 
+Gli esempi appena riportati mettono in evidenza il forte impatto che ha l’Intelligenza Artificiale sull’attività decisionale dei soggetti pubblici. Sia nel caso che questa agisca come assistente degli esseri umani sia come soggetto autonomo, l’IA genera degli effetti sulla vita delle persone in relazione ai quali è necessario poter configurare una responsabilità giuridica. Tuttavia la titolarità di quest’ultima non risulta chiaramente individuabile, dato che potrebbe essere attribuita al produttore34 o al possessore35 dell’Intelligenza Artificiale, oppure ancora al suo utente finale36. Chi progetta sistemi di IA può essere responsabile di difetti di disegno o implementazione, ma non di comportamenti causati da dataset di addestramento inadeguati. Un decisore pubblico può essere ritenuto politicamente responsabile delle decisioni prese sulla base di algoritmi che processano dati affetti dai bias citati sopra? Quale tipo di responsabilità può essere configurata in capo alla Pubblica amministrazione? Se un robot fa del male a qualcuno, chi deve essere ritenuto responsabile e chi, eventualmente, ha l’obbligo di risarcire la vittima (e con quale patrimonio)? Il decisore pubblico può trasferire la propria responsabilità politica ad un sistema di IA che non risponde ad un chiaro principio di rappresentanza? È eticamente sostenibile che, al fine di migliorare quindi l’efficienza e l’efficacia dei provvedimenti, alcune scelte importanti possano essere prese con l’influenza di una IA o addirittura delegando completamente la IA? E nel concedere fiducia ad un sistema IA, come controllarne la coerenza nel tempo? Queste sono solo alcune delle questioni che emergono in questo ambito e che evidenziano la necessità di stabilire dei principi per l’utilizzo delle tecnologie di IA in un contesto pubblico. 
+30 Cfr. “Sfida dei dati”. 31 Dati che vengono arricchiti con commenti e metadati. Ad esempio una didascalia può fungere da descrizione di un’immagine. 32 Bruno Lepri, Nuria Oliver, Emmanuel Letouz, Alex Pentland, Patrick Vinck, “Fair, transparent and accountable algorithmic decisionmaking processes. The premise, the proposed solutions, and the open challenges”, Science business media, Springer, 2017. 33 Cfr. “Sfida legale”. 34 Ci sono reti neurali i cui algoritmi di calcolo non sono del tutto ricostruibili nemmeno dai loro programmatori, generando quello che viene definito “effetto blackbox”. 35 Come avviene attualmente nel campo della robotica. 36 Con un parallelo, potremmo portare il caso delle opere di costruzione. Il costruttore ne ha piena responsabilità per i primi anni dall’inaugurazione dell’opera, ma poi la responsabilità passa al responsabile della manutenzione della stessa. 
+
+
+TRASPARENZA E APERTURA37 
+Il tema della responsabilità della Pubblica amministrazione ha a che vedere anche con i doveri a cui quest’ultima deve ottemperare nei confronti dei cittadini, nel momento in cui stabilisce di fornire loro dei servizi o di prendere decisioni che li riguardano, servendosi di soluzioni di Intelligenza Artificiale. Il funzionamento di questi ultimi deve rispondere a criteri di trasparenza e apertura. La trasparenza si trasforma in un prerequisito fondamentale per evitare discriminazioni e risolvere il problema dell’asimmetria informativa, garantendo al cittadino il diritto alla comprensione delle decisioni pubbliche. È necessario ragionare anche sulle politiche scelte per determinare gli indici di riferimento (policy di benchmark) per evitare effetti di dimensione più vasta: così come un amministratore può agire in modo poco trasparente perseguendo non il bene comune ma interessi privati, un algoritmo non trasparente potrebbe realizzare gli stessi illeciti in modo persino più ampio, producendo non solo ingiustizie ma anche discriminazioni sociali. 
+
+TUTELA DELLA SFERA PRIVATA38 
+Ulteriore esigenza, strettamente legata alla precedente, è quella di tutelare i dati degli individui. La PA dovrà progettare servizi basati sull’IA in grado di garantire efficienza e tempestività di risposta ma anche protezione dei dati sensibili dei cittadini. Tale requisito, strettamente connesso al contesto legale, presenta alcune peculiarità etiche che riguardano l’utilizzo che la PA può fare dei dati a sua conoscenza in contesti differenti da quelli in cui sono stati raccolti. È eticamente sostenibile che la PA, mediante l’utilizzo di dati raccolti per altri scopi, prenda provvedimenti sulla base delle nuove informazioni derivate? È etico utilizzare questi dati per alimentare sistemi predittivi? 
+Per affrontare queste sfide, può essere utile seguire alcuni principi generali. Tra questi possiamo menzionare la necessità di un approccio antropocentrico39 secondo cui l’Intelligenza Artificiale deve essere sempre messa al servizio delle persone e non viceversa40. 
+Ci sono, inoltre, principi di equità, come quello procedurale (non arbitrarietà delle procedure), formale (uguale trattamento per individui o gruppi uguali) e sostanziale (rimozione effettiva degli ostacoli di natura economico-sociale), così come il soddisfacimento di alcuni bisogni di base universali tra cui il rispetto delle libertà e dei diritti degli individui e della collettività41. Questi e molti altri aspetti connessi all’esigenza di porre in ogni contesto l’IA al servizio delle persone sono approfonditi nelle successive sfide. 
+
+37 Cfr. “Sfida legale”. 38 Cfr. “Sfida legale”. 39 Cfr. http://www.g7italy.it/sites/default/files/documents/ANNEX2-Artificial_Intelligence_0.pdf 40 Necessario, parafrasando il pensiero Kantiano, che l’IA “tratti l’uomo sempre come fine e mai come uno dei mezzi”. Immanuel Kant, Fondazione della metafisica dei costumi, 1785. 41 Cfr. https://medium.com/code-for-canada/responsible-ai-in-the-government-of-canada-a-sneak-peek-973727477.pdf 
+
+
+
+
+
+TECNOLOGIA 
+
+
+Se non ti sei allineato con le necessità dell’uomo, stai probabilmente realizzando un 
+sistema molto potente per affrontare un problema molto limitato, se non inesistente. 
+(Josh Lovejoy) 
+
+Per quanto oggi l’Intelligenza Artificiale non sia in grado di riprodurre il funzionamento complesso della mente umana42, ma solo approssimare alcune abilità circoscritte43, si tratta di una disciplina che, maturata nel corso di sessant’anni di ricerca scientifica, metodologica e tecnologica, è divenuta ormai pervasiva nell’industria e nella società. I suoi modelli e i suoi metodi possono senz’altro essere utilizzati convenientemente come strumenti per la realizzazione di soluzioni innovative nell’ambito di sistemi socio-tecnici complessi come quello delle amministrazioni pubbliche, a condizione che vengano compresi, assieme alle opportunità, i limiti del loro campo di applicabilità. 
+Le nuove frontiere di particolare interesse per la Pubblica amministrazione sono quelle relative agli studi e alle ricerche su come i sistemi di IA possano essere in grado di cooperare nel modo più efficace con gli esseri umani. Questo approccio sfrutta le capacità di apprendimento automatico e di adattamento dei sistemi di IA in modo da fornire un’interazione uomo-macchina che meglio risponda alle esigenze degli utenti, ai loro interessi, al contesto reale nel quale operano. Diventa dunque importante condurre ricerche consistenti nell’indagine metodologica, nella modellazione, realizzazione e sperimentazione di sistemi di Intelligenza Artificiale per vari domini d’interesse della PA. 
+Di sicuro interesse sono le tecnologie linguistiche (Natural Language Processing - NLP) che stanno alla base di un gran numero di applicazioni che rientrano nell’ambito dell’Intelligenza Artificiale. Il dispiego di queste tecnologie, basate oggi in larga misura su software Open Source, richiede la disponibilità di specifici dataset testuali (es. corpora annotati), lessicografici e semantici (es. wordnet), nonché la diffusione di competenze specialistiche necessarie per gestire i processi di addestramento e adattamento ai diversi ambiti applicativi (es. la sanità, la giustizia, la finanza). 
+La carenza o l’indisponibilità di adeguate risorse per la lingua italiana, unita ad un deficit di competenze nell’uso delle tecnologie di NLP, potrebbe causare sia una perdita di competitività rispetto ad altre nazioni, sia una dipendenza da piattaforme e soluzioni fornite da un ristretto numero di soggetti che operano in condizioni di monopolio. 
+Le caratteristiche distintive della “sfida tecnologica” possono pertanto essere individuate da due parole chiave: “personalizzazione” e “adattività”. 
+
+42 Le ricerche sulla cosiddetta Full intelligence e sulla Strong AI, sia sul lato della Neuro Evolution (NE), sia su quello della Brain Intelligence (BI), sono ancora in fase embrionale. 43 Tipicamente quelle che non richiedono più di un secondo per fornire una risposta a uno stimolo esterno. 
+
+PRINCIPALI TECNOLOGIE CLASSIFICATE COME IA 
+
+
+E IMMAGINI 
+
+BIOMETRIA 
+Analisi delleMisurazione delle immagini ecaratteristiche delle dei video perespressioni umane e interpretare i degli stati fisici per capire 
+
+
+contenuti intenzioni, emozioni, età 
+SWARM INTELLIGENCE 
+Utilizzo di un numeroso gruppo di agenti autonomi, ognuno dei quali contribuisce a risolvere un problema 
+
+MACHINE LEARNING 
+Capacità dei computer di imparare senza essere stati appositamente programmati per questo 
+Fonte: Capgemini Digital Transformation Institute Analysis 2017 
+
+
+Vincere questa sfida significa infatti riuscire a realizzare sistemi e servizi della PA modellati sulle molteplici necessità dei cittadini, capaci di evolvere con esse, in grado di favorire esperienze personalizzate. 
+Questo tema si può affrontare in maniera analitica collegando i settori e le tecnologie più sviluppati nel campo dell’Intelligenza Artificiale, con le attività e i compiti tipici della Pubblica amministrazione. 
+Gli ambiti di impiego di tecnologie44 “intelligenti” nella Pubblica amministrazione sono innumerevoli, non solo in una prospettiva di lungo periodo, ma, in alcuni casi, anche nell’attualità. 
+A titolo di esempio45, qui possiamo menzionare: 
+SISTEMA SANITARIO strumenti diagnostici in grado di assistere nelle analisi di referti; integrazione di fonti diverse e fusione di dati; analisi epidemiologiche per identificare precocemente rischi di salute pubblica; servizi di traduzione istantanea per facilitare le visite mediche ospedaliere e territoriali a stranieri; strumenti predittivi per valutare potenziali rischi di evoluzione delle malattie o per valutare l’efficacia delle terapie; strumenti di assistenza ai pazienti, in grado di seguirli durante un trattamento; medicina di precisione, per l’individuazione di cure personalizzate; migliore organizzazione logistica delle attività delle strutture sanitarie. 
+RAPPORTI COL CITTADINO nella semplificazione delle procedure allo scopo di ottenere una comunicazione bidirezionale tra PA e cittadino e una interazione personalizzata in cui il cittadino abbia tutto il supporto necessario per soddisfare le sue più variegate esigenze. 
+SISTEMA GIUDIZIARIO semplificazione della normativa; identificazione di frodi; contrasto della corruzione e della criminalità, specialmente quella organizzata; riduzione del contenzioso civile mediante accesso facilitato a normative e giurisprudenza; digitalizzazione degli atti e comprensione del testo e delle informazioni presenti. 
+SISTEMA SCOLASTICO strumenti automatici per la valutazione; personalizzazione del materiale didattico; tutoring automatizzato, per mezzo di strumenti di raccomandazione per tenere viva l’attenzione; suggerimenti inerenti variazioni personalizzate da introdurre nel programma scolastico; estrazione di indicatori predittivi di rischio di abbandono scolastico. 
+44 Cfr. le tecnologie elencate all’interno del capitolo 2. 45 Cfr. “Sfida ridurre le diseguaglianze”. 
+
+SICUREZZA l’IA amplifica l’impatto integrato dei dati strutturati e non strutturati disponibili pubblicamente, grazie ai quali può supportare forme avanzate di gestione e prevenzione nell’ambito della sicurezza pubblica. 
+PUBBLICO IMPIEGO E COLLOCAMENTO organizzazione del personale e delle carriere; orientamento al lavoro e gestione dei processi interni e della documentazione. 
+MOBILITÀ E TRASPORTI gestione dei flussi veicolari, modelli predittivi di traffico ed inquinamento, gestione della logistica dei trasporti pubblici, ma anche soluzioni di trasporto a guida autonoma; monitoraggio in tempo reale dei dati provenienti dalla sensoristica. 
+SISTEMA TRIBUTARIO applicazione di tecniche di IA per identificare casi di potenziale elusione ed evasione fiscale attraverso l’analisi e l’incrocio di dati provenienti dai diversi settori dello Stato. 
+MONITORAGGIO AMBIENTALE l’uso di algoritmi di machine learning su dati di sensori wireless 5G (p.es. videocamere, rilevatori di radioattività, sostanze chimiche, temperatura, luminosità, umidità etc.) potrebbe permettere di monitorare e intercettare eventi critici del territorio (es. una ricerca automatica di eventi su dati di videosorveglianza combinata con analisi da rilevamento di sostanze chimiche per individuare eco-reati come sversamento di sostanze nocive; analogamente possibile definire indicatori per incendi, alluvioni, crolli, etc.). 
+
+
+
+ELABORAZIONE NEUROMORFICA 
+
+
+
+
+MACHINE LEARNING 
+ROBOT DEEP LEARNINGASSISTENTI 
+PERSONALI RETI NEURALI ARTIFICIALI 
+ROBOT CHIRURGICI 
+
+AUTONOMI INTELLIGENZA ARTIFICIALE 
+PANORAMA TECNOLOGICO 
+RICONOSCIMENTO DI PATTERN 
+NUOVA GENERAZIONE DI CLOUD 
+ROBOTICS ELABORAZIONE DEL LINGUAGGIO NATURALE 
+PARTNER VIRTUALE 
+TECNOLOGIA DISPONIBILE Adesso 
+2-4 anni 1-2 anni > 4 anni 
+
+Fonte: Callaghan Innovation 2017, Frost & Sullivan “Artificial Intelligence- R&D and Applications Road Map” (Dec 2016), Harvard Business Review- The competitive landscape for Machine Intelligence (Nov 2016), Shivon Zilis and James Chan “The State of Machine Intelligence, 2016” (2016), Stanford University. “Artificial Intelligence and Life in 2030” (2016) 
+
+
+
+PROGETTO BORBOT 
+Progetto: assistente virtuale a supporto del personale di customer service Tecnologia IA utilizzata: question answering Soggetti pubblici coinvolti: Museo nazionale della Reggia di Caserta Il progetto Borbot, acronimo di Borboni e Robotica, è stato avviato nel 2017 dal Museo nazionale della Reggia di Caserta. Si tratta di un assistente virtuale, presente sulla pagina Facebook del Museo, che attraverso il question answering è in grado di rispondere alle domande degli utenti, fornendo informazioni turistiche dettagliate e notizie sul monumento. In un mese il sistema è stato in grado di effettuare una media di 20mila interazioni, supportando il servizio di front office del Museo e consentendo al personale del customer service di concentrarsi sui servizi a maggior valore aggiunto. Sito web: borbot.it 
+SISTEMA DI SUPPORTO ALLE DECISIONI PER LA 
+BRONCOPNEUMOPATIA CRONICA OSTRUTTIVA 
+Progetto: sistema di telemonitoraggio per i malati affetti da broncopneumopatia cronica ostruttiva Tecnologia IA utilizzata: machine learning Soggetti pubblici coinvolti: Unità di Sistemi di Elaborazione e Bioinformatica del Campus Bio-Medico di Roma, Policlinico universitario Campus Biomedico di Roma Il Policlinico universitario Campus Biomedico di Roma ha sperimentato su un gruppo di 22 pazienti affetti da broncopneumopatia cronica ostruttiva l’utilizzo di un sistema di telemonitoraggio a domicilio in grado di rilevare eventi potenzialmente pericolosi per i malati. Sviluppato dall’Unità di Sistemi di Elaborazione e Bioinformatica del Campus Bio-Medico di Roma, funziona attraverso tecniche IA di machine learning e acquisisce tre volte al giorno dati di frequenza cardiaca e saturazione emoglobina attraverso un pulsossimetro collegato ad un’app specificatamente progettata per smartphone. In questo modo il sistema valuta eventuali situazioni di pericolo per il paziente e le segnala all’unità sanitaria. Gli esperimenti sui dati raccolti mostrano che le prestazioni di riconoscimento di eventi potenzialmente pericolosi del sistema sono migliori di quelle ottenute dagli esperti medici. Inoltre il supporto offerto dal sistema nel processo decisionale consente di aumentare l’accordo tra gli specialisti. Sito web: www.unicampus.it/ricerca/unita-di-ricerca/sistemi-di-elaborazione­e-bioinformatica 
+
+
+
+
+
+
+COMPETENZE 
+
+
+Non possiamo insegnare ai nostri bambini a competere con le macchine. Le macchine sono piveloci, non si stancano, non provano rabbia. Dobbiamo invece insegnare ai ragazzi qualcosa di unico. In questo modo, fra trent’anni, avranno una possibilità. (Jack Ma) 
+
+Mentre tutti noi nel quotidiano iniziamo a confrontarci con strumenti di Intelligenza Artificiale 
+(e.g. dalle chatbot agli assistenti virtuali, fino a sistemi automatizzati di calcolo e di gestione del traffico), si registra una diversa familiarità nel suo utilizzo nei contesti professionali o nella Pubblica amministrazione46. 
+Il mondo del lavoro è interessato da una profonda trasformazione e nel breve periodo assisteremo ad una evoluzione delle professioni: ne nasceranno di nuove mentre quelle esistenti verranno ampiamente modificate con l’introduzione di nuovi processi e metodologie47. 
+Sarà necessario far sì che le persone siano in grado di progettare e sviluppare sistemi e applicazioni di IA, anche in diretta e profonda collaborazione con la ricerca e i grandi operatori della tecnologia. 
+Allo stesso modo sarà di fondamentale importanza coltivare e sviluppare le capacità necessarie all’interazione tra esseri umani e IA, che diventeranno sempre più complesse in virtù della possibilità di toccare il linguaggio, la gestualità, il corpo, le emozioni e le tante altre dimensioni espressive dell’umanità48. 
+Il consolidamento delle competenze risulta pertanto cruciale per allinearsi ai grandi cambiamenti tecnologici e socio-economici a cui il mondo sta andando incontro, nell’ottica di riuscire a preparare giovani generazioni, ma anche gli adulti, a cogliere le future sfide. 
+Come si abilitano queste competenze? Diversi sono gli ambiti su cui agire: quello, più specifico, della formazione dei lavoratori pubblici e privati, sia dal lato della domanda che da quello dell’offerta, quello più generalista, ma non meno importante, dell’alfabetizzazione di tutti al pieno utilizzo dei servizi digitali, e quello più avanzato della preparazione specialistica e transdisciplinare. 
+
+46 Hila Mehr, “Artificial Intelligence for Citizen Services and Government”, HARVARD Kennedy School - ASH Center for Democratic Governance and Innovation, 2017. 47 Carl Benedikt Frey, Michael Osborne, “The Future of Employment: how susceptible are jobs to computerisation?”, The Oxford Martin Programme on Technology and Employment, 2013. 48 Cfr. Sfida 9 “L’essere umano”. 
+
+Nel secondo ambito, quello dell’alfabetizzazione, è importante aiutare le persone a comprendere cosa sia l’Intelligenza Artificiale, quali benefici può concretamente apportare e quali rischi comporta, per consentire loro di utilizzare al meglio i servizi offerti, infondendo nell’immaginario un approccio positivo e ottimistico ed evitando il rifiuto di ciò che è sconosciuto49. Inoltre, poiché la relazione con l’IA avviene in buona parte per mezzo di interfacce naturali - come il parlato, il testo scritto e i gesti - è necessario “alfabetizzare” il cittadino con l’obiettivo di ridurre il gap di accesso a tali tecnologie. 
+Quest’ultimo punto, naturalmente, coinvolge in primis il sistema scolastico, che deve tener conto dei cambiamenti descritti al fine di rendere efficace la formazione dei cittadini e dei lavoratori del futuro. Allo stato attuale, e probabilmente ancora per molti anni, l’Intelligenza Artificiale sarà in grado di svolgere compiti piuttosto semplici. 
+Già oggi, però, è importante che il sistema scolastico e quello universitario abilitino gli studenti al futuro in cui vivranno da adulti, quindi a sviluppare le capacità di problem solving, di analisi e sintesi delle informazioni, così come la capacità di formulare giudizi autonomi, di creatività, di interazione empatica, di utilizzo raffinato delle proprie capacità sensoriali e psicomotorie, ambiti in cui difficilmente le macchine faranno concorrenza agli esseri umani. 
+Emerge, infatti, con chiarezza che i modelli di conoscenza fondati principalmente sulla memorizzazione di nozioni e notizie non approfondite né sinteticamente elaborate e organizzate, e i metodi di insegnamento che privilegino la quantità di nozioni acquisite rispetto alla formazione critica dell’alunno, sono destinati a perdere progressivamente di importanza. 
+Per quanto riguarda il terzo ambito, quello della preparazione specialistica e transdisciplinare per i professionisti pubblici e privati che intendono lavorare nel mondo dell’IA, è importante privilegiare una formazione in contesti multidisciplinari, fornendo loro quelle competenze che sono fondamentali per comprendere appieno il significato delle soluzioni che verranno di volta in volta sviluppate e che saranno destinate ad avere impatti sulla vita delle persone. 
+
+49 Cfr. Sfida 9 “L’essere umano”. 
+
+Al momento, oltre a figure tecniche esperte di discipline specifiche come il machine learning e la data science, diventano fondamentali figure trasversali come psicologi, antropologi, sociologi e umanisti in generale, capaci di migliorare l’interazione tra l’IA e i suoi utenti, di comprendere appieno in che modo quest’ultima si possa inserire nei vari contesti della vita di ogni giorno, migliorandone le condizioni, e di stabilire interconnessioni significative tra le discipline, in modo da poter creare nuove generazioni di progettisti capaci di ideare sistemi di eccellenza tecnologica che siano anche in grado di generare senso e tangibile aumento del benessere economico, culturale, sociale e psicologico. 
+Vi è attualmente una sproporzione tra la domanda di figure specialistiche nei settori delle tecnologie avanzate e disponibilità di competenze adeguate, sicché il settore privato è disposto a pagare stipendi altissimi per poter competere nel mercato dell’innovazione con il contributo dei migliori talenti. 
+
+
+SVILUPPATORE DI APP  ESPERTO SERVIZI CLOUD COMPUTING  
+ADMISSIONS CONSULTANT  SOCIAL MEDIA MANAGER  
+USER EXPERIENCE DESIGNER  MARKET RESEARCH DATA MINER  
+CHIEF LISTENING OFFICER  DATA SCIENTIST  
+ESPERTO DI SOSTENIBILITÀ  DATA ARCHITECT  
+ESPERTO DI ASSISTENZA AGLI ANZIANI  DATA VISUALIZER  
+ESPERTO GENERAZIONE MILLENNIALS  DATA ENGINEER/OPERATOR  
+
+LE PROFESSIONI CHE NON ESISTEVANO 10 ANNI FA 
+Fonte: Forbes, Megan Casserly, 2012 
+
+
+Una sfida della PA sarà quella di riuscire a trattenere ricercatori e professionisti pur non potendo competere con i livelli salariali offerti dal settore privato50. Le competenze interne alle amministrazioni rappresentano infatti un fattore determinante per l’introduzione equilibrata delle nuove tecnologie, per le quali è importante che le amministrazioni non si trovino ad essere dipendenti dai fornitori. 
+Nell’ottica di sviluppo delle competenze, dunque, non è possibile prescindere da meccanismi di formazione permanente e specialistica a tutti i livelli. È necessario integrare il dibattito relativo alla sostituzione della forza lavoro con un’analisi delle nuove esigenze di mercato e di come il miglioramento delle competenze dei lavoratori adeguatamente formati sui temi dell’IA possa impattare la qualità dei servizi e delle soluzioni offerte dal mercato e dalla Pubblica amministrazione. 
+Da un punto di vista formativo, indipendentemente dal livello scolastico o professionale, l’integrazione dell’IA nei programmi di apprendimento può contribuire ad aumentare le capacità umane, supportando il decision making e favorendo la possibilità di dedicarsi ad attività più specialistiche o maggiormente creative. 
+Uno degli obiettivi dell’Intelligenza Artificiale applicata ai sistemi cognitivi è proprio quello di aumentare le capacità umane. È necessario dunque sviluppare una consapevolezza profonda rispetto alle implicazioni degli inevitabili errori di programmazione e calibrazione di tali sistemi, che nell’esaltare alcuni aspetti delle informazioni disponibili potrebbero inavvertitamente deformarne l’importanza o il significato. 
+La Pubblica amministrazione, in quest’ottica, deve diventare “palestra di innovazione”: così come, grazie al Piano Industria 4.051, le imprese sanno di dover implementare mezzi e competenze per stare al passo con il mercato, anche la PA, se non vuole perdere in capacità, competitività e attrattività, dovrà dotarsi di un piano che consenta di ampliare le competenze dei dipendenti pubblici e innovare i servizi digitali52. 
+
+50 Cade Metz, “Tech Giants are paying huge salaries for scarce AI talent”, The New York Times, 22- 10- 2017. 51 Cfr. http://www.sviluppoeconomico.gov.it/index.php/it/industria40. 52 In tale ottica sarà fondamentale concentrarsi non solo su formazione/aggiornamento del personale ma anche sulla capacità di attrarre e trattenere le risorse con competenze in grado di supportare l’adozione di soluzioni di IA nel settore pubblico. 
+
+
+
+RUOLO DEI DATI 
+
+
+L’Intelligenza Artificiale sarà pigrande dell’elettricità o del fuoco. (Sundar Pichai - CEO Google) 
+
+Le tecniche e gli strumenti di Intelligenza Artificiale stanno oggi beneficiando dell’enorme mole di dati personali e ambientali che quotidianamente viene registrata dai sistemi informatici. La qualità e l’interoperabilità di questi dati rappresentano un fattore determinante per la possibilità stessa di applicare le nuove tecnologie. Tra le principali tecniche di IA che possono essere utilizzate per elaborare tali dati, ad esempio, vi è quella del cosiddetto supervised learning. In questo caso, i dati devono essere “annotati” dagli esseri umani che insegnano alle macchine come interpretarli. Questa operazione è molto onerosa perché richiede cospicuo e complesso lavoro umano. Oltre al lungo tempo necessario per compiere tale lavoro di annotazione, la discrezionalità degli annotatori potrebbe generare dataset disomogenei (ovvero: dati simili annotati in maniera diversa), depotenziando il funzionamento delle macchine e propagando errori e bias53. 
+La sfida associata al ruolo dei dati è dunque la creazione di condizioni, anche organizzative, che consentano all’Intelligenza Artificiale di utilizzare basi di dati costituite in maniera corretta, dove siano garantite consistenza, qualità e intelligibilità. 
+Nel campo della Internet of Things, una delle principali sfide da affrontare consiste nel fatto che i dati raccolti da dispositivi e sensori interconnessi sono differenti da quelli con cui la comunità scientifica dei data scientist ha dovuto misurarsi in passato. I più grandi successi che sono stati conseguiti in ambito di IA riguardano, infatti, applicazioni come l’elaborazione di immagini, la guida autonoma e la ricerca sul web che sono stati resi possibili grazie alla disponibilità di dataset ampi e relativamente strutturati, in grado quindi di essere impiegati nell’addestramento degli algoritmi di apprendimento automatico (machine learning). Al contrario, i dati provenienti da una moltitudine di dispositivi connessi fra loro possono risultare frammentati, eterogenei e distribuiti irregolarmente nello spazio e nel tempo: una sfida di rara complessità per chiunque aspiri ad analizzare i dati in maniera strutturata. 
+Un secondo terreno di confronto è rappresentato dalla gestione e ricerca dei dati pubblicati in rete sotto forma di linked open data54. Tali dati, che possono riguardare sia il compito istituzionale di un ente pubblico (e.g. dati catastali o amministrativi) sia il suo funzionamento 
+(e.g. dati interni) sono resi accessibili e fruibili mediante formati aperti. Pur rappresentando una miniera di informazioni, i dati hanno bisogno di strumenti adeguati per poter essere sfruttati in tutto il loro potenziale. In particolare, servono modelli e metodi di recupero e filtraggio delle informazioni55 fondati su tecnologie semantiche e ontologie condivise. 
+
+53 Cfr. la “Sfida Etica”. 54 Cfr. https://www.w3.org/egov/wiki/Linked_Open_Data. 55 Information Retrieval: l’insieme delle tecniche utilizzate per il recupero mirato dell’informazione in formato elettronico. 
+
+Questo lavoro, già previsto dal CAD e avviato nell’ambito delle attività del Team Digitale, andrà inquadrato nella prospettiva più ampia di una governance concettuale del patrimonio informativo pubblico. Per quanto riguarda l’enorme patrimonio di dati della Pubblica amministrazione, la sfida che le tecnologie di IA consentono di affrontare è quella di trasformare tali dati in conoscenza diffusa e condivisa, tale da rendere trasparente la PA verso i cittadini e soprattutto verso se stessa, garantendo a cittadini e amministratori non solo l’accesso semantico alle informazioni e l’interoperabilità dei processi, ma una migliore comprensione del rapporto tra Stato e cittadino. 
+Una volta create le condizioni per il buon funzionamento delle metodologie di Intelligenza Artificiale, uno dei compiti della Pubblica amministrazione potrà essere quello di aggregare i dati necessari per supportare il miglioramento dei processi. Questo potrebbe realizzarsi attraverso la creazione di una piattaforma aperta per la raccolta, generazione e gestione di alcune tipologie di dato, facente capo direttamente alla Pubblica amministrazione56. L’utilizzo decentralizzato dei dataset pubblici, essenziale per lo sviluppo di pratiche di partecipazione attiva (civic activism), richiede a sua volta specifiche capacità di governance del sistema socio-tecnico della Pubblica amministrazione. È fondamentale, infatti, che la qualità dei dati sia assicurata alla fonte, mediante l’adozione generalizzata di linee guida e di adeguati standard di contenuto. Per raggiungere questi ambiziosi obiettivi, i temi da affrontare sono molti, inclusi alcuni che compaiono già da anni nei piani di e-government dei paesi sviluppati. 
+
+
+I TEMI DA AFFRONTARE 
+veridicità e completezza dei dati 
+modalità di distribuzione e accesso ai dati 57 progettazione e definizione di ontologie strumenti che consentano al cittadino di 
+condivise monitorare la produzione dei dati; supervisione della qualità dei dataset 
+regolamentazione dell’utilizzo dei dati58 pubblici 
+
+Le ultime tre voci dell’elenco appena presentato introducono un ulteriore tema per la PA: fare in modo che chiunque voglia sviluppare soluzioni di Intelligenza Artificiale utili al cittadino possa avere un accesso paritario e non discriminatorio ai dati necessari. 
+56 Cfr. https://pianotriennale-ict.readthedocs.io/it/latest/doc/09_data-analytics-framework.html. 57 Si possono indire, per esempio, dei “grand challenge”. Sono famosi quelli organizzati dal NIST su Speech Recognition e Machine Translation, da DARPA sugli Autonomous Vehicles, 
+o da ImageNet sulla Vision. 58 Cfr. http://eur-lex.europa.eu/legal-content/en/TXT/?uri=CELEX%3A32016R0679. 
+
+
+SISTEMA SMART PLANNER 
+Progetto: supporto alle politiche di mobilità sostenibile Tecnologia IA utilizzata: pianificazione automatica tramite algoritmi Soggetti pubblici coinvolti: Fondazione Bruno Kessler, Comune di Trento, Comune di Rovereto, Comune di Bologna Il sistema Smart Planner è stato realizzato dalla Fondazione Bruno Kessler. Attualmente conta circa 15mila utenti ed è utilizzato dalla Provincia di Trento, dal Comune di Rovereto e in fase di sperimentazione nel Comune di Bologna per supportare politiche di mobilità sostenibile. Il sistema, rilasciato con licenza open source, si basa su tecniche IA di pianificazione automatica ed è in grado di suggerire agli utenti che vi si collegano attraverso un’app dal proprio smartphone le soluzioni più rapide ed ecologiche per raggiungere una determinata destinazione in città. Attraverso l’analisi dei dati intercettati da più sorgenti, l’app dà indicazioni personalizzate su quali mezzi di trasporto pubblici, privati o in condivisione conviene utilizzare per ridurre le emissioni inquinanti e i tempi di spostamento. Nel 2016 il 30% di coloro che hanno adoperato l’app si è spostato in città con un mezzo di trasporto che mai aveva utilizzato prima. Sito web: www.smartcommunitylab.it 
+PROGETTO DANTE H2020 
+Progetto: sistema automatico di data mining e di soluzioni di analisi per capire come funzionano i network terroristici Tecnologia IA utilizzata: Web mining Soggetti pubblici coinvolti: Ministero della Difesa-Comando generale Arma dei Carabinieri 
+Il progetto Dante - DEtecting and ANalysing TErrorist related online contents and financial activities -è finanziato dalla Commissione europea nell’ambito del Programma europeo H2020, Sfida Società Sicure e coinvolge 18 Paesi europei, tra cui l’Italia che vi partecipa con il Ministero della Difesa e con il Comando generale dell’Arma dei Carabinieri. Attraverso il progetto, è stato realizzato un sistema automatizzato di estrapolazione dei dati da fonti non strutturate, che funziona tramite metodi e tecniche di IA applicate al web mining, in grado d’individuare, recuperare, collezionare ed analizzare grandi quantità di contenuti eterogenei e in più lingue sia sul web in chiaro sia sul dark e deep web per tracciare le operazioni dei network terroristici, in particolare le attività di finanziamento, di training e di propaganda. Questo sistema consente di migliorare notevolmente e rendere più accurate le tecniche d’indagine delle forze dell’ordine sul terrorismo e di rintracciare informazioni anche sui canali tradizionalmente più difficili da investigare, come il dark web. 
+Sito web: www.h2020-dante.eu 
+
+
+
+CONTESTO LEGALE 
+
+
+Che il nostro sostrato etico sia occidentale (aristotelico, kantiano), orientale (scintoista, confuciano), africano (ubuntu) o riconducibile a una qualsiasi altra tradizione, creando sistemi autonomi e intelligenti che rispettino esplicitamente i diritti umani inalienabili e i valori culturali dei loro fruitori, è possibile dare la priorità all’aumento del benessere umano come parametro per il progresso nell’“età algoritmica”.  (Fabiola Giannotti) 
+
+Quando si tratta di disciplinare l’attività della Pubblica amministrazione, uno dei problemi fondamentali è il bilanciamento tra gli interessi della collettività e quelli dell’individuo. Nell’ambito dell’Intelligenza Artificiale garantire questo equilibrio è particolarmente complesso. Le tecniche di IA di maggiore tendenza necessitano di enormi quantità di dati per poter essere efficaci. Vi è dunque un notevole interesse economico alla raccolta di dati sensibili ed è necessario analizzare alcune delle principali questioni giuridiche che possono interessare l’IA. Tra queste: il principio di trasparenza degli atti amministrativi, la responsabilità giuridica, la privacy, la sicurezza informatica e la proprietà intellettuale59. 
+Nell’ambito delle attività della Pubblica amministrazione il principio di trasparenza è cardinale e perciò dovrà ispirare anche la progettazione dei nuovi servizi pubblici basati su soluzioni di IA. A questo scopo, tra i criteri da utilizzare ci sono senza dubbio quello della trasparenza degli algoritmi, delle logiche di costruzione dei database su cui essi operano, e definire le correlate responsabilità60. 
+Già oggi gli algoritmi di IA possono incidere direttamente sulle valutazioni e sulle decisioni pubbliche, nonché sugli stessi procedimenti amministrativi. Questo pone un problema di accountability, ossia di verifica dell’effettiva responsabilità giuridica a monte di determinate decisioni o risultati, ponendo la Pubblica amministrazione di fronte ad una serie di sfide: 
+
+trovare metodi uniformi e compatibili con l’attuale ordinamento per consentire all’amministrazione di motivare i suoi provvedimenti anche nella parte elaborata dai sistemi di IA. indicare le sorgenti dei dati che alimentano l’IA ed attraverso i quali essa ha compiuto le proprie valutazioni, nonché porre i responsabili dei procedimenti amministrativi a conoscenza delle modalità di elaborazione utilizzate dai sistemi IA. 
+
+Per garantire la massima trasparenza, il cittadino dovrà essere messo in condizione di comprendere attraverso quale percorso il sistema IA è pervenuto a un determinato risultato61, in modo sufficientemente chiaro da poter eventualmente riconoscere un errore di calcolo ed intervenire per ottenerne la correzione. 
+
+59 Cfr. la “Sfida etica”. 60 A tal fine il Codice di Amministrazione Digitale (CAD) ha istituito la figura del difensore civico digitale, al quale il cittadino può inviare segnalazioni e reclami in caso di inadempienze 
+o violazioni connesse all’utilizzo di sistemi digitali da parte dell’amministrazione pubblica. 61 La giurisprudenza ha già sancito che, nel caso in cui algoritmi vengano utilizzati per l’attività amministrativa, deve essere sempre garantito il diritto di accesso all’algoritmo (Cfr. sentenza TAR Lazio Roma, Sez. III bis, n. 3769/2017). 
+
+L’utilizzo di dati sensibili da parte dei sistemi IA della Pubblica amministrazione può compromettere il diritto alla privacy del cittadino, così come alcuni diritti fondamentali dell’individuo, nel caso in cui i dati raccolti vengono utilizzati per prevedere eventi d’interesse sociale, dalla gestione del traffico alla prevenzione del crimine. 
+Una delle sfide è quella di evitare che l’utilizzo di dati da parte della PA generi un controllo sociale pervasivo in contrasto con i diritti fondamentali del cittadino62. Quanto all’eventuale “minaccia” del diritto alla privacy, potrebbe essere necessaria l’implementazione di alcuni principi e strumenti presenti nel Regolamento europeo sulla protezione dei dati personali (GDPR), come ad esempio quelli del Data protection impact assessment e della privacy by design. Il primo impone a chi utilizza strumenti informatici che possono violare il diritto alla privacy di operare una valutazione preventiva dell’impatto di queste tecnologie sulla protezione dei dati personali. Il secondo si fonda sull’idea secondo cui le regole sulla tutela dei dati personali devono essere incorporate già nella fase di progettazione dei software, facendo sì che i dati identificativi del cittadino siano anonimi o coperti da pseudonimo, ridotti al minimo indispensabile e che il loro utilizzo sia circoscritto a specifiche finalità. 
+La sfida è chiaramente quella di trovare un bilanciamento tra l’utilizzo efficace dell’Intelligenza Artificiale a servizio dei cittadini e il rispetto del loro diritto alla riservatezza, dando a questi ultimi la possibilità di esprimere il proprio consenso informato al trattamento di dati da parte dei sistemi intelligenti. Per assicurare che le soluzioni di IA acquisite (o sviluppate) dalla Pubblica amministrazione rispettino quanto previsto dalle norme vigenti è necessario poi curare con attenzione le procedure di approvvigionamento di beni e servizi. In particolare, è opportuno che -prima della determina a contrarre - l’amministrazione proceda alla verifica comparativa delle soluzioni disponibili sul mercato, eventualmente procedendo ad apposite consultazioni. È raccomandabile, inoltre, che -in caso di gara -vengano puntualmente definiti i requisiti e le caratteristiche delle soluzioni di IA, con particolare riferimento al rispetto delle leggi vigenti, in modo da garantire sempre la legittimità dell’attività dell’amministrazione. 
+
+GDPR 
+Le disposizioni del GDPR regolamentano sia i doveri del responsabile del trattamento sia i diritti dell’interessato del trattamento di dati personali. Per quanto riguarda l’IA, il GDPR si applica quando i sistemi tecnologici vengono sviluppati utilizzando dati personali e se questi vengono sfruttati per prendere decisioni che riguardano le persone. L’articolo 5 del GDPR riassume tali principi e afferma che i dati devono essere: 
+• 
+processati in modo lecito, trasparente e giusto (principio di legalità, equità e trasparenza); 
+
+• 
+raccolti ed utilizzati per un motivo specifico ed esplicitamente dichiarato (principio della limitazione delle finalità); 
+
+• 
+adeguati e limitati alle finalità per cui vengono processati (principio della minimizzazione dei dati); 
+
+• 
+corretti e aggiornati (principio di accuratezza); 
+
+• 
+non archiviati in modo identificabile per più del necessario (principio connesso al periodo di conservazione dei dati); 
+
+• 
+trattati in modo da garantire adeguata tutela dei dati personali (principio di integrità e confidenzialità). 
+
+
+62 Cfr. la “Sfida ruolo dei dati”. 
+
+
+
+ACCOMPAGNARE LA TRASFORMAZIONE 
+
+
+Qualunque compito mentale che una persona media pusvolgere in meno di un 
+secondo potrà, ora o in un prossimo futuro, essere automatizzato grazie all’IA.. 
+(Andrew Ng) 
+
+L’Intelligenza Artificiale è insieme un’innovazione tecnologica e sociale, in quanto porta con sé tutti i benefici e le complessità in grado di trasformare radicalmente la società, compreso il settore pubblico. Un’innovazione, dunque, che può contribuire a migliorare la qualità dei servizi offerti e a rinsaldare il rapporto di fiducia tra amministrazione e cittadino. Le opportunità offerte dall’IA riguardano sia l’aumento di efficienza nella gestione dell’amministrazione sia la soddisfazione degli utenti. Per sfruttarle al meglio e per garantire che il cittadino ne comprenda appieno i vantaggi e le potenzialità, è necessario affrontare anche aspetti che riguardano la governance, l’accompagnamento all’utilizzo delle nuove tecnologie e la capacità di gestione dei dati. 
+Aspetto da non sottovalutare nel nostro Paese è quello legato all’esistenza di un corposo ruolo svolto da “intermediari” nel rapporto tra cittadini/imprese e Pubblica amministrazione, unito ad una cultura della “delega” che spesso introduce una vera e propria barriera nel rapporto tra utenti e istituzioni. In tal senso sarà auspicabile un fortissimo investimento nel cambiamento culturale necessario a creare un substrato su cui poter riposizionare, in chiave di semplificazione ed utilizzo del digitale, il nuovo rapporto tra cittadini/imprese e Pubblica amministrazione. 
+Il processo di trasformazione a cui stiamo assistendo, comporta, inoltre, la creazione di una cultura interna alla Pubblica amministrazione che includa attività di capacity building, sia rispetto alla presenza di una leadership che spinga all’utilizzo dell’Intelligenza Artificiale sia rispetto alla capacità dei funzionari pubblici di implementarle. 
+Nell’ambito dei servizi pubblici, l’IA può essere utilizzata per ottimizzare le risorse interne della PA per incrementare l’utilizzo dei servizi online, supportando, ad esempio, una serie di attività come: 
+• 
+portare a termine compiti complessi; 
+
+• 
+smistare le richieste e rispondere alle domande dei cittadini; 
+
+• 
+gestire efficacemente grandi quantità di dati; 
+
+• 
+combinare informazioni provenienti da dataset diversi; 
+
+• 
+dare risposte più veloci sulla base di scenari predittivi; 
+
+• 
+automatizzare processi ripetitivi; 
+
+• 
+analizzare dati che includono informazioni testuali/audio e video63. 
+
+
+
+63 Hila Mehr, “Artificial Intelligence for Citizen Services and Government”, HARVARD Kennedy School - ASH Center for Democratic Governance and Innovation, 2017. 
+
+
+L’introduzione dell’IA nella vita delle persone richiede il disegno di processi che favoriscano la comprensione e l’accettazione delle tecnologie da parte dell’utente, non solo attraverso l’utilizzo di sperimentazioni ma anche attraverso meccanismi di collaborazione che permet­tano al cittadino di partecipare al design di piattaforme IA. 
+Grazie all’approccio di co-creazione, come accade nel design thinking, gli utenti percepiscono la tecnologia come propria e manifestano una maggiore propensione ad utilizzarla. Inoltre, laddove si riscontrino problematiche o criticità nell’utilizzo, i cittadini dimostrano una mag­giore predisposizione a partecipare attivamente alla loro risoluzione64. 
+Nel favorire l’avvicinamento e l’ingaggio dei cittadini verso i nuovi servizi pubblici basati sull’IA, il design stesso gioca un ruolo chiave. Esso rappresenta, infatti, il punto di incontro immediato tra tecnologie e persone. I designer dovranno progettare interfacce che non si limitino a mimare le azioni umane, poiché questo meccanismo può generare alienazione, ma che siano in grado di stabilire una relazione di fiducia con il cittadino, utilizzando un lin­guaggio comprensibile e che lo metta a proprio agio65. 
+La sfida sarà quella di costruire sistemi flessibili in grado di fornire risposte che si adattino alle esigenze contingenti dell’utente, garantendo così servizi migliori e più efficienti. Caratteristica peculiare dell’IA è infatti proprio quella di mettere in relazione dati in continua evoluzione provenienti da molteplici sorgenti ed estrarre da essi dei modelli di risposta dinamici. Altro terreno sul quale si dovranno confrontare i designer sarà la progettazione di sistemi IA, che sappiano anticipare i bisogni del cittadino senza avere però un approccio invasivo che potrebbe compromettere l’esperienza utente. 
+Un altro elemento cruciale per introdurre l’IA in modo strutturato nell’amministrazione riguarda la capacità di gestire dati e di valorizzare il grande patrimonio di informazioni che la PA possiede, favorendo non solo l’interoperabilità, ma anche la trasparenza e l’affidabilità. Alla luce di questo, è auspicabile che l’applicazione delle tecnologie IA alla Pubblica amministrazione punti ad adottare ontologie condivise in sintonia con l’organizzazione interna della PA e con le tipologie di servizi da erogare, mettendo a punto vocabolari controllati in grado di interpretare e interoperare al meglio le basi dati di interesse nazionale66. A questo proposito, i sistemi di rappresentazione della conoscenza e auto-apprendimento possono costituire un valido aiuto per aumentare l’accountability dei modelli. L’adozione di modalità collaborative può ulteriormente assicurare che i modelli adottati siano compatibili con la PA e si mantengano in coerenza con il quadro normativo. 
+
+64 Medium, “The role of design in collaborative AI”, 4-11-2017. 65 Medium, “Human Design for Artificial Intelligence and Agents”, 19-10-2017. 66 Cfr. http://pianotriennale-ict.readthedocs.io/it/latest/doc/04_infrastrutture-immateriali.html. 
+
+
+PROGETTO PIERINO 
+Progetto: estrazione e recupero d’informazioni online Tecnologia IA utilizzata: analisi semantica, estrazione delle informazioni Soggetti pubblici coinvolti: Gruppo di ricerca Digital Humanities della Fondazione Bruno Kessler, Ministero della Pubblica Istruzione Il progetto Pierino (PIattaforma per l’Estrazione e il Recupero di INformazioni Online) è stato curato dal gruppo di ricerca Digital Humanities della Fondazione Bruno Kessler e Tommaso Caselli della Vrije Universiteit di Amsterdam e ha portato alla realizzazione di una piattaforma per l’analisi automatica dei dati linguistici, che funziona attraverso tecniche IA di analisi semantica e moduli per il trattamento automatico del linguaggio naturale. La piattaforma è stata utilizzata per la prima volta dal Ministero della Pubblica Istruzione per analizzare i dati della consultazione pubblica “La buona scuola” e ha permesso di elaborare e sintetizzare in meno di una settimana 270mila commenti, rendendo possibile una significativa riduzione dei tempi di analisi dei questionari. La piattaforma è stata progettata in modo tale da essere quanto più flessibile per elaborare velocemente anche dati provenienti da consultazioni future. Sito web: https://dh.fbk.eu/news/collaboration-miur 
+
+
+
+
+PREVENIRE LE DISUGUAGLIANZE 
+
+
+La tecnologia non è né buona, né cattiva, ma nemmeno neutrale. (Prima legge di Kranzberg) 
+
+L’obiettivo di questa sfida è quello di approfondire le modalità con le quali le tecnologie di Intelligenza Artificiale (IA) possano innescare effetti positivi in termini di riduzione dei divari socio/economico/culturali esistenti. Diversi sono gli ambiti in cui l’inserimento di soluzioni di IA consentirebbe di ridurre le diseguaglianze sociali68. Fra questi si citano: 
+• 
+istruzione e formazione; 
+
+• 
+conoscenza e garanzia dei diritti individuali; 
+
+• 
+sanità e disabilità, intesa come sostegno alle situazioni di disagio. 
+
+
+Nel settore scolastico è ipotizzabile un intervento significativo dei sistemi intelligenti di supporto all’apprendimento. C’è una lunga tradizione nell’uso del calcolatore per tali scopi: dai sistemi Computer Assisted Instruction (CAI) ai sistemi Intelligent Tutoring Systems (ITS). Negli ITS è sempre presente uno student model, inteso come base di conoscenza in cui sono rappresentate in modo esplicito le caratteristiche e le conoscenze dello studente. Questa soluzione svolge un ruolo di sostegno fornendo un’integrazione ai sistemi di insegnamento tradizionali, contribuendo a colmare le lacune di apprendimento degli studenti con problemi cognitivi. 
+Un altro punto di intervento nel settore scolastico è rappresentato dalla riduzione del gap linguistico. L’offerta di servizi di traduzione simultanea adeguatamente modellati potrebbe aiutare a colmare il divario generato dalle nuove ondate migratorie, offrendo dunque una preziosa assistenza allo studio69. Le tecnologie di Intelligenza Artificiale potrebbero inoltre giocare un ruolo decisivo nella battaglia contro l’analfabetismo funzionale70. 
+L’IA, inoltre, potrebbe essere applicata per superare i limiti posti dall’esigenza di possedere conoscenze specialistiche per svolgere determinate attività. Sistemi di IA potrebbero diffondere l’accesso all’informazione, alla conoscenza dei diritti e potrebbero facilitare le modalità di esercizio degli stessi da parte dei soggetti che si trovano in condizioni di disagio e che non hanno determinate conoscenze, contribuendo in tal modo a ridurre le discriminazioni. Questo rappresenta un importantissimo ambito di lavoro che richiede un adeguato intervento di sensibilizzazione e di promozione culturale. 
+
+68 Cfr. la “Sfida Tecnologia”. 69 L’utilizzo dell’Intelligenza artificiale al servizio delle traduzioni automatiche è ormai diffuso (si pensi ai casi di Google-DeepL). 70 Cfr. https://www.compareyourcountry.org/pisa/country/ITA?lg=en. 
+
+Per quanto riguarda il settore della disabilità, si evidenziano alcune soluzioni interessanti in grado di garantire un accesso ai servizi più facile e fruibile, migliorando così la qualità della vita degli individui. È il caso, ad esempio, dei sintetizzatori vocali integrati al pc per le persone ipovedenti, che potrebbero essere implementati con programmi di redazione automatica in grado di ricordare le comunicazioni precedenti e fornire bozze di testo, oppure di alcune sperimentazioni che coinvolgono persone affette da malattie degenerative, come la SLA, che forniscono sistemi di comunicazione atti a completare e facilitare il processo comunicativo. 
+Volendo considerare tipologie di soluzioni di IA già note, l’utilizzo di assistenti digitali potrebbe colmare in maniera trasversale i divari in diverse categorie: ad esempio grazie all’IA problemi come la dislessia potrebbero trovare un monitoraggio e un tentativo di correzione attraverso l’uso di assistenti digitali che possono svolgere la funzione del logopedista o dello psicologo. 
+La sfida sulle diseguaglianze va affrontata anche dal punto di vista della necessità di non accrescere quelle già esistenti. Esistono due livelli di discriminazione potenziale, una che riguarda l’accesso e l’uso delle tecnologie di IA e una indotta dagli stessi sistemi di IA, basata sulla razza, sul sesso e altri fattori sociali. 
+È necessario operare per assicurare l’accesso a strumenti e soluzioni di IA e la consapevolezza nel loro utilizzo, per evitare che possano fruire dei benefici di queste tecnologie solo alcune categorie. In questo caso, bisogna evitare di pensare che l’IA sia in sé un valore, soprattutto se il suo utilizzo non è accompagnato da interventi idonei a ridurre la possibilità che si creino ulteriori divari. Va inoltre evitato che siano le stesse tecnologie di IA a comportare diseguaglianze. Una PA legata al paradigma della responsabilità sociale non può permettersi di creare situazioni in cui le modalità di contatto più evolute, che tra l’altro sono quelle più semplici e che garantiscono una maggiore accessibilità dei servizi, siano appannaggio esclusivo di coloro che, per cultura, per propensione, per estrazione sociale o per dotazione tecnologica siano maggiormente predisposti a tali utilizzi71. 
+È necessario che l’amministrazione usi grande cura nell’acquisire o nell’indirizzare lo sviluppo delle soluzioni di IA al fine di garantire che: 
+siano inclusive, accessibili, trasparenti e rispettino i requisiti di legge; 
+non presentino profili discriminatori; 
+siano esenti da pregiudizi (bias). 
+71 Cfr. Art. 8 del Codice dell’Amministrazione Digitale (D.Lgs. n. 82/20015). 
+
+
+
+Negli ultimi tempi una delle aree di ricerca più attive nel campo dell’IA è stata proprio quella dello studio dei bias72 sia dal punto di vista statistico più formale che sotto un profilo legale e normativo più ampio. In uno scenario positivo, i sistemi di IA possono essere utilizzati per “aumentare”, migliorare il giudizio umano e ridurre i nostri pregiudizi, consci o inconsci che siano. Tuttavia, dati, algoritmi e altre scelte progettuali che possono influenzare i sistemi di IA possono riflettere e amplificare le assunzioni culturali esistenti in un dato momento storico e, di conseguenza, le disuguaglianze. 
+I bias, quindi, diventano la base per prendere decisioni, favorendo alcuni scenari invece di altri, creando disparità e distribuzioni delle opportunità non omogenee73. 
+Per far questo, è necessario espandere le strategie di ricerca e mitigazione dei bias non limitandole a un approccio strettamente tecnico. I bias, per loro natura, costituiscono distorsioni strutturali e di lungo termine che per essere fronteggiate necessitano di una profonda ricerca interdisciplinare. Affrontare e risolvere le criticità connesse ai bias richiede dunque necessariamente una collaborazione interdisciplinare e metodi di ascolto trasversali a diverse discipline74. 
+Su questo terreno si gioca dunque la partita più importante per la prevenzione delle diseguaglianze ed è in questo ambito che la Pubblica amministrazione ha il compito di intervenire indirizzando lo sviluppo delle soluzioni di IA, conscia dell’enorme potenziale che queste hanno nella promozione di una più diffusa equità e nella riduzione dei divari esistenti nella nostra società. 
+
+CASI DI BIAS 
+Alcuni casi di bias che hanno avuto risalto recentemente: 
+Un caso di bias - discriminazione inconscia è per esempio la percentuale di personale maschile che sviluppa servizi di IA rispetto alla percentuale femminile (Cfr. Global Gender Gap Report 2017 WEF). 
+Altro caso, all’interno dei tribunali statunitensi un Software utilizzato negli Stati Uniti con l’obiettivo di prevedere quali individui più di altri rischiano di essere “futuri criminali”, ha messo in evidenza bias/ pregiudizi nei confronti di individui di colore (Cfr. Machine Bias risk assessments in criminal sentencing). 
+Infine, l’utilizzo estensivo di tecniche di NLP sta rapidamente mostrando quanto i vocabolari delle lingue più parlate siano fortemente affetti da bias di genere (Cfr. How Vector Space Mathematics Reveals the Hidden Sexism in Language). 
+Cfr. https://www.technologyreview.com/s/602025/how-vector-space-m athematicsrevealsthe-hidden-sexism-in-language 
+72 Cfr. “Sfida etica”. 73 Episodi di questo genere si sono verificati in molti casi: negli algoritmi di rating, di assegnazione dei lavori della gig economy e, in generale, nel lavoro mediato algoritmicamente. 74 Cfr. Ainow, “Expand AI bias research and mitigation strategies beyond a narrowly technical approach”, 2017, p. 2 
+
+PROGETTO MATHISIS H2020 
+Progetto: supporto all’insegnamento per i ragazzi affetti da DSA, ADHD, spettro autistico e disabilità multipla Tecnologia IA utilizzata: Affective Computing Soggetti pubblici coinvolti: scuole pubbliche italiane di primo e secondo grado Mathisis -Managing Affective learning through intelligent atoms and smart interaction- è un progetto finanziato dalla Commissione europea nell’ambito del programma Horizon2020 ICT 2015 e coinvolge 18 Paesi europei, tra cui l’Italia. Attraverso il progetto è stata realizzata una piattaforma di supporto all’insegnamento destinata ai bambini affetti da DSA, ADHD, spettro autistico e disabilità multipla. La piattaforma, collegata a una webcam, uno strumento per il riconoscimento del movimento e un giroscopio, mediante le tecniche IA di affective computing riconosce gli stati d’animo e i livelli d’attenzione degli allievi e, in base a questi, aumenta o diminuisce il grado di difficoltà degli esercizi didattici. Il progetto è stato testato su un campione di scuole pubbliche italiane di primo e secondo grado, coinvolgendo poco meno di un centinaio di studenti. Secondo i primi risultati della sperimentazione, l’utilizzo di questa piattaforma ha migliorato il percorso di apprendimento degli allievi aumentandone i livelli di concentrazione e attenzione. Sito web: http://mathisis-project.eu 
+
+
+
+
+MISURARE L’IMPATTO 
+
+
+ ll ritmo del cambiamento non è mai stato così veloce e non sarà mai così lento. (Justin Trudeau) 
+
+“Il ritmo del cambiamento non è mai stato così veloce e non sarà mai così lento”75. L’introduzione di nuove tecnologie di Intelligenza Artificiale (IA) nella società e, in particolare, nella Pubblica amministrazione, porta con sé il naturale desiderio di misurare e comprenderne gli impatti sociali, i rischi e le opportunità. 
+Appare ormai fondamentale misurare l’impatto delle politiche pubbliche, sia nell’ottica dell’utilizzatore, vale a dire del cittadino, sia in quella della PA. Per quanto riguarda il primo punto, è necessario ragionare in termini di miglioramento della qualità della vita delle persone, ma anche delle condizioni di fruizione di ciò che viene loro offerto. 
+La misurazione dell’impatto nell’uso di soluzioni di Intelligenza Artificiale nella PA contempera l’utilizzo di indicatori qualitativi e quantitativi. Ad esempio le modalità di misurazione della customer satisfaction (e.g. impatto sociale, benessere dei cittadini, accessibilità e usabilità degli strumenti) o relative all’ottimizzazione dei processi organizzativi in termini di efficienza ed efficacia. 
+Molti modelli quantitativi ripartiscono i lavoratori per occupazione e cercano di ipotizzare quali professioni saranno rimpiazzate dalle tecnologie, in altre parole tali modelli basano il loro funzionamento considerando posti di lavoro e occupazione come unità di analisi76. Tuttavia la tecnologia spesso non rimpiazza una figura professionale nella sua interezza ma ne sostituisce soltanto singole attività. I lavoratori che precedentemente ricoprivano un dato incarico, quindi, vengono indirizzati e riassegnati ad attività complementari che utilizzano le nuove tecnologie. Nel tempo la tecnologia porta a un completo ripensamento dei processi e degli obiettivi organizzativi. 
+Considerata la complessità del fenomeno da analizzare, la misurazione dell’impatto deve necessariamente tenere conto di un approccio multidisciplinare, che consenta di definire l’impatto anche da un punto di vista antropologico, psicologico e sociologico, oltre che tecnologico ed econometrico. 
+Per tale motivo risulta necessario individuare nuovi set di indicatori che possano recepire al meglio tale multidisciplinarietà, in sinergia con gli indicatori oggi esistenti. In ogni caso bisogna tenere presente che le modalità con cui viene effettuata la misurazione dell’impatto possono promuovere una migliore comprensione da parte degli utilizzatori dei servizi e favorire la transizione verso nuovi modelli di governance77. 
+75 Justin Trudeau, Premier canadese, nel suo discorso al World Economic Forum Annual Meeting 2018. Cfr. https://www.weforum.org/agenda/2018/01/pm-keynote-remar­ks-for-world-economic-forum-2018. 76 Cfr. Sfida “Competenze” e sfida “Ridurre le diseguaglianze”. 77 Cfr. Sfida “Accompagnare la trasformazione”. 
+
+
+Mappare i bisogni e definire gli obiettivi di impatto con tutti gli attori coinvolti, raccogliendo informazioni in tempo reale su come interagiscono tutti i nodi di una rete, è il primo fondamentale passo nella comprensione e definizione di corrette valutazioni delle politiche. 
+Purtroppo tali valutazioni non sono aggiornate così frequentemente come dovrebbero, a causa di limitazioni finanziarie o indisponibilità di valutatori competenti. Essendo la valutazione delle politiche comunemente basata sui dati, l’IA potrebbe abilitare un’analisi più rapida e accurata. 
+Un maggior equilibrio nell’analisi di opportunità e rischi potrebbe rappresentare un fattore importante per aumentare la consapevolezza del reale impatto78 che l’IA potrà avere nella nostra vita quotidiana. 
+Infine, misurare l’impatto di queste tecnologie è utile in termini di progettazione e sviluppo dell’IA, di garanzia di affidabilità e trasparenza nonché di riduzione del rischio di errori, anche per la Pubblica amministrazione79. Studiarne il funzionamento consente di determinare validi modelli per un uso etico e responsabile dell’IA. 
+Gli strumenti di misurazione devono essere rigorosi per determinare gli effettivi impatti sociali dell’IA e per definire quanto tali tecnologie riescano ad influenzare concretamente la nostra vita. 
+OSSERVATORIO ITALIANO SULL’INTELLIGENZA ARTIFICIALE 
+L’Osservatorio italiano sull’Intelligenza Artificiale è promosso dalla Task force sull’Intelligenza Artificiale in collaborazione con l’istituto di ricerca HER - Human Ecosystems Relazioni - e ha l’obiettivo di analizzare con diverse tecniche, tra cui la Sentiment Analysis, le conversazioni sull’IA nei principali social network. 
+
+78 European Commission - DG for Research and Innovation, Directorate A -Policy Development and Coordination, Unit A.6 - Open Data, Policy and Science Cloud; “Vision and Trends of Social Innovation for Europe”, 2017. 79 Cfr. https://www.researchgate.net/publication/23542471_Spatial_diversity_in_local_government_re venue_effort_under_decentralization_A_neural-network_approach. 
+
+
+
+Fonte ia.italia.it/osservatorio-ia Marzo 2018 
+SIMPATICO H2020 
+Descrizione: semplificazione dell’interazione tra cittadini e pubblica amministrazione Tecnologia IA utilizzata: trattamento automatico del linguaggio Soggetti pubblici coinvolti: Fondazione Bruno Kessler, Comune di Trento Il progetto Simpatico- SIMplifying the interaction with Public Administration- è stato coordinato dalla Fondazione Bruno Kessler nell’ambito del programma europeo Horizon 2020 e consiste nell’applicazione di soluzioni IA all’interno degli sportelli online delle amministrazioni comunali. Nel 2016 il Comune di Trento ha avviato la fase di sperimentazione del progetto, insieme alla città di Sheffield (UK) e alla regione della Galizia (Spagna) integrando tecnologie avanzate di trattamento automatico del linguaggio, in particolare tecniche IA di semplificazione automatica del contenuto testuale, in alcuni servizi comunali accessibili attraverso lo Sportello telematico del cittadino del sito del Comune. Da una prima valutazione è emerso che questa integrazione ha portato a: 
+-
+ una riduzione dei tempi di accettazione delle domande telematiche del 40% 
+
+-
+ una riduzione delle richieste di informazioni aggiuntive del 50% 
+
+-
+ una diminuzione del tempo totale necessario per compilare una pratica online del 50%. Sito web: www.simpatico-project.eu 
+
+
+
+
+
+
+L’ESSERE UMANO 
+
+
+Pensate agli uccelli, poi pensate agli aeroplani. Entrambi volano, ma non hanno nulla in comune se non un’unica caratteristica fondamentale: il fatto che entrambi rispettano i principi dell’aerodinamica. ecco questa è la maniera migliore per paragonare l’intelligenza umana a quella artificiale. (Yoshua Bengio) 
+
+L’introduzione dell’Intelligenza Artificiale nel mondo comporta questioni esistenziali e psicologiche che è necessario affrontare in quanto influiscono sulla possibilità di percepire, comprendere ed agire sul mondo, e su come gli esseri umani vi si posizionano individualmente, rispetto alla società e all’ambiente, con impatti sostanziali su diritti, libertà e opportunità di realizzazione tanto personale che lavorativa. 
+L’IA è già presente in tanti ambienti, servizi e processi della nostra quotidianità: le tecnologie che usiamo per mediare le relazioni con altri esseri umani, gli oggetti e i luoghi che abitiamo, influenzano comportamenti, modi di lavorare, imparare, comunicare e divertirsi. Tutti noi ci siamo confrontati più o meno consapevolmente con questa realtà, anche se sull’IA esistono ancora perplessità dovute alla poca comprensione della tecnologia in sé e dei suoi reali effetti nella società. 
+In questa carenza di conoscenza, che è presente a tutti i livelli di società e di istruzione, si inserisce facilmente una narrazione fatta di notizie distorte o influenzate da fantascienza distopica, che rischia di influire negativamente sull’immaginario collettivo, degenerando in distorsioni della realtà tipiche della teoria della profezia auto avverante80. Diversi studi empirici e sociologici ed esperimenti di psicologia sociale81 hanno più volte mostrato quanto radicali possano essere queste capacità d’intervento sull’immaginario. 
+Si tratta, quindi, di azioni che hanno impatti sulle sfere psicologica, sociale ed esistenziale. Per accompagnare i cittadini non sono sufficienti le leggi, normative e buone pratiche tecniche e tecnologiche (pur necessarie): servono una narrazione ed un immaginario costruiti dalla società in maniera inclusiva delineando i significati dell’IA e i ruoli che vogliamo assegnargli. La società contemporanea, caratterizzata da una forte digitalizzazione, ha il compito di creare i presupposti per cui le persone possano sviluppare, insieme e responsabilmente, una visione del mondo coerente con le novità che tali tecnologie portano con sé. In questo senso si esalta ancora di più il valore delle scienze sociali e della comunicazione pubblica rispetto alla costruzione di una narrazione prevalentemente strategica82. Se il futuro è la conseguenza delle scelte operate nel presente, non possiamo non porci il problema lasciando che l’interpretazione dello sviluppo tecnologico e delle sue conseguenze sociali non sia presidiato. Diversi sono gli approcci che in maniera transdisciplinare concorrono alla costruzione di uno scenario che faciliti la comprensione e il coinvolgimento dell’essere umano nella introduzione di soluzioni di IA. 
+80 Cfr. Robert Merton, R.K, “La profezia che si autoavvera”, in Teoria e Struttura Sociale, vol. II. Il Mulino, 1971. 81 Cfr. https://www.forbes.com/sites/kashmirhill/2014/07/10/facebook-experiments-on-users/#386 e02291c3d. 82 Cfr. Sfida “Accompagnare la trasformazione”. 
+
+
+
+Il design, le arti, la psicologia, l’antropologia, la sociologia e le altre discipline umanistiche possono e devono creare ponti tra ricerca, industria e società, per sostenere iniziative pedagogiche capaci di aiutare le diverse comunità a comprendere i confini e le implicazioni di queste tecnologie. 
+L’arte e il design, da un lato, hanno da sempre svolto un ruolo cruciale nel coinvolgere le persone all’interno di una narrativa comune. Dall’altro, hanno permesso i grandi processi di innovazione suggeriti dal non focalizzarsi sui bisogni, ma sulle aspirazioni83, sul desiderio e sull’immaginario. Storicamente l’Arte ha contribuito a disegnare nuovi immaginari e ad aprire nuove opportunità, innalzando il livello della critica e suscitando la partecipazione e il coinvolgimento delle persone, attraversando culture, classi sociali, professioni e competenze. 
+Questo ruolo84 è finalmente riconosciuto anche a livello europeo, grazie a programmi che utilizzano le arti per far entrare le innovazioni nell’immaginario comune, contribuendo a costruire un significato sociale positivo, condiviso e soprattutto consapevole rispetto ai vantaggi e agli usi delle innovazioni. 
+Effetto non secondario di questo approccio è, in termini economici, la creazione di nuovi mercati; in termini sociali, invece, esso genera maggiore partecipazione, solidarietà, senso di appartenenza a un mondo cosmopolita. Offrire ai propri cittadini l’opportunità di costruire socialmente un immaginario condiviso rispetto al ruolo di tecnologie come l’IA, è di fondamentale importanza non solo in termini di inclusione sociale ma soprattutto come investimento di cittadinanza. Un cittadino consapevole, che comprende e che si sente compreso, è un cittadino il cui senso di appartenenza genera maggiore fiducia nelle istituzioni. Propenso al supporto e alla critica costruttiva delle attività governative, il cittadino che partecipa all’azione pubblica e alle soluzioni proposte, è capace - con diversi livelli di coinvolgimento - di supportare la progettazione di sistemi e soluzioni sempre migliori, in un contesto sempre più scevro da divari digitali e culturali. 
+Storicamente l’Italia ha avuto un ruolo esemplare nell’innovare attraverso la bellezza, l’estetica ed il benessere e nello stimolare processi culturali e sociali di avanguardia. Innovativi per tradizione, come Paese non dobbiamo rinunciare a portare i tratti caratteristici dello stile italiano (progettualità, creatività, estetica) all’interno di questa narrazione di sistema, ancora tutta da costruire ma incentrata sul benessere delle persone. 
+Una visione che costituisce per il nostro Paese un vantaggio competitivo a livello internazionale, costruito proprio sulla capacità di “immaginare il mondo”. Per questo, è necessario ideare e sostenere iniziative in cui artisti e designer lavorino fianco a fianco con ricercatori, umanisti, ingegneri e manager in ambito di IA. 
+83 Cfr. https://publications.europa.eu/en/publication-detail/-/publication/a97a2fbd-b7da-11e7-837e-01aa75ed71a1. 84 Per esempio il programma STARTS della Commissione Europea e il “Programma delle arti” al CERN. 
+
+
+
+-
+
+
+6 
+Agevolare la diffusione di competenze attraverso la promozione della 
+certificazione delle figure professionali che lavorano nell’ambito dell’IA (attraverso la creazione e l’adozione di un framework condiviso) e prevedere l’istituzione di percorsi di formazione per l’inserimento di lavoratori con capacità di comprensione e di implementazione di soluzioni di IA nella Pubblica amministrazione (ad esempio attraverso corsi specifici presso la Scuola Nazionale di Amministrazione). Le numerose professionalità mancanti sono l’occasione per pensare a percorsi formativi che pongano al centro una parità di genere duratura e sostenibile, sia dal punto di vista numerico (es. laureati STEM) che economico (es. uguaglianza retributiva). 
+7 
+Prevedere un piano PA 4.0 per favorire gli investimenti delle PA nelle soluzioni 
+IA a partire da una call for challenges attraverso strumenti di open innovation e procurement per l’innovazione. 
+8 
+Supportare la collaborazione fra ricerca, acceleratori d’impresa e innovation hub, 
+pubblici e privati, anche a livello europeo, per promuovere l’adozione di soluzioni di IA nel settore pubblico. 
+9 
+Istituire un Centro Transdisciplinare sulla IA, in sinergia con il Centro di 
+Competenza, che avrà il compito di: 
+-
+ promuovere e rendere pubblico il dibattito sull’evoluzione dell’etica; 
+
+-
+ supportare la riflessione critica circa le questioni etiche emergenti; 
+
+-
+ migliorare le condizioni di coinvolgimento di esperti e cittadinanza per trasformare le riflessioni tecniche e sociali in normative, standard e soluzioni tecniche. 
+
+
+10 
+Definire linee guida e processi basati sul principio della security-by-design 
+nell’utilizzo dell’IA, aumentando i livelli di controllo e favorendo la condivisione dei dati sugli attacchi informatici da e verso IA da parte di tutti i Paesi europei. 
+
+
+
+
+necessario alla struttura interna per implementare le soluzioni di IA individuate, specialmente nel caso in cui per svilupparle devono essere caricati ingenti quantità di dati e informazioni. La Task force dell’Agenzia per l’Italia digitale rimane a disposizione per esplorare forme di co-finanziamento e di individuazione dei bisogni delle amministrazioni attraverso l’email intelligenza-artificiale@agid.gov.it. 
+NON DIMENTICARE IL PIANO TRIENNALE 
+L’IA richiede di accelerare il percorso di trasformazione digitale. Il Piano Triennale fornisce tutte le indicazioni per costruire le fondamenta sulle quali sarà possibile implementare soluzioni di IA. Ci sono già molti strumenti utili all’esecuzione del Piano Triennale, come ad esempio le misure minime per la sicurezza ICT alle pubbliche amministrazioni, che debbono essere adottate per contrastare le minacce più comuni e frequenti cui sono soggetti i loro sistemi informativi. Oppure i molti canali di procurement che è possibile attivare, in funzione del perimetro finanziario e delle diversificate esigenze tecniche: dal più classico ricorso al Mercato Elettronico per la Pubblica Amministrazione (MEPA) e ai lotti del Sistema Pubblico di Connettività (SPC, in particolare il lotto 3 su Interoperabilità per i dati e cooperazione applicativa e il lotto 4 sulla Realizzazione e gestione di portali, APP, siti e applicazioni web), fino agli strumenti di procurement per l’innovazione. In particolare, su quest’ultimo fronte, i riferimenti sono quelli degli appalti pre­commerciali (PCP, sia su scala nazionale anche nell’ambito della programmazione regionale tramite fondi Europei) per arrivare infine agli appalti pubblici di servizi e prodotti innovativi (PPI). 
+INIZIARE “IN PICCOLO” 
+Come accade per molte altre tecnologie, è consigliabile testare l’IA su piccola scala prima di applicarla a pieno regime nelle proprie attività. Sviluppare un programma pilota consente a chi decide di implementare soluzioni di IA di prendere confidenza con la tecnologia e di correggere eventuali errori in corso d’opera permettendo quindi, al servizio stesso, di migliorare. Diversi sono i modelli che possono essere utilizzati per impostare progetti in maniera agile: il sito designers.italia.it fornisce un kit su misura per la PA per lo sviluppo e il design di progetti. Inoltre, l’IA comporta una serie di rischi, ben evidenziati nelle varie sfide del Libro Bianco, legati alla protezione dei dati e della privacy, ai dilemmi etici, al rischio di bias e deviazioni. Allo scopo di limitare il più possibile problemi attuali e futuri, è buona pratica coinvolgere le entità interessate dai servizi basati sulle IA fin dal progetto pilota, esponendo in modo trasparente e replicabile i dati e gli algoritmi. 
+
+Appendice 
+
+
+
+MACHINE LEARNING 
+Apprendimento Automatico (o Machine Learning, ML), la capacità di sfruttare dati ed esperienze pregresse nell’espletamento di un compito (task) per la ottimizzazione del processo operativo stesso. Nell’apprendimento automatico il sistema usa i dati per acquisire nuove conoscenze, nuove regole e nuovi criteri di decisione che stabiliscono nuovi modelli di comportamento ottimi rispetto ad alcuni criteri: ad esempio decisioni più accurate (nei casi in cui il sistema è in grado di decidere correttamente in un numero più ampio di casi futuri) o più economiche (nei casi in cui le stesse decisioni possano venire prese mediante l’uso di un numero inferiore di risorse, come ad. es. con meno operazioni CPU o sfruttando minori quantità di memoria). Nell’Apprendimento Automatico i dati relativi ad un problema (task) vengono annotati da esperti e operatori ed utilizzati attraverso la applicazione di algoritmi di induzione allo scopo di generare modelli esplicativi e attuativi più efficienti per tale task. Il ML quindi viene spesso utilizzato per generare componenti significative di una base di conoscenza e regole di inferenza per problemi di cui si disponga di un largo numero di esempi. 
+KNOWLEDGE DISCOVERY 
+Secondo gli algoritmi di apprendimento non supervisionato (Unsupervised Machine Learning), è possibile determinare regolarità e correlazioni tra i dati in ingresso applicando metodi quantitativi (clustering o analisi probabilstica) su insiemi o flussi di dati espressi da rappresentazione complesse (sequenze, alberi, grafi). Il risultato è l’induzione di modelli esplicativi dei dati (categorie di raggruppamento dei dati in ingresso o regole di associazione tra proprietà e classi di individui) che costituiscono sorgenti di nuova conoscenza emergente dai flussi di dati e possono suggerire fenomeni da interpretare da parte degli esperti (mantenendo quindi una prospettiva fortemente centrata sull’esperto, human in the loop). 
+ -
+
+
+C. B. Frey - M. Osborne, The Future of Employment: how susceptible are jobs to computerisation?, The Oxford Martin Programme on Technology and Employment, 2013 
+Government Office of Science UK, Opportunities and implications for the future of decision making, novembre 2016 
+I. Kant, Fondazione della metafisica dei costumi, ed. Laterza, 2005 
+H. Mehr, Artificial Intelligence for Citizen Services and Government, Harvard Kennedy School - ASH Center for Democratic Governance and Innovation, 2017 
+E. Morozov, To Save Everything, Click Here. The Folly of Technological Solutionism, Public Affairs 2013 
+P. Norvig - S.J. Russell, Artificial Intelligence: a modern approach, Prentice Hall Series in Artificial Intelligence, 2003 
+Parlamento Europeo, Risoluzione del Parlamento Europeo su norme del diritto civile e robotica, febbraio 2017 
+CASI STUDIO 
+Feeding the Brain - Optimizing an intelligent assistant in the government sector [IP Australia, Australian Government - settembre 2017] 
+Chatbot MIPAAF Social - Servizio di risposta in tempo reale per i cittadini su Facebook Messenger [Ministero delle politiche agricole alimentari e forestali - maggio 2017] 
+HUB Bologna 2 [Comune di Bologna - ottobre 2017] 
+SITOGRAFIA 
+European Commission ec.europa.eu/digital-single-maenbandaultralarga.italia.it Mise www.sviluppoeconomico.gov.it Assiform www.assinform.it AgID www.agid.gov.it/agenda-digitale Piano Triennale pianotriennale-ict.italia.it 
+
+
+

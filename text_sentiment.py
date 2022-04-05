@@ -3,7 +3,7 @@ from ibm_watson import NaturalLanguageUnderstandingV1
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 from ibm_watson.natural_language_understanding_v1 import Features, CategoriesOptions
 
-""" Analyzes the sentiment of text files. """"
+""" Analyzes the sentiment of text files. """
 
 authenticator = IAMAuthenticator('{API Key}')
 natural_language_understanding = NaturalLanguageUnderstandingV1(
@@ -19,7 +19,7 @@ def convert_file_to_string(file):
 
     #read whole file to a string
     data = text_file.read()
-return data
+    return data
 
 string_contents = convert_file_to_string('file')
 

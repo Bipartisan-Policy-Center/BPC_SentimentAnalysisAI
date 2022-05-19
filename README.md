@@ -92,6 +92,12 @@ For pdf/text-based frameworks for IBM Analysis
 - Run the command `cd src/`
 - Run the command `python3 legislation_analysis.py` to get the sentiment and keyword analysis
 - Save the sentiment in a file called `sentiment.csv`. Save each keyword under headers `keyword1`, `keyword2`, `keyword3`, `keyword4`, and `keyword5`
+
+The headers should look like this:
+
+![]sample_headers.png
+
+- Replace {PATH_TO sentiment.csv} in the `keyword_analysis.py` file in line 11 with the path to your `sentiment.csv` file
 - Run the command `python3 keyword_analysis.py` to get the keyword word cloud as a png image
 - Open the file `sentiment_analysis.R` in RStudio to generate the bar-chart visualizations
 
@@ -100,8 +106,21 @@ For pdf/text-based frameworks for IBM Analysis
 Currently, this project examines AI Frameworks (Ethics, Impact, and Risk) from different sectors (Private, Academia, Advocacy, and Government) using IBM's Watson Natural Language Processing. This project could be furthered by using different sentiment analysis algorithms and the data could be widened to include other technology frameworks or other sectors with the overarching goal of determining sentiment towards technology in policy. From a more technical standpoint, an AI could be trained to detect sentiment and/or emotion of keywords in technology policy specifically.
 
 ## Results
-TODO: INSERT GRAPHICS HERE
 
+Keyword Word Cloud
+![]visualizations/keyword.png
+
+Sentiment Score by Country
+![]visualizations/sentiment_by_country.png
+
+Sentiment Score by Region
+![]visualizations/sentiment_by_region.png
+
+Sentiment Score by Sector
+![]visualizations/sentiment_by_sector.png
+
+Sentiment Score by Type
+![]visualizations/sentiment_by_type.png
 
 ## Data used
 

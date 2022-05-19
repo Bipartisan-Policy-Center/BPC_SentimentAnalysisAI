@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 # matplotlib inline
 
 # Privacy Legislation keywords
-privacy_df = pd.read_csv(r"/Users/rachaelharris/Desktop/computer science/work-stuffs/bipartisanpolicy/sentiment analysis rerun/sentiment.csv", index_col=0, encoding= 'unicode_escape')
+privacy_df = pd.read_csv(r"{PATH_TO sentiment.csv}", index_col=0, encoding= 'unicode_escape')
 
 # Join all keywords together:
 keyword1 = " ".join(review for review in privacy_df.keyword1)
@@ -23,4 +23,4 @@ wordcloud = WordCloud(max_font_size=50, max_words=100, background_color="white")
 plt.figure()
 plt.imshow(wordcloud, interpolation="bilinear")
 plt.axis("off")
-plt.savefig("/Users/rachaelharris/Desktop/computer science/work-stuffs/bipartisanpolicy/sentiment analysis rerun/src/keyword.png", format="png")
+plt.savefig("src/visualization_files/keyword_word_cloud.png", format="png")

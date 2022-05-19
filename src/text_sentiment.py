@@ -7,13 +7,13 @@ import os
 
 """ Analyzes the sentiment of text files. """
 
-authenticator = IAMAuthenticator('o7E2Nc_HkzE907og2Iyfe4NDhDEu9jyxUv6pyV2lwJ1n')
+authenticator = IAMAuthenticator('{API_TOKEN}')
 natural_language_understanding = NaturalLanguageUnderstandingV1(
     version='2021-08-01',
     authenticator=authenticator
 )
 
-natural_language_understanding.set_service_url('https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/5bc2a372-b738-4f62-a0c6-6653cba742f7/v1/analyze?version=2021-08-01')
+natural_language_understanding.set_service_url('{API_}')
 
 def convert_file_to_string(file):
     #open text file in read mode

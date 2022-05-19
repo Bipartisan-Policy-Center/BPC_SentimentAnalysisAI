@@ -19,12 +19,12 @@ ACT-IAC welcomes the participation of all public and private organizations commi
 Emerging Technology of Community of Interest 
 ACT-IAC, through the Emerging Technology Community of Interest, formed an Artificial Intelligence Working Group to give voice to and provide an authoritative resource for government agencies looking to understand and incorporate AI/ML technology and functionality into their organizations. This working group includes government and industry thought leaders incubating government use cases. The ACT-IAC Emerging Technology Community of Interest (ET COI) mission is to provide an energetic, collaborative consortium comprised of leading practitioners in data science, technology, and research, engaged with industry, academia, and public officials and executives focused on emerging and leading technologies which transform public sector capabilities. 
 Disclaimer 
-This document has been prepared to contribute to a more effective, efficient, and innovative government. The information contained in this report is the result of a collaborative process in which a number of individuals participated. This document does not – nor is it intended to – endorse or recommend any specific technology, product, or vendor. Moreover, the views expressed in this document do not necessarily represent the official views of the individuals and 
+This document has been prepared to contribute to a more effective, efficient, and innovative government. The information contained in this report is the result of a collaborative process in which a number of individuals participated. This document does not   nor is it intended to   endorse or recommend any specific technology, product, or vendor. Moreover, the views expressed in this document do not necessarily represent the official views of the individuals and 
 
 AI Playbook for the U.S. Federal Government 
 organizations that participated in its development. Every effort has been made to present accurate and reliable information in this report. However, ACT-IAC assumes no responsibility for consequences resulting from the use of the information herein. 
 Copyright 
-©American Council for Technology, 2020. This document may not be quoted, reproduced and/or distributed unless credit is given to the American Council for Technology-Industry Advisory Council. 
+ American Council for Technology, 2020. This document may not be quoted, reproduced and/or distributed unless credit is given to the American Council for Technology-Industry Advisory Council. 
 Further Information 
 For further information, contact the American Council for Technology-Industry Advisory Council at (703) 208-4800 or www.actiac.org. 
 
@@ -32,13 +32,13 @@ AI Playbook for the U.S. Federal Government
 Table of Contents 
 Guide to Reading this Playbook ...................................................................................................... 8 
 INTRODUCTION............................................................................................................................. 10 
-Phase 1 – Problem Assessment .................................................................................................... 13 
-Phase Inputs 13 Key Goals 13 Key Participants 13 Key Considerations 16 Key Activities 19 Management......................................................................................................................... 19 People ................................................................................................................................... 19 Process .................................................................................................................................. 20 Technology............................................................................................................................ 21 Acquisition............................................................................................................................. 21 Key Outcomes 21 Engaged................................................................................................................................. 21 Defined.................................................................................................................................. 22 Phase Outputs 22 Decision Gate 23 Phase 2 – Organizational Readiness ............................................................................................. 24 
-Phase Inputs 24 Key Goals 24 Key Participants 25 Key Considerations 25 Approach Guidance............................................................................................................... 28 Readiness Checklist............................................................................................................... 28 Key Activities 30 Management......................................................................................................................... 30 People ................................................................................................................................... 30 Process .................................................................................................................................. 30 Technology............................................................................................................................ 30 Acquisition............................................................................................................................. 31 Key Outcomes 31 Phase Outputs 31 Decision Gate 32 Phase 3 – Solution Selection......................................................................................................... 34 
+Phase 1   Problem Assessment .................................................................................................... 13 
+Phase Inputs 13 Key Goals 13 Key Participants 13 Key Considerations 16 Key Activities 19 Management......................................................................................................................... 19 People ................................................................................................................................... 19 Process .................................................................................................................................. 20 Technology............................................................................................................................ 21 Acquisition............................................................................................................................. 21 Key Outcomes 21 Engaged................................................................................................................................. 21 Defined.................................................................................................................................. 22 Phase Outputs 22 Decision Gate 23 Phase 2   Organizational Readiness ............................................................................................. 24 
+Phase Inputs 24 Key Goals 24 Key Participants 25 Key Considerations 25 Approach Guidance............................................................................................................... 28 Readiness Checklist............................................................................................................... 28 Key Activities 30 Management......................................................................................................................... 30 People ................................................................................................................................... 30 Process .................................................................................................................................. 30 Technology............................................................................................................................ 30 Acquisition............................................................................................................................. 31 Key Outcomes 31 Phase Outputs 31 Decision Gate 32 Phase 3   Solution Selection......................................................................................................... 34 
 Phase Inputs 34 Key Goals 35 Key Activities 35 
 
 AI Playbook for the U.S. Federal Government 
-Management......................................................................................................................... 35 People ................................................................................................................................... 36 Process .................................................................................................................................. 37 Technology............................................................................................................................ 38 Acquisition............................................................................................................................. 39 Key Outcomes 40 Phase Outputs 41 Decision Gate 41 Phase 4 – AI Implementation........................................................................................................ 43 
+Management......................................................................................................................... 35 People ................................................................................................................................... 36 Process .................................................................................................................................. 37 Technology............................................................................................................................ 38 Acquisition............................................................................................................................. 39 Key Outcomes 40 Phase Outputs 41 Decision Gate 41 Phase 4   AI Implementation........................................................................................................ 43 
 Phase Inputs 43 
 Key Goals 45 
 Key Considerations 45 
@@ -50,14 +50,14 @@ Technology......................................................................
 Acquisition............................................................................................................................. 57 
 Key Outcomes 59 
 Phase Outputs 60 
-Decision Gate 61 Phase 5 – AI Integration................................................................................................................ 63 
+Decision Gate 61 Phase 5   AI Integration................................................................................................................ 63 
 Phase Inputs 63 Key Goals 63 Key Participants 64 Key Considerations 64 Key Activities 65 Management......................................................................................................................... 65 People ................................................................................................................................... 65 Process .................................................................................................................................. 66 Technology............................................................................................................................ 68 Acquisition............................................................................................................................. 70 Key Outcomes 71 Phase Outputs 71 CONCLUSION................................................................................................................................. 72 
 GLOSSARY...................................................................................................................................... 73 
 ACKNOWLEDGEMENT................................................................................................................... 76 
 Authors and Affiliations 76 APPENDICES .................................................................................................................................. 78 
 
 AI Playbook for the U.S. Federal Government 
-Appendix A -AI Functionality Template 78 Appendix B – Playbook Navigation 80 Framework Flow ................................................................................................................... 80 REFERENCES .................................................................................................................................. 81 
+Appendix A -AI Functionality Template 78 Appendix B   Playbook Navigation 80 Framework Flow ................................................................................................................... 80 REFERENCES .................................................................................................................................. 81 
 
 AI Playbook for the U.S. Federal Government 
 Guide to Reading this Playbook 
@@ -66,17 +66,17 @@ The INTRODUCTION contains a graphic that represent the overall process to help o
 I am a senior executive, what should I focus on? 
 Each playbook phase is composed of phase inputs, phase outputs, key activities and outcomes, and a decision gate. It is recommended that you read the introduction, the summation of each of the five phases, and the conclusion. The inputs/outputs of each phase as well as the phase decision gate are useful in understanding the functionality of AI capabilities. 
 I am on the management team, what should I focus on? 
-As part of the management team, you need to understand the overall process. The diagrams are a good start. You should also focus on the “management” key activity category of each phase. You can also look at the “management” key activity category of each phase to get an understanding of the role of the management team. 
+As part of the management team, you need to understand the overall process. The diagrams are a good start. You should also focus on the  management  key activity category of each phase. You can also look at the  management  key activity category of each phase to get an understanding of the role of the management team. 
 I am a data architect, scientist, and develop AI algorithms, how should I read this playbook? 
 This playbook is written from a top down perspective. The first part provides the strategic goals and drills down through the operational objectives and tactical requirements. 
 I am on the acquisition team, what should I focus on? 
-Each phase has an “acquisition” key activities category. There is also an acquisition section starting on page 57. 
+Each phase has an  acquisition  key activities category. There is also an acquisition section starting on page 57. 
 I am on the development team, what should I focus on? 
-You should have a good understanding of the inputs needed to implement the technical solution. Focus on the “technology” key activities category of each phase. 
+You should have a good understanding of the inputs needed to implement the technical solution. Focus on the  technology  key activities category of each phase. 
 What is AI? 
 The ACT-IAC Artificial Intelligence/Machine Learning Primer1 provides the definition of AI, limitations, risk, ethical considerations, and the impact it can have on organizations. 
 What about my workforce? 
-Each playbook phase has a set of key activities that are grouped in high level categories. The category labeled “People” highlights key activities regarding the workforce. Also, the Readiness Phase handles organizational readiness. 
+Each playbook phase has a set of key activities that are grouped in high level categories. The category labeled  People  highlights key activities regarding the workforce. Also, the Readiness Phase handles organizational readiness. 
 
 AI Playbook for the U.S. Federal Government 
 What phase(s) should I follow for a proof of concept? 
@@ -93,12 +93,12 @@ As noted in the ACT-IAC Artificial Intelligence/Machine Learning Primer1, artifi
 Understand the technology using the ACT-IAC primer: Over a dozen federal agencies and a variety of industry partners collaborated to develop the ACT-IAC Artificial Intelligence/Machine Learning Primer which provides government with an introduction to AI, outlines its related technologies, and presents several potential use cases. 
 Incorporate AI functionality using the ACT-IAC playbook: The ACT-IAC Artificial Intelligence Working Group developed this playbook to guide government in taking the appropriate steps and developing the necessary plans to appropriately implement this technology to achieve the goals of their specific missions. 
 AI and data-centered organizations: AI has the potential to significantly impact both business processes as well as provide the foundational capabilities to achieve the objectives that fulfill the goals of the organization. 
-This playbook applies the concepts of the ACT-IAC playbook framework (Appendix B) as well as the General Services Administration’s Modernization and Migration Management (M3)2 unified shared services framework to help government achieve successful outcomes and reduce risk during an AI deployment. The progression of this framework ensures the application of the appropriate models to optimize available resources in order to deliver the most effective solution. 
+This playbook applies the concepts of the ACT-IAC playbook framework (Appendix B) as well as the General Services Administration s Modernization and Migration Management (M3)2 unified shared services framework to help government achieve successful outcomes and reduce risk during an AI deployment. The progression of this framework ensures the application of the appropriate models to optimize available resources in order to deliver the most effective solution. 
 By leveraging this playbook during each iteration of AI implementation, organizations can understand the actions necessary to deliver minimally viable product (MVP), proof of concept (POC), pilot/limited fielding, initial operational capability (IOC), and a fully operational system to support their overarching objectives. Not all topics in each phase may apply to all iterations. However, this playbook should remain useful as a step by step process to deliver solutions and provide a scalable product that is sustainable through the lifecycle of development, implementation, and recapitalization. 
 It is also important to note that at scale and fully implemented, AI technology will probably require several solutions and provide an evolutionary catalyst to solve and support the evolutions and transformation of the entire organization. Therefore, it is important that at the 
 
 AI Playbook for the U.S. Federal Government 
-onset, any organization interested in leveraging AI will need to define the appropriate stakeholders and the group (network peers) that will participate in the steps outlined in the playbook. It serves as a catalyst to the necessary cultural transformation at the core of change management essential for the evolutions of today’s organizations. 
+onset, any organization interested in leveraging AI will need to define the appropriate stakeholders and the group (network peers) that will participate in the steps outlined in the playbook. It serves as a catalyst to the necessary cultural transformation at the core of change management essential for the evolutions of today s organizations. 
 As government efforts move through implementation of this new and rapidly developing technology, contributions to this playbook (e.g., additional best practices, lessons learned, and feedback) are welcome to keep this resource current, comprehensive, and effective in meeting the needs of government. 
 
 Figure 1: ACT-IAC AI playbook phases 
@@ -106,14 +106,14 @@ Phase 1 -Problem Assessment: Develop a vision and business objectives through va
 Phase 2 -Organizational Readiness: Engage AI subject matter experts and consider the nuances that accompany an AI solution to prepare the organization. This includes creating a project management office, as well as the establishment of AI-tailored business, functional and technical requirements, and implementation plans. 
 
 AI Playbook for the U.S. Federal Government 
-Phase 3 – Solution Selection: Conduct a thorough investigation of business consideration, types of AI requirements, deployment models, and procurement options to enable optimal provider selection to achieve the desired end state. 
-Phase 4 -AI Implementation: Customize and configure AI solution to meet the organization’s operational objectives. 
-Phase 5 -AI Integration: Integrate AI solution into the organization’s infrastructure. 
+Phase 3   Solution Selection: Conduct a thorough investigation of business consideration, types of AI requirements, deployment models, and procurement options to enable optimal provider selection to achieve the desired end state. 
+Phase 4 -AI Implementation: Customize and configure AI solution to meet the organization s operational objectives. 
+Phase 5 -AI Integration: Integrate AI solution into the organization s infrastructure. 
 
 Figure 2: AI Playbook phases and key activities matrix 
 
 AI Playbook for the U.S. Federal Government 
-Phase 1 – Problem Assessment 
+Phase 1   Problem Assessment 
 The first phase is designed to help decision makers create the most value through their AI initiative. It includes tools to ensure that the initiative is designed to address a specific use case and advancing mission goals, even if that is not an AI solution. Inputs and outputs artifacts are organized in 3 categories -AI, Business Need, and Governance Risk & Compliance (GRC). 
 Phase Inputs 
 
@@ -146,10 +146,10 @@ AI Technology SME/Product Manager/Programmer/Integrator
 
 
 
-“DO I NEED AI?” Assessment Questionnaire 
+ DO I NEED AI?  Assessment Questionnaire 
 The following are key assessment questions to consider as a preliminary guide for those considering an AI approach. Afterwards, determine your total score to gain insight into the possibility for a substantial Return on Operations (ROO-increased effectiveness) and Return on Investment (ROI-increased efficiency) from the development (integration) and application (implementation) of the proposed AI approach. 
 **NOTE: This is a notional table and the level of importance associated with each question may differ given the specific emphasis applied to each and the use case being assessed. Assign Points based on the Attribute Importance Rank (with suggested weights). You may adjust the weight of questions as they apply to your use case. 
-(5 – critical, 4 – very high, 3 – high, 2 – moderate, 1 – slightly, 0 – not at all) 
+(5   critical, 4   very high, 3   high, 2   moderate, 1   slightly, 0   not at all) 
 1. 
 Does the use case clearly, and accurately describe the problem to be solved? 
 
@@ -317,22 +317,22 @@ AI Playbook for the U.S. Federal Government
 Emphasize ROI and Benefits: 
 Emphasize ROO/ROI while making an assessment. Examine the solution's common costs/ benefits to provide increased effectiveness and deliver more efficiencies from their AI solution. Include design thinking based on personas and a prioritization matrix around value versus complexity. A MVP should prove viability of an AI solution with ROO/ROI measures to ascertain potential operational gains and resource savings in effectiveness and efficiencies respectively. Also important to consider is the reduction of risk in their ability to meet their mission goals. Ultimately, the ROO/ROI considerations should include: 
 . 
-Gains in effectiveness of productivity – Effort and cost currently utilized on reconciliation to determine the impact on ROO provided by an AI solution, when exchanging data or assets. 
+Gains in effectiveness of productivity   Effort and cost currently utilized on reconciliation to determine the impact on ROO provided by an AI solution, when exchanging data or assets. 
 
 . 
-Gains in efficiency and cost savings – Effort and cost it currently takes on reconciliation to determine the ROI provided by an AI solution, when exchanging data or assets. 
+Gains in efficiency and cost savings   Effort and cost it currently takes on reconciliation to determine the ROI provided by an AI solution, when exchanging data or assets. 
 
 . 
-Incremental gains – Implementation in small increments, keeping to a true agile methodology. This is not a lift and replace but a gradual shift to a strategically-assured, positive ROO/ROI. 
+Incremental gains   Implementation in small increments, keeping to a true agile methodology. This is not a lift and replace but a gradual shift to a strategically-assured, positive ROO/ROI. 
 
 . 
-Cloud first and shared services – Provides for an agile service delivery model which is more adaptive in nature with low entry cost and more consistent delivery of productivity over time. 
+Cloud first and shared services   Provides for an agile service delivery model which is more adaptive in nature with low entry cost and more consistent delivery of productivity over time. 
 
 . 
-User experience – Seamless interface and ease of use by users to derive the benefits of the AI experience. 
+User experience   Seamless interface and ease of use by users to derive the benefits of the AI experience. 
 
 . 
-Reducing risk – Understand the ROO/ROI that AI can provide as a result of the reduction in risk. 
+Reducing risk   Understand the ROO/ROI that AI can provide as a result of the reduction in risk. 
 
 
 Incorporate Regulations/Mandates: 
@@ -352,7 +352,7 @@ o
 Organizations may be at different levels of maturity with regards to their use of AI. It is important to know what capabilities may already exist within the organization and ensure an established inventory of AI technologies and common use cases has been captured to provide a baseline and perspective for the assessment of AI and its applicability for a specified use case. 
 
 o 
-For early adopters of AI who may be uncertain of its applicability for a specific use case, the Primer can help organizations ensure there is a common understanding of the appropriate AI terminology, frameworks, models, and lexicon so that attributes of AI’s components can be deconstructed and assessed as part of the use case alignment. 
+For early adopters of AI who may be uncertain of its applicability for a specific use case, the Primer can help organizations ensure there is a common understanding of the appropriate AI terminology, frameworks, models, and lexicon so that attributes of AI s components can be deconstructed and assessed as part of the use case alignment. 
 
 o 
 By establishing a common AI inventory and standardized definition set for the organization, the reusability of assessments for use cases can offer an enhanced benefit in helping agencies revisit and accelerate their assessment and progress through later stages of the playbook. 
@@ -424,13 +424,13 @@ Remain focused on the problem to be solved, mindful of the available options and
 Define the ethical boundaries for AI: Assessing the viability of AI as a potential solution set for the defined problem includes identifying the risk of cognitive, cultural, and computational bias of AI as it pertains to data, algorithms, and aggregation to ensure outcomes are in compliance with ethical considerations: 
 
 o 
-Safeguarding the personal nature of data – identity risk points where the solution intersects with Personally Identifiable Information (PII), either in the defined outcomes or data sets. 
+Safeguarding the personal nature of data   identity risk points where the solution intersects with Personally Identifiable Information (PII), either in the defined outcomes or data sets. 
 
 o 
-Autonomous systems parametric framework – identify risk points for the spillover of AI into the larger enterprise architecture through association of data sets and user populations from the use case. 
+Autonomous systems parametric framework   identify risk points for the spillover of AI into the larger enterprise architecture through association of data sets and user populations from the use case. 
 
 o 
-Cultural and cognitive bias – identify risk points for unconscious bias embedded in the data sets, the problem statement, or the business process to drive and deliver pre-determined outcomes. 
+Cultural and cognitive bias   identify risk points for unconscious bias embedded in the data sets, the problem statement, or the business process to drive and deliver pre-determined outcomes. 
 
 
 
@@ -480,13 +480,13 @@ Compare to current and past use cases to ascertain the available options to proc
 Define your constraints (cost and schedule): 
 
 o 
-Acquisition can look to determine what is available within the agency’s own contracted services. 
+Acquisition can look to determine what is available within the agency s own contracted services. 
 
 o 
 Explore existing contract vehicles can reveal others within the organization that are utilizing AI capabilities. 
 
 o 
-Identify current and past AI services through Shared Management Offices8 can determine “Best in Class” contract vehicles (OMB M-19-139). 
+Identify current and past AI services through Shared Management Offices8 can determine  Best in Class  contract vehicles (OMB M-19-139). 
 
 
 
@@ -511,7 +511,7 @@ Capture the stakeholder vision of the desired operational end-state.
 Identify the deliverables necessary to achieve the ascribed goals. 
 
 . 
-Document the use case 4P’s: 
+Document the use case 4P s: 
 
 . 
 Problem: What is the negative impact of the current system? 
@@ -552,7 +552,7 @@ AI Playbook for the U.S. Federal Government
 . Stakeholder analysis: Through identifying the impact of AI in the organization, as aligned to the internal and external stakeholders, and capturing expectations and reservations, the assessment phase provides the framework for stakeholder engagement and communication throughout the AI adoption lifecycle. 
 
 Decision Gate 
-Consider the score on the “Do I need an AI” assessment questionnaire as a guide to proceeding with an AI approach. 
+Consider the score on the  Do I need an AI  assessment questionnaire as a guide to proceeding with an AI approach. 
 . 
 If the score is 41 and above, highly recommended to commence the Organizational Readiness review. 
 
@@ -568,8 +568,8 @@ If the score is 5 or below, recommended the proof of concept is not appropriate 
 
 
 AI Playbook for the U.S. Federal Government 
-Phase 2 – Organizational Readiness 
-The purpose of this phase is to prepare enterprises and organizations for AI efforts and define key supporting activities to ensure organizational readiness. The structure and activities of the AI Readiness Phase are similar to other emerging technology readiness guidelines or strategy frameworks, such as GSA’s Modernization and Migration Management (M3)10. However, there are nuances specific to AI that should be understood and considered before an organization undertakes an AI initiative. 
+Phase 2   Organizational Readiness 
+The purpose of this phase is to prepare enterprises and organizations for AI efforts and define key supporting activities to ensure organizational readiness. The structure and activities of the AI Readiness Phase are similar to other emerging technology readiness guidelines or strategy frameworks, such as GSA s Modernization and Migration Management (M3)10. However, there are nuances specific to AI that should be understood and considered before an organization undertakes an AI initiative. 
 
 Phase Inputs 
 This phase leverages artifacts generated from the assessment phase as illustrated in Figure 5, which outlines the inputs of this phase. 
@@ -588,10 +588,10 @@ Define the scope of the AI solution and processes around it.
 Assess risks and establishing risk mitigation strategies. 
 
 . 
-Ascertain existing systems’ integration readiness. 
+Ascertain existing systems  integration readiness. 
 
 . 
-Analyze selected key performance indicators’ (KPI) evaluation readiness. 
+Analyze selected key performance indicators  (KPI) evaluation readiness. 
 
 
 
@@ -627,7 +627,7 @@ Key Considerations
 AI can start with a minimum viable product (MVP), prototype, or pilot program which can be scaled across the enterprise. However, the following are some key considerations that AI evangelists, Chief Information Officers, and Enterprise and Data Architects should consider as part of the Readiness Phase activities. 
 No.  Consideration  Description  Analysis  Takeaway  
 1  Readiness assessment  For the selected MVP, assess the people, process and technology readiness for the use case(s) that disrupt least number of business touch points but yet have highest scope of improvement  Starting small allows for demonstrating an emerging technology like AI to be refined rapidly. It enables the stakeholders to get the first-hand experience and allows the high-level concepts to become tangible. Choosing and assessing the readiness of a process that primary stakeholders have complete control of can allow for better governance, faster change management and ROO/ROI assessment. In the Readiness Phase, assess the readiness for the smallest scope by building the constructs to get prepared for technology expansion  Assess the readiness for a process that is controlled end to end for demonstrating the highest value  
-2  Change management approach  Have a user-centric change management approach, starting right from project initiation  Change management for emerging technology areas should not be considered as only a post­rollout activity. It should be a key factor considered for all the phases from assessment to production. The way impacted users understand, learn and adopt the solution becomes the most important factor for  Change management should be the top priority to maximize learning and adoption of the proposed solution  
+2  Change management approach  Have a user-centric change management approach, starting right from project initiation  Change management for emerging technology areas should not be considered as only a post rollout activity. It should be a key factor considered for all the phases from assessment to production. The way impacted users understand, learn and adopt the solution becomes the most important factor for  Change management should be the top priority to maximize learning and adoption of the proposed solution  
 
 
 AI Playbook for the U.S. Federal Government AI Playbook for the U.S. Federal Government AI Playbook for the U.S. Federal Government 
@@ -638,12 +638,12 @@ demonstrating the key benefits of the platform over time.
 5  Enterprise integration  Determine the context of the AI system  For most enterprise use cases, AI technology will be part of the core infrastructure and should be able to integrate seamlessly with other legacy systems  Create a concept of ops to propose solution of context/vision  
 6  Value transfer risks  Identify and manage value transfer risks for the value transfer use cases  An AI solution needs to manage the risks that were being handled by the central intermediaries whom they aim to eliminate. These include fraud detection, key management, asset security and other risks associated with the value transfer network  Risk management of people, process, and technology to create partial risk guarantee for security, fraud, and costs  
 7  Consensus mechanism  Define the consensus mechanism  Readiness Phase activities should include rethinking conceptual models for Interagency Agreements and/or Memorandums of Understanding/Agreement to shift away from a centralized security approach which may need education for information security & procurement teams to understand complexities & evolving needs of AI security  Create common understanding on consensus and security mechanism and corresponding participant liabilities and responsibilities  
-8  Performance expectations  Establish pragmatic performance in terms of metrics  AI are not a replacement of traditional high-performing systems, but are complementary technologies meant to solve different problem domains/use cases  Create realistic non­functional requirements for AI capability  
+8  Performance expectations  Establish pragmatic performance in terms of metrics  AI are not a replacement of traditional high-performing systems, but are complementary technologies meant to solve different problem domains/use cases  Create realistic non functional requirements for AI capability  
 9  Framework-based design  Est guidelines for an AI technology framework that is modular, reusable and extendible  The technological landscape is fluid. Projects based on today's solutions will have to be reworked or re-implemented onto the eventual leading platforms in the future. Consider government wide initiatives using a shared  AI is still an emerging technology. Aim to create modularity and re-use of capabilities  
 
 
 No.  Consideration  Description  Analysis  Takeaway  
-10 11 12 13  Cross-functional team Talent management User experience Emerging tech specific risk management  Establish a cross-functional government team Define the skillset and training needed to implement and maintain AI initiatives Establish user-centric design guidelines Understand the agency’s risk appetite and plan, communicate, mitigate and discover risks continuously  services/platform approach and open source software. In addition to enterprise IT and business and functional teams, AI initiatives must engage with customers in this phase. The governance team must ensure to engage risk management, regulatory compliance, IT operations, HR, legal teams, etc. to ensure that the requirements of these stakeholders are recorded appropriately Organizations will need experienced IT talent who can implement and maintain AI solutions, as well as support network participants. Government agencies may have to rely on technology partners and third-party vendors who have a working knowledge of different AI ecosystems AI is generally considered a backend technology which end-user facing systems rarely see directly. That may or may not be true for all the use cases. Other than the underlying code and algorithm, every user touch point must be designed with user-centricity focus. All users – such as backend, administrators and enterprise users – should get the same quality of experience as the end users. Laying the ground rules for design right from Readiness Phase helps in enterprise-wide adoption in the long run and in covering all the non-functional requirements, such as privacy, confidentiality, security and personalization Agencies that do not accept risk may not be willing to be involved in AI, as this is an evolving technology. Risks related to emerging technology must be managed as the top-most governance activity for such agencies  Create commitment, partnerships, & draft charters to identify tools that support inter/intra organizational development Consider training and developing internal talent for continuity while leveraging external talent User experience is critical for enterprise-wide adoption across every user touchpoint. Iterative agile approach with product ownership and Lean UX techniques can be utilized to ensure the best user experience Manage risks with the focus on change management, technology immaturity, availability & sustain skills  
+10 11 12 13  Cross-functional team Talent management User experience Emerging tech specific risk management  Establish a cross-functional government team Define the skillset and training needed to implement and maintain AI initiatives Establish user-centric design guidelines Understand the agency s risk appetite and plan, communicate, mitigate and discover risks continuously  services/platform approach and open source software. In addition to enterprise IT and business and functional teams, AI initiatives must engage with customers in this phase. The governance team must ensure to engage risk management, regulatory compliance, IT operations, HR, legal teams, etc. to ensure that the requirements of these stakeholders are recorded appropriately Organizations will need experienced IT talent who can implement and maintain AI solutions, as well as support network participants. Government agencies may have to rely on technology partners and third-party vendors who have a working knowledge of different AI ecosystems AI is generally considered a backend technology which end-user facing systems rarely see directly. That may or may not be true for all the use cases. Other than the underlying code and algorithm, every user touch point must be designed with user-centricity focus. All users   such as backend, administrators and enterprise users   should get the same quality of experience as the end users. Laying the ground rules for design right from Readiness Phase helps in enterprise-wide adoption in the long run and in covering all the non-functional requirements, such as privacy, confidentiality, security and personalization Agencies that do not accept risk may not be willing to be involved in AI, as this is an evolving technology. Risks related to emerging technology must be managed as the top-most governance activity for such agencies  Create commitment, partnerships, & draft charters to identify tools that support inter/intra organizational development Consider training and developing internal talent for continuity while leveraging external talent User experience is critical for enterprise-wide adoption across every user touchpoint. Iterative agile approach with product ownership and Lean UX techniques can be utilized to ensure the best user experience Manage risks with the focus on change management, technology immaturity, availability & sustain skills  
 14  Expansion strategy  Create an implementation strategy that allows the program to expand in a risk-controlled manner  Starting small in a controlled business process with high impact on the day to day transactions of end users is the best strategy. But that should not mean postponing the strategy planning and design for expansion, its associated risks, and mitigation strategies  Start by ID options, acknowledge opportunities, & communicate implementation gaps/integration requirements  
 
 
@@ -891,7 +891,7 @@ Issue one or more RFIs to support information gathering if needed
 
 
 Key Outcomes 
-To ensure an organization’s readiness for an emerging technology like AI, several internal and external factors have to be assessed and new areas need to be defined and established. The list below highlights definitions and high-level plans, which are further refined in subsequent phases and throughout the lifecycle of the initiative, resulting from the Readiness Phase: 
+To ensure an organization s readiness for an emerging technology like AI, several internal and external factors have to be assessed and new areas need to be defined and established. The list below highlights definitions and high-level plans, which are further refined in subsequent phases and throughout the lifecycle of the initiative, resulting from the Readiness Phase: 
 . 
 Identification of the key SMEs and network of AI solution participants. 
 
@@ -1057,17 +1057,17 @@ Do we have any missing information to advance to selection? If so, what is the p
 At the end of a successful Readiness Phase, the stakeholders should have a joint understanding of the responses to the questions highlighted in this section. 
 
 AI Playbook for the U.S. Federal Government 
-Phase 3 – Solution Selection 
+Phase 3   Solution Selection 
 Selection comes after the Readiness Phase and the organization has determined that it has the necessary requirements to implement an AI solution. This phase focuses on selecting the right tools, policies, people, etc., for a successful implementation of the AI project. This section is critical in setting the agency for a successful implementation of AI technology. Selection of the right AI solution for an agency will depend on several factors that will be discussed here. This section will attempt to shed some light on key considerations that should be evaluated before implementing an AI solution. 
 Main outputs from the Selection Phase are: 
 . 
 Selection of the right AI technology for the use case. 
 
 . 
-Understanding your organization’s capabilities to support AI implementation. 
+Understanding your organization s capabilities to support AI implementation. 
 
 . 
-Aligning your organization’s acquisition strategy with high-value AI solutions. 
+Aligning your organization s acquisition strategy with high-value AI solutions. 
 
 
 
@@ -1080,14 +1080,14 @@ AI Playbook for the U.S. Federal Government
 business and technology considerations. Business consideration involves clearly defined business problem statements and requirements, selection of the right team and skills to ensure successful implementation, availability of acquisition vehicles, and budget to implement solutions. Technology consideration involves selection of the right technology tools for the selected use case. AI is a vast field of technology so the selection of a solution should follow a methodical due diligence process. It is also imperative to make sure that complete and quality data sets required for building the AI models are available. The previous phase should provide the verification needed to move into the selection section. Business needs and outcomes for the AI solution must be clearly identified before embarking on selection. 
 
 Key Goals 
-The goal of this phase is to identify the solution that best fits with the organization’s use case and outputs of the Assessment and Readiness phases. This can extend into selecting training, and worker types and skills. It should also address which policies need to be considered in choosing the use or procurement of AI. 
+The goal of this phase is to identify the solution that best fits with the organization s use case and outputs of the Assessment and Readiness phases. This can extend into selecting training, and worker types and skills. It should also address which policies need to be considered in choosing the use or procurement of AI. 
 Key goals also include the selection of the appropriate procurement contract vehicles, tools, and support specialists to set the organization up for a successful implementation by providing the right recommendations and tools. As a result, the organization can proceed into implementation based on the outputs from this phase. 
 
 Key Activities 
 Management 
-Management of the selection of the organization’s use case and AI solution will accomplish these activities: 
+Management of the selection of the organization s use case and AI solution will accomplish these activities: 
 . 
-Allocation of appropriate budget for the selected use case aligned with the organization’s strategic priorities. 
+Allocation of appropriate budget for the selected use case aligned with the organization s strategic priorities. 
 
 . 
 Recruitment of an effective project team (e.g., experience and skills). 
@@ -1118,7 +1118,7 @@ Organizational deployment and change management for training staff on what is ex
 
 AI Playbook for the U.S. Federal Government 
 . 
-Development of timeframes according to an AI project management roadmap associated to the organization’s performance plan. 
+Development of timeframes according to an AI project management roadmap associated to the organization s performance plan. 
 
 . 
 Selection of the software development methodology and process for AI development. 
@@ -1128,20 +1128,20 @@ Ensuring the right team members are involved based on the methodology and the pr
 
 
 People 
-Preparing people is as essential as preparing data. It requires organizations planting the seed of an AI mindset. The following “seeds” or anchors for such a mindset reflect three universal truths about AI. These should serve as starting points for effectively building people’s understanding, engagement, and role in an organization’s AI journey. 
+Preparing people is as essential as preparing data. It requires organizations planting the seed of an AI mindset. The following  seeds  or anchors for such a mindset reflect three universal truths about AI. These should serve as starting points for effectively building people s understanding, engagement, and role in an organization s AI journey. 
 Diversified AI 
-AI must be built by people who understand the business and domain problem (not solely the technology). Data scientists and engineers are key for tooling but front-line people often dictate AI’s success. When thinking about “diversifying” AI development, consider those responsible for the day-to-day administration of the workflow in question (e.g., customer support agents, security admins, doctors, field technicians, etc.). No matter the application, it is the domain experts and end user employees who best understand where the breakdowns occur, where products fall short, where they spend most of their time, and where customer sensitivities lie. Moreover, the gravity of some applications (e.g., credit scoring or medical treatment recommendations) demand diverse perspectives, multi-disciplinary expertise, and workflows to monitor domain dynamics. 
+AI must be built by people who understand the business and domain problem (not solely the technology). Data scientists and engineers are key for tooling but front-line people often dictate AI s success. When thinking about  diversifying  AI development, consider those responsible for the day-to-day administration of the workflow in question (e.g., customer support agents, security admins, doctors, field technicians, etc.). No matter the application, it is the domain experts and end user employees who best understand where the breakdowns occur, where products fall short, where they spend most of their time, and where customer sensitivities lie. Moreover, the gravity of some applications (e.g., credit scoring or medical treatment recommendations) demand diverse perspectives, multi-disciplinary expertise, and workflows to monitor domain dynamics. 
 Directional AI 
-The use of AI in the organization takes on a new meaning because data is analyzed through deep uses of algorithmic programming. AI is a complex predictive analytic that combines the relationships between databases and desired situational learning. The AI programming analysis enhances decision support, informed continuously by new data sources, APIs, integrations, regulations, techniques, security reconfigurations, and cultural changes. In fact, the role of “AI managers” may well be an emerging job function and one worth investing in upskilling. The key accomplishment of using AI is to engage human end-users with the benefits of greater, previously unknown insights, enabling the use of human judgments, and more comprehensive knowledge. 
+The use of AI in the organization takes on a new meaning because data is analyzed through deep uses of algorithmic programming. AI is a complex predictive analytic that combines the relationships between databases and desired situational learning. The AI programming analysis enhances decision support, informed continuously by new data sources, APIs, integrations, regulations, techniques, security reconfigurations, and cultural changes. In fact, the role of  AI managers  may well be an emerging job function and one worth investing in upskilling. The key accomplishment of using AI is to engage human end-users with the benefits of greater, previously unknown insights, enabling the use of human judgments, and more comprehensive knowledge. 
 Democratized AI 
-AI technology has matured over the years and with the advent of cloud-based solutions, it has become easier to implement basic AI capabilities without the need for highly skilled technical personnel. With a need for a fully customized AI solution, skilled technical personnel will be necessary to implement a full solution. It is imperative that the right training be provided to all stakeholders involved. Key functions supporting AI’s technical integration include tools with 
+AI technology has matured over the years and with the advent of cloud-based solutions, it has become easier to implement basic AI capabilities without the need for highly skilled technical personnel. With a need for a fully customized AI solution, skilled technical personnel will be necessary to implement a full solution. It is imperative that the right training be provided to all stakeholders involved. Key functions supporting AI s technical integration include tools with 
 
 AI Playbook for the U.S. Federal Government 
-intuitive and customizable user interfaces; easy-to-use dashboards; interfaces, “self-service” portals; training modules; and even using machine learning or chat bots to help facilitate user experience (UX) and model selection for far less technical user types. 
+intuitive and customizable user interfaces; easy-to-use dashboards; interfaces,  self-service  portals; training modules; and even using machine learning or chat bots to help facilitate user experience (UX) and model selection for far less technical user types. 
 Identify key people and ready each group accordingly 
-For the majority of employees, readying for AI is not about training on new technology but embracing a new mentality. It is about building trust through education and quelling fears, as well as offering pragmatic ways to play an active role. It is also about conveying the accessibility of AI and articulating people’s roles in the broader picture. This should be framed and delivered as a growth opportunity for your people, giving them the opportunity to contribute to designing systems of the future. 
+For the majority of employees, readying for AI is not about training on new technology but embracing a new mentality. It is about building trust through education and quelling fears, as well as offering pragmatic ways to play an active role. It is also about conveying the accessibility of AI and articulating people s roles in the broader picture. This should be framed and delivered as a growth opportunity for your people, giving them the opportunity to contribute to designing systems of the future. 
 Subject matter experts of all disciplines are also important for AI optimization. In some cases, SMEs could be those best suited to translate highly specialized domain expertise into AI-enhanced decision making (e.g., security, lawyers, doctors, accountants, scientists, etc.). Depending on the sector or use case, other specialized roles such as computational linguists, computational biologists, computational vision specialists, etc., may be necessary skill sets to bring in-house. Ethicists and behavioral scientists also provide critical perspectives when analyzing the designs, workflows, implications, and myriad risks of AI-enhanced processes or AI-defined products. 
-AI’s success is often driven by people’s willingness to adopt it. Thus, enterprises deploying AI are well advised to assess how people’s sentiments, fears, questions, and insecurities impact their proclivity to adopt. Organizations have an opportunity to use employees’ fears, uncertainties, and doubts (FUD) to pinpoint where and how to support people. 
+AI s success is often driven by people s willingness to adopt it. Thus, enterprises deploying AI are well advised to assess how people s sentiments, fears, questions, and insecurities impact their proclivity to adopt. Organizations have an opportunity to use employees  fears, uncertainties, and doubts (FUD) to pinpoint where and how to support people. 
 It is important to address concerns of job displacement by educating employees on the limitations of AI; articulating where AI will augment or accelerate human workflows; providing clarity on governance models; and by supporting employee upskilling and continued education programs. Investment in AI equals an investment in people. Early successes in the space show that the sum of human plus AI is greater than either alone. Therefore, business preparedness and investment in AI requires proportionate preparedness and investment in people. 
 Process 
 Key process-related activities to operationalize an AI use case are as follows: 
@@ -1158,7 +1158,7 @@ AI Playbook for the U.S. Federal Government
 An important consideration is bias in the data sets and training sets. There are lots of examples where the data and humans building the algorithms had an inherent bias that was built into the AI algorithm. 
 
 . 
-How clean is the data – avoid garbage in and garbage out (GIGO): 
+How clean is the data   avoid garbage in and garbage out (GIGO): 
 
 o 
 In some instances, you do not want sensitive personal information and need to make sure the data has been scrubbed of PII. 
@@ -1200,11 +1200,11 @@ AI Playbook for the U.S. Federal Government
 entities, etc., an open source based pre-trained model might be a good fit. If there is a need to review large amounts of numerical data from a control system and assess the data, make predictions etc., an internally built model might be a good fit. Therefore, it is important to understand the need and the desired outcome before selecting a technology. 
 In addition to understanding the need and outcome, another factor to consider in selection of a technology is the explainability of the solution. Justification and feasibility in AI involves the ability to understand why a certain selection decision was made. It is important to consider how the selection for AI solutions will accomplish the mission critical priorities. Thus, consideration of which AI technology to select for deployment given the operational need, infrastructure platform, and portal will determine the best eventual solution. These considerations will define the architecture and selection of the solution (e.g., Where will the solution be deployed? What are the security implications of deployment?). 
 Acquisition 
-Acquisition tends to be the ‘long pole in the tent’ because it takes up a lot of administrative burdens to compile procurement packages and maintain thousands of contracts terms and conditions. Having disparate solutions by various agencies can cause data interoperability issues in the long term. The guidance below addresses many of these issues allowing federal agencies to maximize the government’s investment in AI acquisition plus cost avoidance. 
+Acquisition tends to be the  long pole in the tent  because it takes up a lot of administrative burdens to compile procurement packages and maintain thousands of contracts terms and conditions. Having disparate solutions by various agencies can cause data interoperability issues in the long term. The guidance below addresses many of these issues allowing federal agencies to maximize the government s investment in AI acquisition plus cost avoidance. 
 Consider the efficiencies that can be gained through the sharing of acquisition strategies and mechanisms across departments and agencies. Examining the potential for shared services will benefit citizen services and save tax dollars in the long run. The Best-in-Class (BIC) acquisition designation identifies government-wide contracts that satisfy key criteria defined by the Office of Management and Budget (OMB)11. These solutions are vetted, well managed, and recommended, and in some cases required for use. 
 Interagency government-wide category teams have worked to designate over 30 BIC contracts to reduce the amount of effort individual buyers spend finding and researching acquisition solutions. Widespread adoption of BIC solutions will: 
 . 
-Maximize the government’s shared purchasing power so agencies can leverage volume discounts. 
+Maximize the government s shared purchasing power so agencies can leverage volume discounts. 
 
 . 
 Help agencies operate more efficiently by reducing administrative costs and contract duplication. 
@@ -1217,7 +1217,7 @@ Expand the collection and sharing of government-wide buying data, leading to bet
 AI Playbook for the U.S. Federal Government 
 
 Key Outcomes 
-To complete the ‘Solution Selection’ phase for an emerging technology like AI, several internal and external factors must be assessed, and in some cases, new areas need to be defined and established. The list below highlights the high-level plans, which are further refined in subsequent phases and throughout the lifecycle of the initiative, resulting from this phase: 
+To complete the  Solution Selection  phase for an emerging technology like AI, several internal and external factors must be assessed, and in some cases, new areas need to be defined and established. The list below highlights the high-level plans, which are further refined in subsequent phases and throughout the lifecycle of the initiative, resulting from this phase: 
 . 
 Business stakeholder SMEs and enterprise architects are engaged in developing a scalable solution. 
 
@@ -1341,7 +1341,7 @@ Is there internal talent available to accomplish the selected technology?
 Should external talent be utilized to accomplish the solution using selected technology? 
 
 . 
-Do SME’s and other stakeholders understand the scope and implications of AI? 
+Do SME s and other stakeholders understand the scope and implications of AI? 
 
 . 
 What are the short term and long-term skill needs and gaps to develop and implement the AI solution? 
@@ -1373,7 +1373,7 @@ Is management onboard with the solution that is being presented?
 
 
 AI Playbook for the U.S. Federal Government 
-Phase 4 – AI Implementation 
+Phase 4   AI Implementation 
 In the Implementation Phase, the inner workings of the selected solution are completed and tested. It closely examines the technical implementation of the components of AI, as well as the operational aspects, such as governance and security posture, to ensure the optimal operations of the AI solution. Key activities and outcomes for management, technology, people, process, and acquisition are also examined. Figure 6 below provides a phase summary. 
 
 Figure 6: Implementation Phase (4) summary 
@@ -1394,13 +1394,13 @@ GRC Inputs Revised Cost & schedule estimate: The multi-year Lifecycle Cost Estim
 Information Security, Architecture & Policy Compliance: The required FIPS rating and associated security frameworks and controls; business, data exchange, infrastructure, software, and system architectures; and list of federal, state, and/or local applicable statutes, regulations, policies, security, and governance compliance requirements. 
 
 AI Playbook for the U.S. Federal Government 
-Risk Mitigation Strategy: The analysis, general plan, mitigation strategies, and risk monitoring approach needed to manage and reduce organizational-, portfolio-and/or program-wide business, legal, operational, technical, and security risks. These include, but are not limited to, an inventory of all risk sources, identified risk events, the severity of each event’s impact, and probability of each occurrence. 
+Risk Mitigation Strategy: The analysis, general plan, mitigation strategies, and risk monitoring approach needed to manage and reduce organizational-, portfolio-and/or program-wide business, legal, operational, technical, and security risks. These include, but are not limited to, an inventory of all risk sources, identified risk events, the severity of each event s impact, and probability of each occurrence. 
 
 Key Goals 
-The key goal of the implementation phase is to take the models, processes, and technologies determined in the previous phases and implement them so they can be integrated within the organization in the next phase. For instance, in manufacturing a cell phone, would be expected that at the end of the Implementation Phase, the subcomponents of the phone will be complete and tested before moving to the Integration Phase of incorporating a particular carrier’s service, other applications, accessories, etc. 
+The key goal of the implementation phase is to take the models, processes, and technologies determined in the previous phases and implement them so they can be integrated within the organization in the next phase. For instance, in manufacturing a cell phone, would be expected that at the end of the Implementation Phase, the subcomponents of the phone will be complete and tested before moving to the Integration Phase of incorporating a particular carrier s service, other applications, accessories, etc. 
 
 Key Considerations 
-Acquisition: All acquisition activities should be performed in accordance with the Federal Acquisition Regulation (FAR)12. However, it is worth paying attention to methods of procurement that allow agility and flexibility to truly reap the benefits of AI. For example, usage of cloud-based platforms and technologies necessitates appropriate funding mechanisms to obtain the best benefit offered by these platforms. While a typical pay-as-you-go or subscription-based model using Time and Materials (T&M) type can be considered, this also exposes the government to considerable risk in terms of runaway costs that could endanger exceeding contract funding. On the other hand, purchasing computing resources in advance using options such as “reserved units” creates the risk of unused capacity that offsets the advantage offered by the cloud. As such, it may be prudent to consider a pay-as-you-go consumption-based model that places an upper limit on the usage of resources. This enables limits to be placed on the amount of memory used, the number of downloads, number of service instances, storage capacity, or bandwidth utilization. Doing this provides the organization the benefit of using only the resources needed while still providing the ability to control costs in order not exceed contract funding limits. This kind of model is being used at GSA’s cloud.gov. The pricing model should also be flexible to accommodate different types of environments. For example, the pricing of a sandbox environment can be substantially different since there could be several constraints placed on the sizes of instances allowed. 
+Acquisition: All acquisition activities should be performed in accordance with the Federal Acquisition Regulation (FAR)12. However, it is worth paying attention to methods of procurement that allow agility and flexibility to truly reap the benefits of AI. For example, usage of cloud-based platforms and technologies necessitates appropriate funding mechanisms to obtain the best benefit offered by these platforms. While a typical pay-as-you-go or subscription-based model using Time and Materials (T&M) type can be considered, this also exposes the government to considerable risk in terms of runaway costs that could endanger exceeding contract funding. On the other hand, purchasing computing resources in advance using options such as  reserved units  creates the risk of unused capacity that offsets the advantage offered by the cloud. As such, it may be prudent to consider a pay-as-you-go consumption-based model that places an upper limit on the usage of resources. This enables limits to be placed on the amount of memory used, the number of downloads, number of service instances, storage capacity, or bandwidth utilization. Doing this provides the organization the benefit of using only the resources needed while still providing the ability to control costs in order not exceed contract funding limits. This kind of model is being used at GSA s cloud.gov. The pricing model should also be flexible to accommodate different types of environments. For example, the pricing of a sandbox environment can be substantially different since there could be several constraints placed on the sizes of instances allowed. 
 Data as a Strategic Asset: Data needed for AI could be sourced within the organization as well as outside of the organization and can be structured or unstructured. Traditionally, most Chief Information Officers (CIOs) were concerned with organizing and managing structured data collected from internal applications used for daily business processing, as well as external facing websites. This data is typically stored in databases that offer ACID (Atomicity, Consistency, Isolation, Durability) properties to guarantee validity against errors. CIOs should continue to 
 
 AI Playbook for the U.S. Federal Government 
@@ -1410,18 +1410,18 @@ AI Skills: To fully reap the kind of benefits offered by AI, organizations need 
 Understanding the Limits: Organizations need to scope the constraints of AI based solutions. While the benefits are numerous, AI still has several drawbacks, limitations, and disadvantages. One of the biggest issues lies in the area of bias in algorithms. AI based algorithms are only as good as the data that is exposed to them. Any data that is exposed by human beings inherently contains some bias that skews the results. As such, data scientists and AI programmers need to be very careful to capture the correct sources of data which contains representative examples of a wide variety of use cases, so as to reduce the bias in the algorithm. Predictive algorithms in techniques such as Deep Learning and Neural Networks offer very limited visibility into the method or logic for their predictions. This makes it very challenging to use these techniques for 
 
 AI Playbook for the U.S. Federal Government 
-critical applications. The risk can be mitigated, to a certain degree, through comprehensive testing to ensure that predictions are being made accurately. Several organizations invest in months of parallel testing, comparing results obtained by an AI model with actual results, and tuning the model to improve results. Typically, the decision of what accuracy is “good enough” depends on the comfort level of the business stakeholders and the problem in question. The more critical a problem, the higher the accuracy needed. For example, it is ok for Alexa to misunderstand a command given, but it is simply not acceptable for a self-driving car to make a mistake in assessing road conditions. Machine learning engineers need to strive for continuous improvement to improve accuracy and ability to handle different situations and different use cases. 
+critical applications. The risk can be mitigated, to a certain degree, through comprehensive testing to ensure that predictions are being made accurately. Several organizations invest in months of parallel testing, comparing results obtained by an AI model with actual results, and tuning the model to improve results. Typically, the decision of what accuracy is  good enough  depends on the comfort level of the business stakeholders and the problem in question. The more critical a problem, the higher the accuracy needed. For example, it is ok for Alexa to misunderstand a command given, but it is simply not acceptable for a self-driving car to make a mistake in assessing road conditions. Machine learning engineers need to strive for continuous improvement to improve accuracy and ability to handle different situations and different use cases. 
 
 Key Activities 
 Management 
 Establish an Iterative Approach: Implementing an AI solution is an iterative process that requires numerous cycles or attempts to define, refine, and optimize the solution. In predictive analytics use case for example, data needs to be extracted and transformed as needed. Multiple algorithms need to be examined and a prototype model needs to first be developed. Engaging solution architects, change management catalyst, and program managers can and will facilitate efforts to achieve the ascribed objectives, coupled with modeling, managing, and measuring progress. Additionally, ongoing program management reviews (PMRs) will assure those features that need to be identified or existing features integrated or eliminated within the algorithms are addressed in the ongoing efforts to further refine the prototype model. This process is repeated multiple times until the desired accuracy is obtained or until it is determined that the model or data sets (or combination) is not good enough to be implemented in production. The fact that this model may not be used at all is an important distinguishing factor in AI solutions. Thus, establishment of an iterative mechanism to manage this process effectively is crucial. One example of an established iterative mechanism that could be used is the agile philosophy. However, other mechanisms that work for the organization can and should also be considered. 
-Change and Communication Management: This is critical during AI implementation given the uncertainty involved in the outcome of the process. Setting expectations and constantly communicating the consequences of the iterative process requires regular feedback sessions. Change management also becomes a key component to address common workforce concerns such as “Will my job be eliminated” as a result of the initiative. As it stands right now, AI technology is not mature enough to replace humans in the workforce. AI augments rather than replaces personnel. This message should be constantly and consistently reinforced throughout the organization. 
+Change and Communication Management: This is critical during AI implementation given the uncertainty involved in the outcome of the process. Setting expectations and constantly communicating the consequences of the iterative process requires regular feedback sessions. Change management also becomes a key component to address common workforce concerns such as  Will my job be eliminated  as a result of the initiative. As it stands right now, AI technology is not mature enough to replace humans in the workforce. AI augments rather than replaces personnel. This message should be constantly and consistently reinforced throughout the organization. 
 
 AI Playbook for the U.S. Federal Government 
 Workforce Planning: As mentioned in Key Considerations, the key resources need to be adequately planned for ahead of time. There is a considerable shortage of skilled Data Scientists who not only understand the technology but also understand the business. As such, it is essential to plan early, secure, and identify these resources. Other important resources, such as SMEs who understand the problem and help in determining the success of the solution, should also be identified and engaged early in the Implementation Phase. 
 Governance and Oversight: Proper governance mechanisms need to be established to monitor the progress of the project. Due to the iterative nature of AI, it is easy to get consumed in repetitive cycles with no clear progress made, while using up a lot of capital. A programmatic approach, managed by a well-educated and well-informed governance committee, is necessary to ensure they stay on time, on target, and on task. Their experience is critical to understand the AI capabilities and its potential implementation impact. It is through ongoing progress checks of program management reviews (PMR) that the governance committee will be able to ascertain if the team is on the right track, needs additional time, have adequate resources, and are empowered to make decisions regarding further investments, as well as have the authority and advocacy to review all aspects of the project. 
 People 
-The success of the AI solution’s implementation relies, in large part, to the proper assignment of human capital to fit the requirements of the project. To this end, evaluate available staff to assess their skill levels and match suitable staff to the project. As the project is implemented, continuous skill auditing will be conducted as well as tailored training based on this skill assessment to fill any skill gaps that are identified in the course of implementation. From the outset of this phase, a project manager (PM) should be assigned to ensure that resources are being allocated effectively, skill assessments are being conducted, and most importantly, that adequate talent is properly aligned to assure success of the project. The PM will ascertain if the right mix of technical and business staff are assigned to the project. Continuous skill auditing and training are key activities to ensure that staff is performing at the highest level. 
+The success of the AI solution s implementation relies, in large part, to the proper assignment of human capital to fit the requirements of the project. To this end, evaluate available staff to assess their skill levels and match suitable staff to the project. As the project is implemented, continuous skill auditing will be conducted as well as tailored training based on this skill assessment to fill any skill gaps that are identified in the course of implementation. From the outset of this phase, a project manager (PM) should be assigned to ensure that resources are being allocated effectively, skill assessments are being conducted, and most importantly, that adequate talent is properly aligned to assure success of the project. The PM will ascertain if the right mix of technical and business staff are assigned to the project. Continuous skill auditing and training are key activities to ensure that staff is performing at the highest level. 
 Staffing Requirements 
 . Business Analyst(s): Working with the data scientists and their team, the business analyst is an expert on the goals of the project and provides ongoing feedback and guidance as the analyst reviews results from the project. This feedback can lead to minor adjustments and tweaks by the data scientists and their team. The analyst is also focused on documenting the process and works in conjunction with the project manager to ensure that the project is moving along at a reasonable pace and conducts ongoing process evaluation to determine if any adjustments are necessary. 
 
@@ -1513,7 +1513,7 @@ PROPOSAL: ascribe WHERE/WHEN actions/requirements must be taken to fulfill miles
 
 It is through this use case approach that organizations can begin to understand the value proposition of data done right. Through the application of the 4P process, the most complex problems can be solved not merely fixed. 
 Define Requirements: 
-Any successful technology solution, AI included, is designed and implemented to fulfill the requirements of the solution’s stakeholders. Defining these requirements, managing them over time, and ensuring clear communication between stakeholders and solution implementers are all critical tasks during the Implementation Phase. The result of effective requirements management during the Implementation Phase is a clear, well-defined set of requirements that are fulfilled by the production-ready system. 
+Any successful technology solution, AI included, is designed and implemented to fulfill the requirements of the solution s stakeholders. Defining these requirements, managing them over time, and ensuring clear communication between stakeholders and solution implementers are all critical tasks during the Implementation Phase. The result of effective requirements management during the Implementation Phase is a clear, well-defined set of requirements that are fulfilled by the production-ready system. 
 Establish Operations Model: 
 An operations model is a powerful tool in defining and effectively managing requirements for the solution. Consisting of both illustrations and text, the operations model provides a high-level, graphical representation of how the new solution will work, how it will interact with existing systems and processes, and how it will provide the forecasted business benefits. By developing the operations model in collaboration with key stakeholder groups and the design and implementation team, the project can ensure that stakeholder expectations and the system functionality are aligned and delivered in the production-ready system. 
 Identify Integration Points: 
@@ -1522,9 +1522,9 @@ Integration points for the new system can be discovered, documented, and effecti
 AI Playbook for the U.S. Federal Government 
 documentation of integration points for the new system. This information informs the upcoming production deployment effort, including technical deployment (e.g., changes to databases, data exchange processes such as ETL that will be required, and physical network modifications) and people-related deployment (e.g., changes to processes, business rules, or policies required for the new or augmented processes to be successful). 
 Obtain ATO or IATT: 
-With the production-ready system, requirements, and operating model completed, the project team has sufficient information to develop the system’s security plan and obtain either an Authorization to Operate (ATO) or IATT (Intermediate Authorization to Test). This is a necessary step before full deployment can be initiated, and ensures the security of all information flows and assets related to the new solution. 
+With the production-ready system, requirements, and operating model completed, the project team has sufficient information to develop the system s security plan and obtain either an Authorization to Operate (ATO) or IATT (Intermediate Authorization to Test). This is a necessary step before full deployment can be initiated, and ensures the security of all information flows and assets related to the new solution. 
 Conduct Proof-of-Concept / Pilot, if applicable: 
-If the organization’s assessment of the risk-reward tradeoff for the new system indicates that a pilot or proof-of-concept is warranted, that effort should be completed during the Implementation Phase. Completing the pilot or proof-of-concept enables the organization to learn about the risks, benefits, and operational considerations that work well for it, and to incorporate those learnings into its deployment planning. Proofs-of-concept and pilots can also generate valuable information providing initial “on the ground” insights to senior leadership that validate forecast, and demonstrate the potential benefits of the new capabilities. 
+If the organization s assessment of the risk-reward tradeoff for the new system indicates that a pilot or proof-of-concept is warranted, that effort should be completed during the Implementation Phase. Completing the pilot or proof-of-concept enables the organization to learn about the risks, benefits, and operational considerations that work well for it, and to incorporate those learnings into its deployment planning. Proofs-of-concept and pilots can also generate valuable information providing initial  on the ground  insights to senior leadership that validate forecast, and demonstrate the potential benefits of the new capabilities. 
 Once these capabilities are demonstrated, a pilot can illustrate the potential benefits and cost savings to be actualized. As the benefits to be derived are realized, a pilot delivers initial operational capabilities (IOC). It is within this phase that they optimize effectiveness resulting in increased productivity and provide an initial and reoccurring return on investment. In time, a process refinement and efficiencies realization will result from reaching a fully operational capability. At this point, a decision about how to scale and create a sustainable system to meet current and future demands could be made. 
 Technology 
 Setup, Configure, and Deploy Platform and Tools: 
@@ -1565,7 +1565,7 @@ To make data operationally relevant, the data sets must be refined based on feat
 Developing Solutions in an Iterative Manner: 
 This process consists of developing and executing the steps required to achieve the desired objective of the use case. In machine learning, this can consist of developing the required algorithms using various techniques such as Decision Trees, Regression, Random Forest models, Neural Networks, or Deep Neural Networks. Data prepared is pumped into the algorithms and outputs measured against expected results. This is done in an iterative manner, continuously adjusting and configuring the various parameters of the algorithms, and the amount and type of data captured for increasing accuracy and reducing bias. It is critical to understand the target accuracy expected to be achieved and the required threshold for success to prevent long trials and iterations which do not yield results. 
 Model Verification for Bias: 
-As AI becomes a mainstay in today’s information environment, the possible good or bad impact should always be considered. It is important to consider the influence that cognitive and cultural bias has upon evidence-based decisions. The consequences of this are vast and varied from its applications in criminal justice, credit/loans, recruitment, education, and clinical diagnosis, just to name a few. 
+As AI becomes a mainstay in today s information environment, the possible good or bad impact should always be considered. It is important to consider the influence that cognitive and cultural bias has upon evidence-based decisions. The consequences of this are vast and varied from its applications in criminal justice, credit/loans, recruitment, education, and clinical diagnosis, just to name a few. 
 Ethics has become a big part of the AI ecosystem. The implications that this has upon the digital environment allows the potential for bias to exist as a result of unfounded or substantiated frames of reference that create the perceptions and paradigms which produce skewed results. The impact of cognitive, cultural, and now computational bias is an area that must be characterized and quantified in order to effectively hold people, AI, and organizations accountable for their actions, outputs, and impact respectively. 
 
 AI Playbook for the U.S. Federal Government 
@@ -1593,10 +1593,10 @@ UNINTENTIONAL: Which causes harm
 NECESSARY BIAS: To prevent harm 
 
 
-Intentional bias is the most destructive for it is intended to create harm through the exclusion of, and determent of others. Unintentional bias occurs more frequently because “we don't know what we don't know” and fail to test for or train. Necessary bias is introduced in engineering terms to provide parameters in order to assure the environment is effectively scoped and maintained with the boundaries of safety, operational limits, or the ascribed framework. It is often referred to as a tolerance and, if not properly identified, could be catastrophic. 
+Intentional bias is the most destructive for it is intended to create harm through the exclusion of, and determent of others. Unintentional bias occurs more frequently because  we don't know what we don't know  and fail to test for or train. Necessary bias is introduced in engineering terms to provide parameters in order to assure the environment is effectively scoped and maintained with the boundaries of safety, operational limits, or the ascribed framework. It is often referred to as a tolerance and, if not properly identified, could be catastrophic. 
 
 AI Playbook for the U.S. Federal Government 
-Bias is not isolated to people. It overflows from their influence to affect all aspects of the AI adoption process. Thus, there is great probability that computers will promote prejudices, preclude appropriate perspectives, and even perpetrate paradigms that are contrary to the facts, formulas, and frameworks that create a false picture of reality. Whether flawed facts, faulty formulas, or distorted interpretations, bias can influence and affect outcomes at all three stages of AI’s assessment, analysis, and outcomes: 
+Bias is not isolated to people. It overflows from their influence to affect all aspects of the AI adoption process. Thus, there is great probability that computers will promote prejudices, preclude appropriate perspectives, and even perpetrate paradigms that are contrary to the facts, formulas, and frameworks that create a false picture of reality. Whether flawed facts, faulty formulas, or distorted interpretations, bias can influence and affect outcomes at all three stages of AI s assessment, analysis, and outcomes: 
 . 
 COLLECTION: Data can produce faulty facts given prejudice. 
 
@@ -1662,7 +1662,7 @@ Have you used any open-source tools to review the data distribution? (e.g., Face
 
 AI Playbook for the U.S. Federal Government 
 . 
-Does data have blind spots? (language tools using “her” for certain professions like nursing and “him” for a CEO) 
+Does data have blind spots? (language tools using  her  for certain professions like nursing and  him  for a CEO) 
 
 . 
 Have you engaged a broader stakeholder group to review data sets? (e.g., legal, HR, policy, etc.) 
@@ -1677,7 +1677,7 @@ Is there a plan for negative testing and stress-testing?
 Consideration of using data augmentation of synthetic data to ensure even data distribution? 
 
 . 
-Explainability to ascertain “why is the algorithm making this recommendation?” 
+Explainability to ascertain  why is the algorithm making this recommendation?  
 
 . 
 How does the algorithm deal with unpredictable inputs? 
@@ -1720,9 +1720,9 @@ An AI acquisition strategy is a critical aspect to enable and implement AI withi
 
 AI Playbook for the U.S. Federal Government 
 Acquisition Planning, Preparation, and Award 
-In accordance to FAR-Part 7 Acquisition Planning14 and Part 31 -Contract Cost Principles and Procedures15, to facilitate attainment of the AI acquisition objectives, an organization’s contracting and AI program offices must develop an acquisition plan that identifies those milestones at which decisions should be made. The plan must address all the technical, business, management, and other significant considerations that will control the acquisition for implementing AI into an existing Major system or establishing an AI Major system. The specific content of plans will vary, depending on the nature, circumstances, and stage of the acquisition. In preparing the plan, the planner must follow the applicable FAR-Part 7.105 paragraph A/B instructions and include the agency’s implementing procedures. Acquisition plans for service contracts or orders must describe the strategies for implementing performance-based acquisition methods or must provide the rationale for not using these methods outlined in the FAR-Part 37.6 Service Contracting16. 
+In accordance to FAR-Part 7 Acquisition Planning14 and Part 31 -Contract Cost Principles and Procedures15, to facilitate attainment of the AI acquisition objectives, an organization s contracting and AI program offices must develop an acquisition plan that identifies those milestones at which decisions should be made. The plan must address all the technical, business, management, and other significant considerations that will control the acquisition for implementing AI into an existing Major system or establishing an AI Major system. The specific content of plans will vary, depending on the nature, circumstances, and stage of the acquisition. In preparing the plan, the planner must follow the applicable FAR-Part 7.105 paragraph A/B instructions and include the agency s implementing procedures. Acquisition plans for service contracts or orders must describe the strategies for implementing performance-based acquisition methods or must provide the rationale for not using these methods outlined in the FAR-Part 37.6 Service Contracting16. 
 According to FAR-Part 7.105, the plan should include, but not be limited to, a statement of need, acquisition background, objectives, applicable conditions, direct and indirect budget/ funding/costs. It is these considerations that address accounting procedures, capability/ performance requirements, delivery/performance-period requirements, acquisition streamlining protocols, contract options, source selection procedures, acquisition considerations, and trade-offs as they pertain to cost benefit analysis. 
-Once the Acquisition plan is completed, in accordance with FAR-Part 6 Competition Requirements17 and Part 14 -Sealed Bidding18, the organization’s contracting and AI program offices would pursue a competitive or non-competitive contract solicitation for AI ‘vendors for as to what is the availability to existing off-the-shelf (COTS)/ Government off-the-shelf (GOTS) solutions and services. This includes, but not limited to, the preparation of acquisition artifacts to include, but not limited to, market research, Independent Government Cost Estimate (ICGE), Statement of Objectives (SOO), Performance work Schedule (PWS), and Statement of work (SOW). These options inform how contract solicitations and award process should be approached to include, but not limited to, the issuance of solicitation; executing and management of the bidding process; proposal selection criteria evaluation; proposal selection, offer, and the award based on the selection factors identified in the acquisition plan. 
+Once the Acquisition plan is completed, in accordance with FAR-Part 6 Competition Requirements17 and Part 14 -Sealed Bidding18, the organization s contracting and AI program offices would pursue a competitive or non-competitive contract solicitation for AI  vendors for as to what is the availability to existing off-the-shelf (COTS)/ Government off-the-shelf (GOTS) solutions and services. This includes, but not limited to, the preparation of acquisition artifacts to include, but not limited to, market research, Independent Government Cost Estimate (ICGE), Statement of Objectives (SOO), Performance work Schedule (PWS), and Statement of work (SOW). These options inform how contract solicitations and award process should be approached to include, but not limited to, the issuance of solicitation; executing and management of the bidding process; proposal selection criteria evaluation; proposal selection, offer, and the award based on the selection factors identified in the acquisition plan. 
 Administer and Monitor the Contract 
 Contract and program offices must conduct auditing, administration, cost accounting, documentation, execution, reporting, and records retention for AI contracts in accordance with FAR-Part 4 Administrative and Information Matters19, Part 30 Cost Accounting Standards Administration20, Part 42 -Contract Administration and Audit Services21. 
 
@@ -1730,7 +1730,7 @@ AI Playbook for the U.S. Federal Government
 Contract Modification 
 During the administration of AI contract portfolio, if the contract and program offices identify changes, issues, or new AI-Related requirements, contract modifications may be necessary throughout all phases of the lifecycle of developing, implementing, integrating, maintaining, or decommissioning AI Technology in the systems that support the organization. The Contracting Office, along with the AI program office, executes the appropriate modifications in accordance with terms outlined in FAR-Part 43 -Contract Modifications22. 
 Prepare and Award Follow-on Contract: 
-As an AI contract is reaching its expiration, or if an existing contract is deemed to not support the organization’s AI mission, goals, and objectives, the Contracting Office, along with the AI program office, may need to begin the follow-on acquisition planning stage to issue a new contract for ongoing development, implementation, integration, maintenance, recapitalization, or decommission of the AI Technology. If so, they would follow the guidelines outlined in the Acquisition Planning and Award subsection outlined above. 
+As an AI contract is reaching its expiration, or if an existing contract is deemed to not support the organization s AI mission, goals, and objectives, the Contracting Office, along with the AI program office, may need to begin the follow-on acquisition planning stage to issue a new contract for ongoing development, implementation, integration, maintenance, recapitalization, or decommission of the AI Technology. If so, they would follow the guidelines outlined in the Acquisition Planning and Award subsection outlined above. 
 
 Key Outcomes 
 Engaged Outcomes 
@@ -1793,7 +1793,7 @@ Code repository and versioning: Any code developed should be properly documented
 Production Environment and Deployment Pipeline: A separate production environment should be created to ensure segregation of duties and access control. All infrastructure, platform and application maintenance requirements should be identified. A deployment pipeline should be established to effectively manage the maturation of the code throughout all phases of the lifecycle; creation, testing, validating, sustainment, re-capitalization, and disposition. 
 
 . 
-Testing: The AI model is repeatedly tested by different types of users for a wide variety of scenarios to ensure complete and comprehensive functionality and robustness. The results of testing should match necessary expectations set by business users. Included in this process incorporates testing non-functional but necessary requirements such as security reliability, resilience, and performance. Included in this are the requirements to be approved and certified as outlined in the policies set for by the specific organization’s authority to operate (ATO) requirements. 
+Testing: The AI model is repeatedly tested by different types of users for a wide variety of scenarios to ensure complete and comprehensive functionality and robustness. The results of testing should match necessary expectations set by business users. Included in this process incorporates testing non-functional but necessary requirements such as security reliability, resilience, and performance. Included in this are the requirements to be approved and certified as outlined in the policies set for by the specific organization s authority to operate (ATO) requirements. 
 
 
 
@@ -1803,7 +1803,7 @@ Business Outputs:
 Validated business case: An assessment of the total cost of ownership of the implemented solution, compared to the quantitative and qualitative benefits of the solution, with appropriate management endorsement. All costing and benefits calculations are verified for analytic accuracy, and all input data is verified by data stewards 
 
 . 
-User Guide: A detailed “how to” manual for all selected user types, describing the implemented solution, typical use cases, step-by-step actions for each user type to successfully execute their respective use cases. The user guide also includes a standard glossary of terms, a description of all user administrative actions available, a Frequently Asked Questions section, and a description of “zero level” problem resolutions. 
+User Guide: A detailed  how to  manual for all selected user types, describing the implemented solution, typical use cases, step-by-step actions for each user type to successfully execute their respective use cases. The user guide also includes a standard glossary of terms, a description of all user administrative actions available, a Frequently Asked Questions section, and a description of  zero level  problem resolutions. 
 
 . 
 Administration Guide: A detailed description of all administrative functions of the implemented solution, including user registration, system maintenance, escalation procedures, FISMA designation, and all relevant security controls. 
@@ -1851,7 +1851,7 @@ Strategy and Governance
 What potential bias exists in training data and how will it be managed to overcome/ avoided? 
 
 . 
-Do key stakeholders agree on the definition, measurement, and reporting of the new system’s fulfillment of its business case? 
+Do key stakeholders agree on the definition, measurement, and reporting of the new system s fulfillment of its business case? 
 
 . 
 What is the procurement schedule and approach for the proposed program? 
@@ -1880,7 +1880,7 @@ Change Management
 Who are the key stakeholders in determining the successful deployment of the system? Who will be potentially affected by this solution? 
 
 . 
-What are the key stakeholders’ expectations for the new system? What are the key user concerns regarding the new system, and how are these going to be addressed? 
+What are the key stakeholders  expectations for the new system? What are the key user concerns regarding the new system, and how are these going to be addressed? 
 
 . 
 When are users of the new system going to be prepared? When is the overall business case for the new solution going to be assessed? 
@@ -1903,17 +1903,17 @@ How will it be reported?
 Where will the data come from? Where will the work be performed? 
 
 . 
-How will the key stakeholders be engaged throughout the deployment? How will the effects of the new system impact the organization’s strategy, mission focus, culture, and morale? 
+How will the key stakeholders be engaged throughout the deployment? How will the effects of the new system impact the organization s strategy, mission focus, culture, and morale? 
 
 
 
 AI Playbook for the U.S. Federal Government 
-Phase 5 – AI Integration 
-Once the organization has gone through Readiness, Assessment, Solution Selection, and AI Implementation phases successfully, this next phase integrates the AI solution into the organization’s infrastructure. 
+Phase 5   AI Integration 
+Once the organization has gone through Readiness, Assessment, Solution Selection, and AI Implementation phases successfully, this next phase integrates the AI solution into the organization s infrastructure. 
 
 
 Phase Inputs 
-Inputs to the AI integration phase are to be harmonized with outputs from the implementation phase, including definitions of data sources, platform architecture/Internal Operating Capacity (IOC) and a prototyped model accessible for integration. Inputs will define the functional state at end-production of the proposed AI solution in the context of pre-established specifications and technical requirements. The prototyped model should be implemented with the relevant data sources using an AI/ML architecture that is aligned with the organization’s business objectives. 
+Inputs to the AI integration phase are to be harmonized with outputs from the implementation phase, including definitions of data sources, platform architecture/Internal Operating Capacity (IOC) and a prototyped model accessible for integration. Inputs will define the functional state at end-production of the proposed AI solution in the context of pre-established specifications and technical requirements. The prototyped model should be implemented with the relevant data sources using an AI/ML architecture that is aligned with the organization s business objectives. 
 
 Key Goals 
 The key goal of the AI integration phase is to get the AI solution, processes, strategies developed and implemented in the previous phases, and integrate them into the organization that will operate and maintain the AI solution. 
@@ -2060,7 +2060,7 @@ o
 Inform leaders of the critical connection between managing the people side of change, technology application, and resource allocation to assure the success of the project. 
 
 o 
-Project teams who may traditionally be focused on just “switching on” need to value and understand the importance of change management and the positive effect it could have on their ability to deliver on time, on target, and on task. 
+Project teams who may traditionally be focused on just  switching on  need to value and understand the importance of change management and the positive effect it could have on their ability to deliver on time, on target, and on task. 
 
 o 
 A programmatic approach that takes into consideration the necessary empathy on behalf of team leaders to deliver change management as a credible, structured and intentional approach, is essential if the team is to be driven by concrete milestones that produce desirable deliverables 
@@ -2070,7 +2070,7 @@ A programmatic approach that takes into consideration the necessary empathy on b
 Create collaborative teams to include change management and project practitioners with transparent communication and clarity on roles for both teams. 
 
 . 
-For AI impacting decision making, it is necessary for people at all levels to trust the algorithms’ suggestions and the facts that informed decisions. 
+For AI impacting decision making, it is necessary for people at all levels to trust the algorithms  suggestions and the facts that informed decisions. 
 
 . 
 Leadership must empower employees to take the necessary actions as advised from the outputs of AI technological tools. 
@@ -2151,7 +2151,7 @@ Monitor the results and look for ways to improve
 
 
 o 
-When executing communication plans, always focus on “telling it like it is” and focusing on the “me” issues that will directly impact employees and management across the organization. 
+When executing communication plans, always focus on  telling it like it is  and focusing on the  me  issues that will directly impact employees and management across the organization. 
 
 
 
@@ -2192,13 +2192,13 @@ AI Playbook for the U.S. Federal Government
 Link AI Solution Inputs and Outputs 
 . AI solution must be configurable to allow the linkage to ingest the necessary data that inform the algorithms and provide the answers through an aggregation process: 
 o 
-Ideally, APIs will link AI systems with input from RPA and NLP systems to collect and correlate the necessary data that informs the knowledge base essential to AI’s evolving understanding. 
+Ideally, APIs will link AI systems with input from RPA and NLP systems to collect and correlate the necessary data that informs the knowledge base essential to AI s evolving understanding. 
 
 o 
-If RPAs are used, care must be used to ensure that changes to the input system’s user interface do not break the AI solution or cause it to look for data in the wrong location. 
+If RPAs are used, care must be used to ensure that changes to the input system s user interface do not break the AI solution or cause it to look for data in the wrong location. 
 
 
-User feedback is required to ensure that users can understand the data generated by the AI and that the results are clearly presented to evolve the users’ contextual understanding. 
+User feedback is required to ensure that users can understand the data generated by the AI and that the results are clearly presented to evolve the users  contextual understanding. 
 . Care must be taken to ensure that AI solutions properly outputs the data to the correct location. 
 o 
 APIs are the ideal method for outputting data from the AI solution to assure the means to collect and correlate data continuously. 
@@ -2209,9 +2209,9 @@ If RPAs are used, the output method must be documented and provided to the appro
 
 Acquisition 
 Administer and Monitor Contract Performance 
-The Contract and Program Office monitor the performance of the newly integrated technology from the perspective of contract compliance and business line satisfaction. Depending on the contract type and incentive structure, the contracting officer awards payments based on the contractor’s ability to meet established service-level agreements (SLA) and performance metrics. Working with all stakeholders, the team measures the impact of the new AI enabled portfolio. 
+The Contract and Program Office monitor the performance of the newly integrated technology from the perspective of contract compliance and business line satisfaction. Depending on the contract type and incentive structure, the contracting officer awards payments based on the contractor s ability to meet established service-level agreements (SLA) and performance metrics. Working with all stakeholders, the team measures the impact of the new AI enabled portfolio. 
 Prepare Contract for Scaling and Reuse 
-Establish the scaling and reuse aspects of the contract during acquisition planning. Avoid “Scope Creep” by executing future service areas upon need. The statement of work (SOW) will also state the selected technology for the desired AI solution, express the component and configuration of the chosen platform, describe the required supplies or services needed by the government for implementation of the target technology, and define anticipated tasks necessary to implement the AI-enabled solution successfully. Refine the procurement 
+Establish the scaling and reuse aspects of the contract during acquisition planning. Avoid  Scope Creep  by executing future service areas upon need. The statement of work (SOW) will also state the selected technology for the desired AI solution, express the component and configuration of the chosen platform, describe the required supplies or services needed by the government for implementation of the target technology, and define anticipated tasks necessary to implement the AI-enabled solution successfully. Refine the procurement 
 
 AI Playbook for the U.S. Federal Government 
 processes to ensure that this new AI acquisition model will provide a template for the next project. Continuous acquisition improvement, especially within the emerging technology landscape, positions the agency for clean acquisitions with minimal disruption to program execution. 
@@ -2341,7 +2341,7 @@ Use case template/questionnaire:
 What question(s) do you believe AI can help you solve? 
 
 . 
-Tell us about your data. Are they very well structured? Well-structured data would be driver’s license records at a DMV, poorly structured data would be if you Googled “cat.” This goes to the heart of the question about how much data you need. With well-structured data, you need less. With poorly structured data, you need a lot. The internet has lots and lots of pictures of cats, for example, so poorly structured data in this case. 
+Tell us about your data. Are they very well structured? Well-structured data would be driver s license records at a DMV, poorly structured data would be if you Googled  cat.  This goes to the heart of the question about how much data you need. With well-structured data, you need less. With poorly structured data, you need a lot. The internet has lots and lots of pictures of cats, for example, so poorly structured data in this case. 
 
 . 
 How does your data move from point of acquisition (point A) to the place where they are deposited (point B)? Are all your datasets in one place? 
@@ -2362,19 +2362,19 @@ Did AI help you solve your problem? Why or why not?
 
 AI Playbook for the U.S. Federal Government 
 
-Appendix B – Playbook Navigation 
+Appendix B   Playbook Navigation 
 In this appendix, you will find valuable information to help you understand the framework laid out in this Playbook and a series of questions to guide you and help you kick start your AI development journey. 
 Framework Flow 
 The Playbook introduces a framework made out of several phases connected to one another sequentially to guide you through key activities that will help you leverage AI technologies to tackle your use case. 
 Each phase is connected to a decision gate before automatically going to the next phase. This decision gate helps you determine if you should: 
 . 
-Go to the next phase – using the outputs generated by the phase n, you determine that there is enough value to keep going to the next phase. 
+Go to the next phase   using the outputs generated by the phase n, you determine that there is enough value to keep going to the next phase. 
 
 . 
-Stop – using the outputs generated by the phase n, you determine that AI does not bring enough value at this time. 
+Stop   using the outputs generated by the phase n, you determine that AI does not bring enough value at this time. 
 
 . 
-Iterate – using the outputs generated by the phase n, you determine that more work is needed or data from previous phases need to be adjusted. 
+Iterate   using the outputs generated by the phase n, you determine that more work is needed or data from previous phases need to be adjusted. 
 
 
 
@@ -2387,15 +2387,15 @@ AI Playbook for the U.S. Federal Government
 REFERENCES 
 1 ACT-IAC Artificial Intelligence/Machine Learning Primer. Published March 12, 2019. 
 https://www.actiac.org/act-iac-white-paper-artificial-intelligence-machine-learning-primer 
-2 GSA’s Office of Shared Solutions and Performance Improvement (OSSPI), Office of Government-wide Policy, Modernization and Migration Management (M3) framework 
+2 GSA s Office of Shared Solutions and Performance Improvement (OSSPI), Office of Government-wide Policy, Modernization and Migration Management (M3) framework 
 https://ussm.gsa.gov/m3/ 
 3 General Services Administration (GSA) Emerging Citizen Technology Atlas 
 https://emerging.digital.gov/ 
-4 Vadlamudi, P. September 20, 2019. Adobe Obtains New FedRAMP Authorizations, Enhancing Its Digital Government Services in the Cloud https://theblog.adobe.com/adobe-obtains-new­fedramp-authorizations-enhancing-its-digital-government-services-in-the-cloud/ 
+4 Vadlamudi, P. September 20, 2019. Adobe Obtains New FedRAMP Authorizations, Enhancing Its Digital Government Services in the Cloud https://theblog.adobe.com/adobe-obtains-new fedramp-authorizations-enhancing-its-digital-government-services-in-the-cloud/ 
 5 National Institute for Standards and Technology (NIST) Privacy Impact Assessment 
 https://www.nist.gov/system/files/documents/2017/05/09/NIST-TIP-PIA-Consolidated.pdf 6 General Data Protection Regulation (GDPR) https://gdpr-info.eu/ 7 U.S. Department of Health & Human Services Health Information Portability and Accountability Act (HIPAA) https://www.hhs.gov/hipaa/index.html 8 GSA Shared Management Offices https://www.gsa.gov/shared-services/shared-services-qsmo 9 Office of Management and Budget OMB M-19-13 March 20, 2019. Category Management: Making Smarter Use of Common Contract Solutions and Practices 
 https://www.whitehouse.gov/wp-content/uploads/2019/03/M-19-13.pdf 
-10 GSA’s Office of Shared Solutions and Performance Improvement (OSSPI), Office of Government-wide Policy, Modernization and Migration Management (M3) framework 
+10 GSA s Office of Shared Solutions and Performance Improvement (OSSPI), Office of Government-wide Policy, Modernization and Migration Management (M3) framework 
 https://ussm.gsa.gov/m3/ 
 11 Best-in-Class (BIC) solution designated by the Office of Management and Budget 
 https://www.gsa.gov/buying-selling/category-management/bestinclass 
@@ -2405,7 +2405,7 @@ https://www.acquisition.gov/
 https://www.acquisition.gov/content/part-7-acquisition-planning 
 15 Federal Acquisition Regulation, Part 31 -Contract Cost Principles and Procedures 
 https://www.acquisition.gov/content/part-31-contract-cost-principles-and-procedures 
-16 Federal Acquisition Regulation, Part 37.6 – Service Contracting 
+16 Federal Acquisition Regulation, Part 37.6   Service Contracting 
 https://www.acquisition.gov/content/part-37-service-contracting#i1077388 
 17 Federal Acquisition Regulation, Part 6, Competition Requirements 
 https://www.acquisition.gov/content/part-6-competition-requirements 
@@ -2424,8 +2424,8 @@ https://www.acquisition.gov/content/part-43-contract-modifications
 23 Federal Acquisition Institute. 2018. New FAC Specialization Focuses on Digital Services 
 https://www.fai.gov/announcements/new-fac-specialization-focuses-digital-services 
 24 Office of Personnel Management (OPM). 2018. Federal Workforce Priorities Report (FWPR) 
-https://www.opm.gov/policy-data-oversight/human-capital-management/federal-workforce­priorities-report/2018-federal-workforce-priorities-report.pdf 
-Office of Personnel Management (OPM). Assessment & Evaluation COMPETENCY GAP ANALYSIS. https://www.opm.gov/services-for-agencies/assessment-evaluation/competency­gap-analysis/ 
+https://www.opm.gov/policy-data-oversight/human-capital-management/federal-workforce priorities-report/2018-federal-workforce-priorities-report.pdf 
+Office of Personnel Management (OPM). Assessment & Evaluation COMPETENCY GAP ANALYSIS. https://www.opm.gov/services-for-agencies/assessment-evaluation/competency gap-analysis/ 
 25 Andresen, Scott L. (2002). John McCarthy: Father of AI. IEEE Intelligent Systems, September/October 2002 (17), 84-85. DOI Bookmark: 10.1109/MIS.2002.1039837 
 https://www.computer.org/csdl/magazine/ex/2002/05/x5084/13rRUxE04ph 
 

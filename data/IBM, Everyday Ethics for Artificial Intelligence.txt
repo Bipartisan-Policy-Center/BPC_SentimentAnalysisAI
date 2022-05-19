@@ -4,12 +4,12 @@ for Artificial
 Intelligence
 
 
-© Copyright IBM Corp.
+  Copyright IBM Corp.
 2014, 2015, 2016, 2017, 2018, 2019
 
-IBM, the IBM logo and ibm.com are trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies. A current list of IBM trademarks is available on the Web at “Copyright and trademark information” at www.ibm.com/legal/us/en/copytrade.shtml
+IBM, the IBM logo and ibm.com are trademarks of International Business Machines Corp., registered in many jurisdictions worldwide. Other product and service names might be trademarks of IBM or other companies. A current list of IBM trademarks is available on the Web at  Copyright and trademark information  at www.ibm.com/legal/us/en/copytrade.shtml
 This document is current as of the initial date of publication and may be changed by IBM at any time. Not all offerings are available in every country in which IBM operates. 
-The information in this document is provided “as-is” without any warranty, express or implied, including without any warranties of merchantability, fitness for a particular purpose and any warranty or condition of non-infringement. IBM products are warranted according to the terms and conditions of the agreements under which they are provided. 
+The information in this document is provided  as-is  without any warranty, express or implied, including without any warranties of merchantability, fitness for a particular purpose and any warranty or condition of non-infringement. IBM products are warranted according to the terms and conditions of the agreements under which they are provided. 
 This report is intended for general guidance only. It is not intended to be
 a substitute for detailed research or the exercise of professional judgment. IBM shall not be responsible for any loss whatsoever sustained by any organization or person who relies on this publication.
 
@@ -85,18 +85,18 @@ References
 
 You can use an eraser on the
 drafting table or a sledgehammer
-on the construction site.”
+on the construction site. 
 
-“
+ 
 
-– 
+  
 
 Frank Lloyd Wright
 
 This document represents the
 beginning of a conversation
 defining Everyday Ethics for AI. Ethics must be embedded in the design and development process from the very beginning of AI creation.
-Rather than strive for perfection first, we’re releasing this to
+Rather than strive for perfection first, we re releasing this to
 allow all who read and use this
 to comment, critique and par-
 ticipate in all future iterations.
@@ -117,11 +117,11 @@ problem solving.
 
 As AI designers and developers, we hold a vast share of the collective
 influence. We are creating systems that will impact millions of people.
-Artificial intelligence technology is rapidly growing in capability, impact and influence. As designers and developers of AI systems, it is an imperative to understand the ethical considerations of our work.  A tech-centric focus that solely revolves around improving the capabilities of an intelligent system doesn’t sufficiently consider human needs. An ethical, human-centric AI must be designed and developed in a manner that is aligned with the values and ethical principles of a society or community it affects. Ethics is based on well-founded standards of right and wrong that
+Artificial intelligence technology is rapidly growing in capability, impact and influence. As designers and developers of AI systems, it is an imperative to understand the ethical considerations of our work.  A tech-centric focus that solely revolves around improving the capabilities of an intelligent system doesn t sufficiently consider human needs. An ethical, human-centric AI must be designed and developed in a manner that is aligned with the values and ethical principles of a society or community it affects. Ethics is based on well-founded standards of right and wrong that
 prescribe what humans ought to do, usually in terms of rights, obligations, benefits to society, fairness, or specific virtues.1  To create and foster trust between humans and machines, you must understand the ethical resources and standards available for reference during the designing, building, and maintenance of AI.
-The large-scale focus on AI ethics by groups like the IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems,2 which will be referenced throughout this document, should be mirrored in businesses and working groups of all sizes. The criteria and metrics for ethical AI systems will ultimately depend on the industry and use case they operate within. We hope this document serves as a central source that helps teams establish best practices. Designers and developers should never work in a vacuum and must stay in tune with users’ needs and concerns.
+The large-scale focus on AI ethics by groups like the IEEE Global Initiative on Ethics of Autonomous and Intelligent Systems,2 which will be referenced throughout this document, should be mirrored in businesses and working groups of all sizes. The criteria and metrics for ethical AI systems will ultimately depend on the industry and use case they operate within. We hope this document serves as a central source that helps teams establish best practices. Designers and developers should never work in a vacuum and must stay in tune with users  needs and concerns.
  
-Constant improvement and assess- ment is key to ensuring that design and development teams address users’ concerns. This document provides teams with a starting point and will surely evolve as AI capabilities continue to grow.
+Constant improvement and assess- ment is key to ensuring that design and development teams address users  concerns. This document provides teams with a starting point and will surely evolve as AI capabilities continue to grow.
 
 08
 
@@ -134,13 +134,13 @@ Guidance for designers
 and developers building
 and training AI.
 
-–
+ 
 
-–
+ 
 
 09
 
-It’s our collective responsibility
+It s our collective responsibility
 to understand and evolve these
 ethical focus areas as AI cap-
 abilities increase over time. These focal areas provide an intentional
@@ -162,7 +162,7 @@ User Data Rights
 Five Areas of Ethical Focus
 
 
-Mike Monteiro’s direct, unambi-guous approach in discussing designers’ code of ethics was influential to this guide.3 Designers and developers of AI may want to delve deeper, exploring topics covered in an IEEE course called “Artificial Intelligence and Ethics in Design,” including:
+Mike Monteiro s direct, unambi-guous approach in discussing designers  code of ethics was influential to this guide.3 Designers and developers of AI may want to delve deeper, exploring topics covered in an IEEE course called  Artificial Intelligence and Ethics in Design,  including:
 01
 Responsible Innovation in the Age of AI: Philosophical foundation and companies using AI for profits and societal purpose.
 02
@@ -173,15 +173,15 @@ Values by Design in the Algorithmic Era: Identify, analyze, and practice moral, 
 The Nature of Nudging: AI ability to influence people can be used for good or bad.
 05
 Data Protection and Data Safety: General Data Protection Regulation and the importance of data in building and maintaining AI systems.4 
-In addition, an IBM Research team has proposed a Supplier’s Declaration of Conformity (SDoC, 
-or factsheet, for short) to be com-pleted and voluntarily released by AI service developers and providers to increase the transparency of their services and engender trust in them.5 Like nutrition labels for foods or information sheets for appliances, factsheets for AI services would provide information about the product’s important characteristics. We hope to further develop this proposal alongside our focus areas in order to usher in the era of trusted AI systems and bootstrapping their broader adoption.
+In addition, an IBM Research team has proposed a Supplier s Declaration of Conformity (SDoC, 
+or factsheet, for short) to be com-pleted and voluntarily released by AI service developers and providers to increase the transparency of their services and engender trust in them.5 Like nutrition labels for foods or information sheets for appliances, factsheets for AI services would provide information about the product s important characteristics. We hope to further develop this proposal alongside our focus areas in order to usher in the era of trusted AI systems and bootstrapping their broader adoption.
 
 11
 
 Running
 Example
 
-A hotel chain wants to embed artificial intelligence into an in-room virtual assistant/concierge to augment and personalize their users’ stays. We’ll use the project team in charge of this effort as an example throughout the document. This conversational agent will include capabilities such as:
+A hotel chain wants to embed artificial intelligence into an in-room virtual assistant/concierge to augment and personalize their users  stays. We ll use the project team in charge of this effort as an example throughout the document. This conversational agent will include capabilities such as:
 
 Agentive-style assistance.
  
@@ -194,13 +194,13 @@ Sending a request directly to
 the service team through the
 in-room virtual assistant.
 
-–
+ 
 
-–
+ 
 
-–
+ 
 
-–
+ 
 
 12
 
@@ -217,7 +217,7 @@ are responsible for considering
 AI design, development, decision 
 processes, and outcomes.
 
-Human judgment plays a role throughout a seemingly objective system of logical decisions. It is humans who write algorithms, who define success or failure, who make decisions about the uses of systems and who may be affected by a system’s outcomes. Every person involved in the creation of AI at any step is accountable for considering the system’s impact in the world, as are the companies invested in its development.
+Human judgment plays a role throughout a seemingly objective system of logical decisions. It is humans who write algorithms, who define success or failure, who make decisions about the uses of systems and who may be affected by a system s outcomes. Every person involved in the creation of AI at any step is accountable for considering the system s impact in the world, as are the companies invested in its development.
 
 14
 
@@ -225,15 +225,15 @@ Five Areas of Ethical Focus
 
 
 Nearly 50% of the surveyed
-developers believe that the humans creating AI should be responsible for considering the ramifications of the technology. Not the bosses. Not the middle managers. The coders.” 
+developers believe that the humans creating AI should be responsible for considering the ramifications of the technology. Not the bosses. Not the middle managers. The coders.  
 
-“
+ 
 
 Mark Wilson
-Fast Company6 on Stack Overflow’s
+Fast Company6 on Stack Overflow s
 Developer Survey Results 20187
 
-–
+ 
 
 Accountability
 
@@ -255,7 +255,7 @@ your responsibility to know.
 Understand where the responsibility of the company/software ends. You may not have control over how data or a tool will be used by a user, client, or other external source.
 
 04
-Adhere to your company’s business conduct guidelines. Also, understand national and international laws, regulations, and guidelines8 that your AI may have to work within. You can find other related resources in the IEEE Ethically Aligned Design document.9
+Adhere to your company s business conduct guidelines. Also, understand national and international laws, regulations, and guidelines8 that your AI may have to work within. You can find other related resources in the IEEE Ethically Aligned Design document.9
 
 16
 
@@ -264,7 +264,7 @@ Five Areas of Ethical Focus
 
 To consider
 Understand the workings of your
-AI even if you’re not personally
+AI even if you re not personally
 developing and monitoring
 its algorithms. 
 Refer to secondary research by sociologists, linguists, behaviorists, and other professionals to under-stand ethical issues in a holistic context.
@@ -288,11 +288,11 @@ Example
 
 The team utilizes design researchers to contact real guests in the hotels to understand their wants and needs through face-to-face user interviews.
  
-The team considers their own responsibility when the hotel assistant’s feedback does not meet the needs or expectations  of guests. They have implemented a feedback learning loop to better understand preferences and have highlighted the ability for a guest to turn off the AI at any point during their stay.
+The team considers their own responsibility when the hotel assistant s feedback does not meet the needs or expectations  of guests. They have implemented a feedback learning loop to better understand preferences and have highlighted the ability for a guest to turn off the AI at any point during their stay.
 
-–
+ 
 
-–
+ 
 
 Five Areas of Ethical Focus
 
@@ -310,7 +310,7 @@ Alignment
 AI should be designed to align with
 the norms and values of your user group in mind.
 
-AI works alongside diverse, human interests. People make decisions based on any number of contextual factors, including their experiences, memories, upbringing, and cultural norms. These factors allow us to have a fundamental understanding of “right and wrong” in a wide range of contexts, at home, in the office, or elsewhere. This is second nature for humans, as we have a wealth of experiences to draw upon. Today’s AI systems do not have these types of experiences to draw upon, so it is the job of designers and developers to collaborate with each other in order to ensure consideration of existing values. Care is required
+AI works alongside diverse, human interests. People make decisions based on any number of contextual factors, including their experiences, memories, upbringing, and cultural norms. These factors allow us to have a fundamental understanding of  right and wrong  in a wide range of contexts, at home, in the office, or elsewhere. This is second nature for humans, as we have a wealth of experiences to draw upon. Today s AI systems do not have these types of experiences to draw upon, so it is the job of designers and developers to collaborate with each other in order to ensure consideration of existing values. Care is required
 to ensure sensitivity to a wide
 range of cultural norms and values. As daunting as it may seem to take value systems into account, the common core of universal principles is that they are a cooperative phenomenon. Successful teams already understand that cooperation and collaboration leads to the best outcomes.
 
@@ -323,19 +323,19 @@ If machines engage in human
 communities as autonomous
 agents, then those agents will
 be expected to follow the
-community’s social and
+community s social and
 moral norms. 
 A necessary step in enabling
 machines to do so is to identify
-these norms. But whose norms?”
+these norms. But whose norms? 
 
-“
+ 
 
 The IEEE Global Initiative
 on Ethics of Autonomous
 and Intelligent Systems10
 
-–
+ 
 
 Value Alignment
 
@@ -345,13 +345,13 @@ Recommended
 actions to take
 
 03
-Consider mapping out your under-standing of your users’ values and aligning the AI’s actions accordingly with an Ethics Canvas.12 Values will be specific to certain use cases and affected communities. Alignment will allow users to better understand your AI’s actions and intents.
+Consider mapping out your under-standing of your users  values and aligning the AI s actions accordingly with an Ethics Canvas.12 Values will be specific to certain use cases and affected communities. Alignment will allow users to better understand your AI s actions and intents.
 
 01
-Consider the culture that estab-lishes the value systems you’re designing within. Whenever possible, bring in policymakers and academics that can help your team articulate relevant perspectives. 
+Consider the culture that estab-lishes the value systems you re designing within. Whenever possible, bring in policymakers and academics that can help your team articulate relevant perspectives. 
 
 02
-Work with design researchers to understand and reflect your users’ values. You can find out more about this process here.11
+Work with design researchers to understand and reflect your users  values. You can find out more about this process here.11
 
 22
 
@@ -359,12 +359,12 @@ Five Areas of Ethical Focus
 
 
 To consider
-If you need somewhere to start, consider IBM’s Standards of Corporate Responsibility13 or use your company’s standards documentation. 
+If you need somewhere to start, consider IBM s Standards of Corporate Responsibility13 or use your company s standards documentation. 
 Values are subjective and differ globally. Global companies must take into account language barriers and cultural differences. 
 Well-meaning values can create unintended consequences. e.g. a tailored political newsfeed provides users with news that aligns with their beliefs but does not holistically represent the gestalt.
 
 Questions for your team
-Which group’s values are expressed by our AI and why?
+Which group s values are expressed by our AI and why?
 How do we agree on which values to consider as a team? (For more reading on moral alignment, check here.14)
 How do we change or adjust the values reflected by our AI as our values evolve over time?
 
@@ -374,15 +374,15 @@ Value Alignment
 
 Value Alignment Example
 
-The team understands that for a voice-activated assistant to work properly, it must be “always listening” for a wake word. The team makes it clear to guests that the AI hotel assistant is designed to not keep any data, or monitor guests, in both cases without their knowledge, even if it is listening for a wake word. 
+The team understands that for a voice-activated assistant to work properly, it must be  always listening  for a wake word. The team makes it clear to guests that the AI hotel assistant is designed to not keep any data, or monitor guests, in both cases without their knowledge, even if it is listening for a wake word. 
 The audio collected while listening for a wake word is auto-deleted every 5 seconds. Even if a guest opts in, the AI does not actively listen in on guests unless it is called upon.
-The team knows that this agent will be used in hotels across the world, which will require different languages and customs. They consult with linguists to ensure the AI will be able to speak in guests’ respective languages and respect applicable customs.
+The team knows that this agent will be used in hotels across the world, which will require different languages and customs. They consult with linguists to ensure the AI will be able to speak in guests  respective languages and respect applicable customs.
 
-–
+ 
 
-–
+ 
 
-–
+ 
 
 24
 
@@ -399,21 +399,21 @@ Explainability
 AI should be designed for humans to easily perceive, detect, and
 understand its decision process.
 
-In general, we don’t blindly trust those who can’t explain their reasoning. The same goes for AI, perhaps even more so.15 As an AI increases in capabilities and achieves a greater range of impact, its decision-making process should be explainable in terms people can understand.
-Explainability is key for users interacting with AI to understand the AI’s conclusions and recom-mendations. Your users should always be aware that they are interacting with an AI. Good design does not sacrifice transparency in creating a seamless experience. Imperceptible AI is not ethical AI. 
+In general, we don t blindly trust those who can t explain their reasoning. The same goes for AI, perhaps even more so.15 As an AI increases in capabilities and achieves a greater range of impact, its decision-making process should be explainable in terms people can understand.
+Explainability is key for users interacting with AI to understand the AI s conclusions and recom-mendations. Your users should always be aware that they are interacting with an AI. Good design does not sacrifice transparency in creating a seamless experience. Imperceptible AI is not ethical AI. 
 
 26
 
 Five Areas of Ethical Focus
 
 
-IBM supports transparency and data governance policies that will ensure people understand how an AI system came to a given conclusion or recommendation. Companies must be able to explain what went into their algorithm’s recommendations. If they can’t, then their systems shouldn’t be on the market.”
+IBM supports transparency and data governance policies that will ensure people understand how an AI system came to a given conclusion or recommendation. Companies must be able to explain what went into their algorithm s recommendations. If they can t, then their systems shouldn t be on the market. 
 
-“
+ 
 
 Data Responsibility at IBM16
 
-–
+ 
 
 27
 
@@ -426,13 +426,13 @@ actions to take
 When an AI is assisting users with making any highly sensitive decisions, the AI must be able to provide them with a sufficient explanation of recommendations, the data used, and the reasoning behind the recommendations.
 
 01
-Allow for questions. A user should be able to ask why an AI is doing what it’s doing on an ongoing basis. 	This should be clear and up front in the user interface at all times.
+Allow for questions. A user should be able to ask why an AI is doing what it s doing on an ongoing basis. 	This should be clear and up front in the user interface at all times.
 
 02
 Decision-making processes must be reviewable, especially if the AI is working with highly sensitive personal information data like personally identifiable information, protected health information, and/or biometric data.
 
 04
-Teams should have and maintain access to a record of an AI’s decision processes and be amenable to verification of those decision processes.
+Teams should have and maintain access to a record of an AI s decision processes and be amenable to verification of those decision processes.
 
 Five Areas of Ethical Focus
 
@@ -445,9 +445,9 @@ technology, to promote safer practices, and to facilitate broader societal adopt
 There are situations where users may not have access to the full
 decision process that an AI might
 go through, e.g., financial investment algorithms.
-Ensure an AI system’s level of
-transparency is clear. Users should stay generally informed on the AI’s intent even when they can’t access
-a breakdown of the AI’s process.
+Ensure an AI system s level of
+transparency is clear. Users should stay generally informed on the AI s intent even when they can t access
+a breakdown of the AI s process.
 
 Questions for your team
 How do we build explainability into our experience without detracting from user experience or distracting from the task at hand?
@@ -465,11 +465,11 @@ Per GDPR (General Data Protection Regulation17), a guest must explicitly opt in 
 A researcher on the team, through interviews with hotel guests, understands that the guests want a way to opt into having their personal information stored. The team enables a way for the AI to provide guests (through voice or graphic UI) with options and the ability for the system to gather pieces of information with consent.
 With permission, the AI offers recommendations for places to visit during their stay. Guests can ask why these recommendations are made and which set of data is being utilized to make them.
 
-–
+ 
 
-–
+ 
 
-–
+ 
 
 30
 
@@ -494,14 +494,14 @@ AI provides deeper insight into our personal lives when interacting with our sen
 Five Areas of Ethical Focus
 
 
-By progressing new ethical frameworks for AI and thinking critically about the quality of our datasets and how humans perceive and work with AI, we can accelerate the [AI] field in a way that will benefit everyone. IBM believes that [AI] actually holds the keys to mitigating bias out of AI systems – and offers an unprecedented opportunity to shed light on the existing biases we hold as humans.” 
+By progressing new ethical frameworks for AI and thinking critically about the quality of our datasets and how humans perceive and work with AI, we can accelerate the [AI] field in a way that will benefit everyone. IBM believes that [AI] actually holds the keys to mitigating bias out of AI systems   and offers an unprecedented opportunity to shed light on the existing biases we hold as humans.  
 
-“
+ 
 
 Bias in AI: How we Build Fair AI
 Systems and Less-Biased Humans18
 
-–
+ 
 
 33
 
@@ -511,7 +511,7 @@ Recommended
 actions to take
 
 03
-Instill a feedback mechanism or open dialogue with users to raise awareness of user-identified biases or issues. e.g., Woebot asks “Let me know what you think,” after suggesting a link.19
+Instill a feedback mechanism or open dialogue with users to raise awareness of user-identified biases or issues. e.g., Woebot asks  Let me know what you think,  after suggesting a link.19
 
 01
 Real-time analysis of AI brings to light both intentional and unin-tentional biases. When bias in data becomes apparent, the team must investigate and understand where it originated and how it can be mitigated.
@@ -542,12 +542,12 @@ Fairness
 Fairness
 Example
 
-After sitting down with members of the hotel’s global management, the team uncovers that diversity and inclusiveness are important elements to the hotel’s values. The team ensures that the data collected about a user’s race, gender, etc. in combination with their usage of the AI, will not be used to market to or exclude certain demographics. 
+After sitting down with members of the hotel s global management, the team uncovers that diversity and inclusiveness are important elements to the hotel s values. The team ensures that the data collected about a user s race, gender, etc. in combination with their usage of the AI, will not be used to market to or exclude certain demographics. 
 The team inherited a set of data about guests from the hotel. After analyzing this data and implementing it into a build of the agent, they realize that it has a degree of algorithmic bias from the data. The team proceeds to take the time to train the model further on a bigger, more diverse set of data.
 
-–
+ 
 
-–
+ 
 
 36
 
@@ -560,17 +560,17 @@ Five Areas of Ethical Focus
 Fairness
 
 Shortcut Biases 
-I don’t have the time or energy to think about this.”
+I don t have the time or energy to think about this. 
 
 Unconscious
 Bias Definitions
 
-“
+ 
 
 The average knowledge worker is unaware of the many different types of biases. While this list is not all-encompassing, these biases are some of the more common types to be consciously aware of when designing and developing for AI.
 
 Availability Bias 
-Overestimating events with greater “availability“ in memory — influenced by how recent, unusual,
+Overestimating events with greater  availability  in memory   influenced by how recent, unusual,
 or emotionally charged the mem-ories may be.
 Base Rate Fallacy 
 The tendency to ignore general information and focus on specific information (a certain case).
@@ -579,7 +579,7 @@ Congruence Bias
 The tendency to test hypotheses exclusively through direct testing, instead of testing alternative hypotheses.
  
 Empathy Gap Bias 
-The tendency to underestimate the influence or strength of feelings, in either ones’ self or others.
+The tendency to underestimate the influence or strength of feelings, in either ones  self or others.
  
 Stereotyping 
 Expecting a member of a group to have certain characteristics without having actual information about that individual. 
@@ -590,14 +590,14 @@ Five Areas of Ethical Focus
 
 
 Impartiality Biases 
-I know I’m wrong sometimes, but I’m right about this.”
+I know I m wrong sometimes, but I m right about this. 
 
 Self-Interest Biases 
-We contributed the most. They weren’t very cooperative.”
+We contributed the most. They weren t very cooperative. 
 
-“
+ 
 
-“
+ 
 
 Anchoring Bias 
 To rely too much on one trait or piece of information when making decisions (usually the first piece of information that we acquire on that subject). 
@@ -606,23 +606,23 @@ The tendency to do or believe things because many other people do (groupthink).
 Bias Blind Spot 
 The tendency to see oneself as less biased than others, or to be able to identify more cognitive biases in others than in oneself. 
 Confirmation Bias 
-The tendency to search for, inter-pret, or focus on information in a way that confirms one’s
+The tendency to search for, inter-pret, or focus on information in a way that confirms one s
 preconceptions. 
 Halo Effect 
 The tendency of an overall im-pression to influence the observer. Positive feelings in one area causes ambiguous or neutral traits to be viewed positively. 
 
 Ingroup / Outgroup Bias 
-The tendency or patter of favoring members of one’s ingroup over outgroup members. 
+The tendency or patter of favoring members of one s ingroup over outgroup members. 
 Sunk Cost Bias 
 The tendency to justify past choices, even though they no longer seem valid.
  
 Status Quo Bias 
-The tendency to maintain the current situation — even when better alternatives exist.
+The tendency to maintain the current situation   even when better alternatives exist.
  
 Not Invented Here Bias 
 Aversion to contact with or use of products, research, standards, or knowledge developed outside a group. 
 Self-Serving Bias 
-The tendency to focus on strengths/achievements and overlook faults/failures. To take more responsibility for their group’s work that they give to
+The tendency to focus on strengths/achievements and overlook faults/failures. To take more responsibility for their group s work that they give to
 other groups. 
 
 39
@@ -631,11 +631,11 @@ Fairness
 
 User Data Rights
 
-AI must be designed to protect user data and preserve the user’s power over access and uses.
+AI must be designed to protect user data and preserve the user s power over access and uses.
 
-It is your team’s responsibility to keep users empowered with control over their interactions.
+It is your team s responsibility to keep users empowered with control over their interactions.
  
-Pew Research recently found that being in control of our own information is “very important” to 74% of Americans.20 The European Commission found that 71% of EU citizens find it unacceptable for companies to share information about them without their permission.21 These percentages will rise as AI is further used to either amplify our privacy or undermine it. Your company should be fully compliant with the applicable portions of EU’s General Data Protection Regulation22 and any comparable regulations in other countries, to make sure users understand that AI is working in their best interests.22
+Pew Research recently found that being in control of our own information is  very important  to 74% of Americans.20 The European Commission found that 71% of EU citizens find it unacceptable for companies to share information about them without their permission.21 These percentages will rise as AI is further used to either amplify our privacy or undermine it. Your company should be fully compliant with the applicable portions of EU s General Data Protection Regulation22 and any comparable regulations in other countries, to make sure users understand that AI is working in their best interests.22
 
 40
 
@@ -643,15 +643,15 @@ Five Areas of Ethical Focus
 
 
 Individuals require mechanisms
-to help curate their unique identity and personal data in conjunction with policies and practices that make them explicitly aware of consequences resulting from the bundling or resale of their personal information.”
+to help curate their unique identity and personal data in conjunction with policies and practices that make them explicitly aware of consequences resulting from the bundling or resale of their personal information. 
 
-“
+ 
 
 The IEEE Global Initiative
 on Ethics of Autonomous
 and Intelligent Systems23
 
-–
+ 
 
 User Data Rights
 
@@ -667,18 +667,18 @@ Users should always maintain control over what data is being used and in what co
 Allow users to deny service or data by having the AI ask for permission before an interaction or providing the option during an interaction. Privacy settings and permissions should be clear, findable, and adjustable. 
 
 02
-Users’ data should be protected from theft, misuse, or data
+Users  data should be protected from theft, misuse, or data
 corruption.
  
 
 05
-Forbid use of another company’s data without permission when creating a new AI service. 
+Forbid use of another company s data without permission when creating a new AI service. 
 
 03
 Provide full disclosure on how the personal information is being used or shared.
 
 06
-Recognize and adhere to applicable national and international rights laws  when designing for an AI’s acceptable user data access
+Recognize and adhere to applicable national and international rights laws  when designing for an AI s acceptable user data access
 permissions.24
 
 Five Areas of Ethical Focus
@@ -701,12 +701,12 @@ User Data Rights
 
 User Data Rights Example
 
-The hotel provides guests with a consent agreement to utilize the AI hotel assistant before they begin using the AI’s services. This agreement clearly outlines to guests that the hotel does not own their data and the guests have the right to purge this data from the system at any time, even after checkout.
+The hotel provides guests with a consent agreement to utilize the AI hotel assistant before they begin using the AI s services. This agreement clearly outlines to guests that the hotel does not own their data and the guests have the right to purge this data from the system at any time, even after checkout.
 During user interviews, the design researchers find that the guests feel they should be provided with a summary of the information that was acquired from them during their stay. At checkout, they can instruct the hotel to remove this information from the system if they wish.
 
-–
+ 
 
-–
+ 
 
 Five Areas of Ethical Focus
 

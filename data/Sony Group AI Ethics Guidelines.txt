@@ -1,12 +1,12 @@
 AI Engagement within Sony Group 
  
-Through the utilization of artificial intelligence (AI), Sony aims to contribute to the development of a peaceful and sustainable society while delivering kando - a sense of excitement, wonder or emotion - to the world. Starting from the electronics business, Sony has continued to expand its business area and has become a diverse global company that offers entertainment such as music and movies, as well as financial services. To operate these business areas based on Sony’s Purpose to ”Fill the world with emotion, through the power of creativity and technology.”, Sony Group AI Ethics Guidelines are hereby set forth below to ensure and promote a dialogue with various stakeholders and the proper utilization and research and development (hereafter “R&D”) of AI within Sony Group. 
+Through the utilization of artificial intelligence (AI), Sony aims to contribute to the development of a peaceful and sustainable society while delivering kando - a sense of excitement, wonder or emotion - to the world. Starting from the electronics business, Sony has continued to expand its business area and has become a diverse global company that offers entertainment such as music and movies, as well as financial services. To operate these business areas based on Sony s Purpose to  Fill the world with emotion, through the power of creativity and technology. , Sony Group AI Ethics Guidelines are hereby set forth below to ensure and promote a dialogue with various stakeholders and the proper utilization and research and development (hereafter  R&D ) of AI within Sony Group. 
  
  
 Sony Group AI Ethics Guidelines 
  
 Scope of the Guidelines 
-The “Sony Group AI Ethics Guidelines” (Guidelines) set forth the guidelines that must be followed by all officers and employees of Sony when utilizing AI and/or conducting AI-related R&D. 
+The  Sony Group AI Ethics Guidelines  (Guidelines) set forth the guidelines that must be followed by all officers and employees of Sony when utilizing AI and/or conducting AI-related R&D. 
 "Utilization of AI" within Sony means the following: 
 1. The provision of products and services by Sony, including entertainment content and financial services, which utilize AI; and 
 
@@ -15,11 +15,11 @@ The “Sony Group AI Ethics Guidelines” (Guidelines) set forth the guidelines that
 
  
 Definitions in the Guidelines 
-“AI” means any functionality or its enabling technology that performs information processing for various purposes that people perceive as intelligent, and that is embodied by machine learning based on data, or by rules or knowledge extracted in some methods. 
-“Sony” means Sony Group Corporation and any company where more than 50% of voting rights are directly or indirectly owned by Sony Group Corporation. 
+ AI  means any functionality or its enabling technology that performs information processing for various purposes that people perceive as intelligent, and that is embodied by machine learning based on data, or by rules or knowledge extracted in some methods. 
+ Sony  means Sony Group Corporation and any company where more than 50% of voting rights are directly or indirectly owned by Sony Group Corporation. 
  
 Revision of the Guidelines 
-Sony will review and evolve the Guidelines as needed based on national and regional AI-related guidelines, changes in people’s lifestyles and environments, accumulation of practices in the relevant industry, and information exchanged with its various stakeholders. 
+Sony will review and evolve the Guidelines as needed based on national and regional AI-related guidelines, changes in people s lifestyles and environments, accumulation of practices in the relevant industry, and information exchanged with its various stakeholders. 
  
  
   
@@ -34,7 +34,7 @@ In order to solve the challenges arising from use of AI while striving for bette
 3. Provision of Trusted Products and Services 
 
 
-Sony understands the need for safety when dealing with products and services utilizing AI and will continue to respond to security risks such as unauthorized access. AI systems may utilize statistical or probabilistic methods to achieve results. In the interest of Sony’s customers and to maintain their trust, Sony will design whole systems with an awareness of the responsibility associated with the characteristics of such methods. 
+Sony understands the need for safety when dealing with products and services utilizing AI and will continue to respond to security risks such as unauthorized access. AI systems may utilize statistical or probabilistic methods to achieve results. In the interest of Sony s customers and to maintain their trust, Sony will design whole systems with an awareness of the responsibility associated with the characteristics of such methods. 
 4. Privacy Protection 
 
 
@@ -50,7 +50,7 @@ During the planning and design stages for its products and services that utilize
 7. The Evolution of AI and Ongoing Education 
 
 
-People’s lives have continuously changed with the advance in technology across history. Sony will be cognizant of the effects and impact of products and services that utilize AI on society and will proactively work to contribute to developing AI to create a better society and foster human talent capable of shaping our collective bright future through R&D and/or utilization of AI. 
+People s lives have continuously changed with the advance in technology across history. Sony will be cognizant of the effects and impact of products and services that utilize AI on society and will proactively work to contribute to developing AI to create a better society and foster human talent capable of shaping our collective bright future through R&D and/or utilization of AI. 
  
  
 Issued 

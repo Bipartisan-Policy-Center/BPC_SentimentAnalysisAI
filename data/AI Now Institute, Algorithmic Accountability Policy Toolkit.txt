@@ -90,17 +90,17 @@ General Background
 
 What are Algorithms?
 What are Automated Decision Systems?
- An Algorithm is generally regarded as the mathematical logic behind any type of system that performs tasks or makes decisions. For example, how Facebook sorts what posts a user sees in their Facebook feed is an “algorithm.” The logic used in a software program to assign criminal defendants a public safety risk score is also an “algorithm.” “Algorithms” do not have to be based in software on computers. However, in the case of many types of risk assessments used in courts or human services agencies, the “algorithm” can be represented by a piece of paper that outlines the steps a human should take to evaluate a particular case.
+ An Algorithm is generally regarded as the mathematical logic behind any type of system that performs tasks or makes decisions. For example, how Facebook sorts what posts a user sees in their Facebook feed is an  algorithm.  The logic used in a software program to assign criminal defendants a public safety risk score is also an  algorithm.   Algorithms  do not have to be based in software on computers. However, in the case of many types of risk assessments used in courts or human services agencies, the  algorithm  can be represented by a piece of paper that outlines the steps a human should take to evaluate a particular case.
  
 What are Automated Decision Systems?
- An Automated Decision[-making/-support] System is a system that uses automated reasoning to aid or replace a decision-making process that would otherwise be performed by humans. Oftentimes an automated decision system refers to a particular piece of software: an example would be a computer program that takes as its input the school choice preferences of students and outputs school placements. All automated decision systems are designed by humans and involve some degree of human involvement in their operation. Humans are ultimately responsible for how a system receives its inputs (e.g. who collects the data that feeds into a system), how the system is used, and how a system’s outputs are interpreted and acted on.
-When talking about automated systems used in government, you might hear people refer to “algorithms,” “automated decision systems,” or “algorithmic systems” loosely and interchangeably. “Automated decision system” was the phrase used in New York City for its algorithmic accountability task force, so we stick with that when talking about a complete end-to-end system used in government, from design, testing, and actual use, including the human operators.
+ An Automated Decision[-making/-support] System is a system that uses automated reasoning to aid or replace a decision-making process that would otherwise be performed by humans. Oftentimes an automated decision system refers to a particular piece of software: an example would be a computer program that takes as its input the school choice preferences of students and outputs school placements. All automated decision systems are designed by humans and involve some degree of human involvement in their operation. Humans are ultimately responsible for how a system receives its inputs (e.g. who collects the data that feeds into a system), how the system is used, and how a system s outputs are interpreted and acted on.
+When talking about automated systems used in government, you might hear people refer to  algorithms,   automated decision systems,  or  algorithmic systems  loosely and interchangeably.  Automated decision system  was the phrase used in New York City for its algorithmic accountability task force, so we stick with that when talking about a complete end-to-end system used in government, from design, testing, and actual use, including the human operators.
  
-What exactly does “Artificial Intelligence” (AI) mean?
+What exactly does  Artificial Intelligence  (AI) mean?
  Artificial Intelligence (AI) has many definitions, and can include a wide range of methods and tools, including machine learning, facial recognition, and natural language processing. But more importantly, AI should be understood as more than just technical approaches. It is also developed out of the dominant social practices of engineers and computer scientists who design the systems, and the industrial infrastructure and companies that run those systems. Thus, a more complete definition of AI includes technical approaches, social practices and industrial power.
  
-What is “Machine Learning” (ML)? Is it the same thing as AI?
- In current use, machine learning (ML) is the field most commonly associated with the current explosion of AI. Machine learning is a set of techniques and algorithms that can be used to “train” a computer program to automatically recognize patterns in a set of data. Many different tools fall under the umbrella of “machine learning.” Though there are exceptions, ML generally uses “features” or “variables” (e.g. the location of fire departments in a city, data from surveillance cameras, attributes of criminal defendants) taken from a set of “training data” to learn these patterns without explicitly being told what those patterns are by humans. Machine learning has come to include things that have historically been more simply called “statistics.” Machine learning is the technique at the heart of new automated decision systems, making it difficult for humans to understand the logic behind those systems.
+What is  Machine Learning  (ML)? Is it the same thing as AI?
+ In current use, machine learning (ML) is the field most commonly associated with the current explosion of AI. Machine learning is a set of techniques and algorithms that can be used to  train  a computer program to automatically recognize patterns in a set of data. Many different tools fall under the umbrella of  machine learning.  Though there are exceptions, ML generally uses  features  or  variables  (e.g. the location of fire departments in a city, data from surveillance cameras, attributes of criminal defendants) taken from a set of  training data  to learn these patterns without explicitly being told what those patterns are by humans. Machine learning has come to include things that have historically been more simply called  statistics.  Machine learning is the technique at the heart of new automated decision systems, making it difficult for humans to understand the logic behind those systems.
  
 
 
@@ -112,39 +112,39 @@ INTRODUCTION  |  RESOURCE: FREQUENTLY ASKED QUESTIONS
 Questions You May Have
 
 How do algorithms relate to my work in immigration, criminal justice, education, housing, racial justice, national security, etc.?
- Many different types of government agencies are increasingly using automated decision systems and other forms of predictive analytics. Automated decision systems can exist in any context where government bodies or agencies evaluate people or cases, allocate scarce resources, focus scrutiny or surveillance on communities, or make nearly any sort of decision. For example, in criminal justice we have seen algorithms used to assign recidivism risk scores to defendants or target policing activities through “predictive policing” systems. In education, we have seen algorithms used to evaluate teachers and match students to high school placements. Biases in the algorithms used by any of type of agency, including how they are formulated and what data they rely on, can lead to biased and harmful results for the people and communities most affected by the agencies. And even apart from the question of bias, there may be contexts in which it is always inappropriate or unlawful to have an automated decision system making consequential decisions
+ Many different types of government agencies are increasingly using automated decision systems and other forms of predictive analytics. Automated decision systems can exist in any context where government bodies or agencies evaluate people or cases, allocate scarce resources, focus scrutiny or surveillance on communities, or make nearly any sort of decision. For example, in criminal justice we have seen algorithms used to assign recidivism risk scores to defendants or target policing activities through  predictive policing  systems. In education, we have seen algorithms used to evaluate teachers and match students to high school placements. Biases in the algorithms used by any of type of agency, including how they are formulated and what data they rely on, can lead to biased and harmful results for the people and communities most affected by the agencies. And even apart from the question of bias, there may be contexts in which it is always inappropriate or unlawful to have an automated decision system making consequential decisions
  
 Where does the data used to build and train automated decision systems come from?
- Sometimes the data used to train automated decision systems will come from the agency’s own databases. Researchers studying automated decision systems have critiqued their use because of this limitation, since existing bias in an agency’s decisions will be carried over in systems trained on biased agency data.1 
+ Sometimes the data used to train automated decision systems will come from the agency s own databases. Researchers studying automated decision systems have critiqued their use because of this limitation, since existing bias in an agency s decisions will be carried over in systems trained on biased agency data.1 
 Some government agencies, however, have access to data from other agencies for automated decision systems. This may become more common in the future as governments use more sophisticated technical platforms to manage and share their data.2 
 Some systems that government agencies use might be trained on data from third-parties that the government itself does not have, or private commercial data. For example, a vendor of automated decision systems might train a pre-trial risk assessment system on data from one jurisdiction, and then sell the trained risk assessment model to other jurisdictions.3 
  
 Has anyone litigated the use of algorithmic systems in government?
  Yes. Cases across the country have challenged the use of automated decision systems on different grounds, including in criminal sentencing and in public benefits.
-In State v. Loomis (2016) in front of the Wisconsin Supreme Court, the defendant claimed that the court’s use of a risk assessment when determining his sentence was a due process violation. Other cases have tried to force agencies to divulge information about algorithmic systems (including their source code) in criminal proceedings.
+In State v. Loomis (2016) in front of the Wisconsin Supreme Court, the defendant claimed that the court s use of a risk assessment when determining his sentence was a due process violation. Other cases have tried to force agencies to divulge information about algorithmic systems (including their source code) in criminal proceedings.
  
 What about the use of automated decision systems in private companies?
  Private companies use algorithms every day in the course of regular business, some of which urgently need public scrutiny. The effort to regulate those sorts of algorithms can benefit from what we learn about holding public algorithms accountable, but the methods may have to look quite different.
-Work by ACLU’s Racial Justice Project has highlighted how Facebook’s ad-targeting platform can allow advertisers to illegally discriminate against people of color by limiting their audience for housing advertisements by “ethnic affinity.”
+Work by ACLU s Racial Justice Project has highlighted how Facebook s ad-targeting platform can allow advertisers to illegally discriminate against people of color by limiting their audience for housing advertisements by  ethnic affinity. 
  
 Who studies algorithmic systems from a technical viewpoint?
  A growing interdisciplinary community of academic researchers studies fairness, accountability, and transparency in algorithmic systems, with contributions from computer science, the social sciences, and the law.
 The annual Fairness, Accountability, and Transparency Conference (FAT*) has been a gathering point for this community.
  
 How does fairness/bias get defined in the technical world?
- The technical community has made many attempts to define “fairness” mathematically, so that machine learning systems can be made to meet some provable standard of “fair.” This effort is the subject of ongoing research in machine learning.4  It should be noted that this conversation often ignores notions of “justice:” in seeking to address these systems, justice is what we’re after, not merely fairness. They are not the same thing, but the academic machine learning research focuses on quantifying the latter.5 
-For example, consider an ML-based pretrial risk assessment that attempts to rate a defendant’s risk of rearrest as either low risk or high risk. Under one definition of “fairness” centered on “calibration,” the risk assessment should be deemed fair if “high-risk” and “low-risk” mean the same thing for Black and White defendants; that is, if “high-risk” for a Black defendant means there is a 70% probability they will be rearrested, then “high-risk” for a White defendant should also mean there is a 70% probability they will be rearrested.
-Under a different definition of “fairness” based on error rate balance, then the risk assessment should be considered fair if it mis-scores Black and White defendants at similar rates (i.e. a Black defendant who ultimately does not get rearrested is just as likely to be given a high risk score as a White defendant who does not ultimately get rearrested). 
-These sorts of definitions sometimes directly contradict each other. Research has found that in the above example, as long as the base rates of rearrest among Black and White defendants differ and as long as perfect prediction is impossible, a risk assessment cannot meet these two definitions of fairness (“calibration” and “error rate balance”) at the same time. There are many more definitions of fairness that go beyond these two relatively simple ones, and their differences can have meaningful differences in how systems using machine learning treat people.
+ The technical community has made many attempts to define  fairness  mathematically, so that machine learning systems can be made to meet some provable standard of  fair.  This effort is the subject of ongoing research in machine learning.4  It should be noted that this conversation often ignores notions of  justice:  in seeking to address these systems, justice is what we re after, not merely fairness. They are not the same thing, but the academic machine learning research focuses on quantifying the latter.5 
+For example, consider an ML-based pretrial risk assessment that attempts to rate a defendant s risk of rearrest as either low risk or high risk. Under one definition of  fairness  centered on  calibration,  the risk assessment should be deemed fair if  high-risk  and  low-risk  mean the same thing for Black and White defendants; that is, if  high-risk  for a Black defendant means there is a 70% probability they will be rearrested, then  high-risk  for a White defendant should also mean there is a 70% probability they will be rearrested.
+Under a different definition of  fairness  based on error rate balance, then the risk assessment should be considered fair if it mis-scores Black and White defendants at similar rates (i.e. a Black defendant who ultimately does not get rearrested is just as likely to be given a high risk score as a White defendant who does not ultimately get rearrested). 
+These sorts of definitions sometimes directly contradict each other. Research has found that in the above example, as long as the base rates of rearrest among Black and White defendants differ and as long as perfect prediction is impossible, a risk assessment cannot meet these two definitions of fairness ( calibration  and  error rate balance ) at the same time. There are many more definitions of fairness that go beyond these two relatively simple ones, and their differences can have meaningful differences in how systems using machine learning treat people.
  
 Can you understand an automated decision system simply by looking at the source code (that is, the programming written by a human)?
- In most cases, no. The source code of a system that uses machine learning will not reveal the “rules” the machine learning model uses to make decisions. Instead of source code, it is helpful to have access to the system’s training data or the “model” or “weights” that the ML algorithm learned.
-Source code might be helpful in the case of “expert systems” or other simpler automated decision systems where a human explicitly writes decision making rules into code. But in the case of the growing use of AI and machine learning in government, the source code is neither sufficient for understanding the system nor is it often necessary.
+ In most cases, no. The source code of a system that uses machine learning will not reveal the  rules  the machine learning model uses to make decisions. Instead of source code, it is helpful to have access to the system s training data or the  model  or  weights  that the ML algorithm learned.
+Source code might be helpful in the case of  expert systems  or other simpler automated decision systems where a human explicitly writes decision making rules into code. But in the case of the growing use of AI and machine learning in government, the source code is neither sufficient for understanding the system nor is it often necessary.
  
-Aren’t automated decision systems infallible? After all, they’re computers.
+Aren t automated decision systems infallible? After all, they re computers.
  We have to remember that humans are a necessary part of automated decision systems. Automated decision systems are not built and used in a vacuum: humans classify what data should be collected to be used in automated decision systems, collect the data, determine the goals and uses of the systems, decide how to train and evaluate the performance of the systems, and ultimately act on the decisions and assessments made by the systems. So, like humans, they are not infallible.
  
-Why do we need a separate effort to regulate the use of algorithms in government? Aren’t existing laws that address discrimination and harm in education/criminal justice/employment/etc. sufficient?
+Why do we need a separate effort to regulate the use of algorithms in government? Aren t existing laws that address discrimination and harm in education/criminal justice/employment/etc. sufficient?
  The opacity and inscrutability of algorithms present a new threat to our ability to understand how government agencies. We need a new approach to identify and address bias and discrimination in automated decision systems. New laws and practices are needed to encourage the safe development of these systems if they are ever to be used and to enable new forms of oversight. At the same time, we must also find ways to enforce existing laws and standards even in the face of algorithms that might muddy the picture.
  
 
@@ -156,15 +156,15 @@ Why do we need a separate effort to regulate the use of algorithms in government
 
 3	US Immigration and Customs Enforcement, for example has proposed using social media data to evaluate immigration applications.
 
-4	A recent talk by computer science professor Arvind Narayanan highlights the work being done in defining fairness, the trade-offs and ethical considerations reflected in the different definitions, and the limitations of the entire technical field of study. A guide on “quantitative fairness” by statisticians also offers a view into how the field of statistics and machine learning views fairness.
+4	A recent talk by computer science professor Arvind Narayanan highlights the work being done in defining fairness, the trade-offs and ethical considerations reflected in the different definitions, and the limitations of the entire technical field of study. A guide on  quantitative fairness  by statisticians also offers a view into how the field of statistics and machine learning views fairness.
 
-5	Though there are exceptions, and the field is rapidly changing: research by computer scientist Reuben Binns has looked at understanding fairness and justice in machine learning with “lessons from political philosophy.”
+5	Though there are exceptions, and the field is rapidly changing: research by computer scientist Reuben Binns has looked at understanding fairness and justice in machine learning with  lessons from political philosophy. 
 
 6	As referenced earlier, research has shown that the choice of what data to use to solve a particular problem can lead to different outcomes in the decisions made.
 
-7	See, Danielle Keats Citron’s foundational paper “Technological Due Process” for a discussion of “automation bias:” the tendency to trust automated processes over human reasoning, resulting in undue deference to algorithms.
+7	See, Danielle Keats Citron s foundational paper  Technological Due Process  for a discussion of  automation bias:  the tendency to trust automated processes over human reasoning, resulting in undue deference to algorithms.
 
-8	Benjamin Herold, “Custom Software Helps Cities Manage School Choice,” Education Week, December 4, 2013.
+8	Benjamin Herold,  Custom Software Helps Cities Manage School Choice,  Education Week, December 4, 2013.
 
 
 3
@@ -188,17 +188,17 @@ INTRODUCTION  |  RESOURCE: FREQUENTLY ASKED QUESTIONS
 
 Questions You May Receive
 
-If they’re based off of data from the real world, how can algorithmic systems be biased? Don’t they just learn from reality?
- Humans are responsible for defining what data should be collected, how it will be collected, and how it will be used. Automated decision systems are largely built on finding patterns in that data. Because the collection and use of data is such a human process, we should not take for granted that the data is “correct,” or representative of a reality that we want to perpetuate in future.6 Automated systems are not inherently scientifically objective.
+If they re based off of data from the real world, how can algorithmic systems be biased? Don t they just learn from reality?
+ Humans are responsible for defining what data should be collected, how it will be collected, and how it will be used. Automated decision systems are largely built on finding patterns in that data. Because the collection and use of data is such a human process, we should not take for granted that the data is  correct,  or representative of a reality that we want to perpetuate in future.6 Automated systems are not inherently scientifically objective.
  
-Why should we be concerned with bias in automated decision systems? Aren’t they replacing humans who are already biased?
- It is true that individual humans who make decisions already have biases, but automated decision systems can amplify bias on an unprecedented scale, and give that bias the appearance of scientific objectivity.7 Automated decision systems also raise due process concerns that we do not yet know how to address, especially when people cannot access or understand the technical systems that produced the decision. Responsibility matters, but it’s hard to hold algorithms accountable for their decisions.
+Why should we be concerned with bias in automated decision systems? Aren t they replacing humans who are already biased?
+ It is true that individual humans who make decisions already have biases, but automated decision systems can amplify bias on an unprecedented scale, and give that bias the appearance of scientific objectivity.7 Automated decision systems also raise due process concerns that we do not yet know how to address, especially when people cannot access or understand the technical systems that produced the decision. Responsibility matters, but it s hard to hold algorithms accountable for their decisions.
  
 What makes an automated decision system different than some types of excel spreadsheets or other simple tools already used by government?
  In some cases, if a public agency uses simple tools like Microsoft Excel to automate non-trivial decision processes, we might want to consider those uses of the tool their own kind of automated decision system. We would not necessarily want to say that Microsoft Excel is an automated decision system, but we would want to clarify that it can be used to implement more complex logic that should be scrutinized. It will be difficult to draw a boundary around these uses of seemingly simple tools.
  
-Haven’t we had these types of systems for years? Why do we care now?
- Automated decision systems are not an entirely new phenomenon, but their deployment is rapidly expanding into new areas of government. This is in large part thanks to the availability of more data and increased interest in “smart cities” and “smart government.” The stakes have also changed — automated decision systems are increasingly being used in more and more sensitive decisions that impact human welfare.
+Haven t we had these types of systems for years? Why do we care now?
+ Automated decision systems are not an entirely new phenomenon, but their deployment is rapidly expanding into new areas of government. This is in large part thanks to the availability of more data and increased interest in  smart cities  and  smart government.  The stakes have also changed   automated decision systems are increasingly being used in more and more sensitive decisions that impact human welfare.
  
 
 
@@ -209,7 +209,7 @@ INTRODUCTION
 
 Resource: Types of of Algorithmic Systems used in Government and Legal Concerns
 
-Humans are responsible for defining what data should be collected, how it will be collected, and how it will be used. Automated decision systems are largely built on finding patterns in that data. Because the collection and use of data is such a human process, we should not take for granted that the data is “correct,” or representative of a reality that we want to perpetuate in future. Automated systems are not inherently scientifically objective.
+Humans are responsible for defining what data should be collected, how it will be collected, and how it will be used. Automated decision systems are largely built on finding patterns in that data. Because the collection and use of data is such a human process, we should not take for granted that the data is  correct,  or representative of a reality that we want to perpetuate in future. Automated systems are not inherently scientifically objective.
 
 Human Resources/Public Benefits
 
@@ -234,11 +234,11 @@ DNA Analysis
 Known Vendors: Strmix, TrueAllele, Cybergenetics
  
 Pretrial Risk Assessment
- A system that analyzes information collected during interviews with an arrested person to assess the person’s likelihood of nonappearance, rearrest, and rearrest for a violent crime. Most pretrial risk assessments use a simple algorithm that is reliant on a small number of input variables, which are usually determined by state law. When predicting what defendants might not appear in court, such risk assessments are sometimes called “failure to appear” tools.
+ A system that analyzes information collected during interviews with an arrested person to assess the person s likelihood of nonappearance, rearrest, and rearrest for a violent crime. Most pretrial risk assessments use a simple algorithm that is reliant on a small number of input variables, which are usually determined by state law. When predicting what defendants might not appear in court, such risk assessments are sometimes called  failure to appear  tools.
 Known Vendors: Northpointe (COMPAS); University of Chicago Crime Lab
  
 Sentencing Risk Assessment
- A system designed to reduce recidivism by targeting defendants that are considered “high risk” and reduce prison populations by diverting “low risk” defendants from prison.
+ A system designed to reduce recidivism by targeting defendants that are considered  high risk  and reduce prison populations by diverting  low risk  defendants from prison.
 Known Examples: MHS Assessments (Juvenile Sentencing tool); PA Sentence Risk Assessment Instrument
  
 Inmate Housing Classification
@@ -310,7 +310,7 @@ Omidyar Network
  A report studying how journalists, researchers, and lawyers have so far kept the use of automated decision systems in government accountable. This report systematically documents specific cases where scrutiny has been applied to automated decision systems, the specific technical, legal, and journalistic techniques and tools of accountability used in those cases, and potential directions for future policymakers to take to keep public automated decision systems accountable. This resource can provide a more in-depth treatment of how algorithms used in government work, accessible to policymakers.
  
 Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy
-Cathy O’Neil
+Cathy O Neil
  The author of this book, a mathematician and data scientist, discusses the high-level problems with using models and big data to drive significant decisions. After providing a primer on models and how they may fail, the book focuses on higher education, online advertising, criminal justice, employment, credit, insurance, and civic life, positing that the systems are discriminatory in part because the algorithms backing them are unregulated and difficult to challenge.
  
 
@@ -370,7 +370,7 @@ INTRODUCTION  |  RESOURCE: RELEVANT LITERATURE
 
 Predictive Policing
 
-Stuck in a Pattern: Early evidence on “predictive policing” and civil rights
+Stuck in a Pattern: Early evidence on  predictive policing  and civil rights
 David G. Robinson
 Logan Koepke
 (An Upturn report)
@@ -378,12 +378,12 @@ Logan Koepke
  
 Big Data Surveillance: The Case of Policing
 Sarah Brayne
- This articles summarizes the observations and findings from an empirical study of the Los Angeles Police Department’s adoption of big data analytics. The study found that big data analytics have amplified prior surveillance practices that create greater social inequalities and consequences. Based on these findings and other observations, Brayne developed a theoretical model of big data surveillance that can be applied in several institutional domains.
+ This articles summarizes the observations and findings from an empirical study of the Los Angeles Police Department s adoption of big data analytics. The study found that big data analytics have amplified prior surveillance practices that create greater social inequalities and consequences. Based on these findings and other observations, Brayne developed a theoretical model of big data surveillance that can be applied in several institutional domains.
  
 Illuminating Black Data Policing
 Policing Predictive Policing
 Andrew G. Ferguson
- These articles contend that predictive policing is marred by inadequate, “black” data that is opaque, racially biased, and insufficient for big data methods. They also review constitutional doctrine and upcoming questions regarding the use of predictive policing and other police technologies. Policing Predictive Policing in particular provides a list of the different aspects of predictive policing systems that make them problematic.
+ These articles contend that predictive policing is marred by inadequate,  black  data that is opaque, racially biased, and insufficient for big data methods. They also review constitutional doctrine and upcoming questions regarding the use of predictive policing and other police technologies. Policing Predictive Policing in particular provides a list of the different aspects of predictive policing systems that make them problematic.
  
 To Predict and Serve?
 Kristian Lum
@@ -392,7 +392,7 @@ William Isaac
  
 Predictable Policing: Predictive Crime Mapping and Geographies of Policing and Race
 Brian Jordan Jefferson
- This article examines Chicago’s predictive crime mapping system using geographic information systems as a tool. It suggests, after this map-based analysis, that predictive policing exacerbates racial disparities in policing and perpetuates geographically-based racism.
+ This article examines Chicago s predictive crime mapping system using geographic information systems as a tool. It suggests, after this map-based analysis, that predictive policing exacerbates racial disparities in policing and perpetuates geographically-based racism.
  
 
 
@@ -403,18 +403,18 @@ INTRODUCTION  |  RESOURCE: RELEVANT LITERATURE
 
 Criminal Justice Risk Assessment
 
-“Fair” Risk Assessment: A Precarious Approach for Criminal Justice Reform
+ Fair  Risk Assessment: A Precarious Approach for Criminal Justice Reform
 Ben Green
  This articles interrogates how risk assessment tools that are considered fair by technical definitions, can actually be unfair and hinder or dilute existing criminal justice reform efforts. It suggests that the machine learning field should expand the considerations and questions used to evaluate the opportunities and challenges presented by the use of risk assessments
  
 Assessing Risk Assessment in Action
 Megan Stevenson
- This article assesses the results of a pretrial risk assessment used in Kentucky, concluding that pretrial risk assessment did not significantly increase the rate of pretrial releases, and that judges generally return to their old habits even when using the risk assessment. In addition to the case study, the article provides background on pretrial risk assessment programs and suggests takeaways from Kentucky’s experiment for other jurisdictions seeking to implement a similar program. This resource is most useful when evaluating claims that risk assessments are inherently decarceral in nature, a claim this article provides evidence against.
+ This article assesses the results of a pretrial risk assessment used in Kentucky, concluding that pretrial risk assessment did not significantly increase the rate of pretrial releases, and that judges generally return to their old habits even when using the risk assessment. In addition to the case study, the article provides background on pretrial risk assessment programs and suggests takeaways from Kentucky s experiment for other jurisdictions seeking to implement a similar program. This resource is most useful when evaluating claims that risk assessments are inherently decarceral in nature, a claim this article provides evidence against.
  
 Danger Ahead: Risk Assessment and the Future of Bail Reform
 Logan Koepke
 David G. Robinson
- This resource considers the impact of pretrial risk assessment on pretrial detention, specifically noting that current tools rely on faulty data and overestimate risk, escape public scrutiny, and provide a veneer of scientific objectivity for social concepts like “dangerousness.” The authors also explain how systems should be developed to avoid harms, specifically ensuring quality inputs and good governance. The resource provides a history of bail and an explanation of pretrial risk assessment, and is most useful for its explanations of how to address the challenges presented by pretrial risk assessment systems.
+ This resource considers the impact of pretrial risk assessment on pretrial detention, specifically noting that current tools rely on faulty data and overestimate risk, escape public scrutiny, and provide a veneer of scientific objectivity for social concepts like  dangerousness.  The authors also explain how systems should be developed to avoid harms, specifically ensuring quality inputs and good governance. The resource provides a history of bail and an explanation of pretrial risk assessment, and is most useful for its explanations of how to address the challenges presented by pretrial risk assessment systems.
  
 The Use of Risk Assessment at Sentencing: Implications for Research and Policy
 Jordan Hyatt
@@ -424,7 +424,7 @@ Steven L. Chanenson
 The Accuracy, Fairness, and Limits of Predicting Recidivism
 Julia Dressel
 Hany Farid
- This paper is a quantitative examination of how a particular pretrial risk assessment tool — Northpointe’s COMPAS system — functions. It concludes the software is no more accurate or fair than predictions made by people, and provides an alternate, more simplified model that would generate the same results. It is most valuable as a guide for how to similarly evaluate other pretrial risk assessment tools, providing a model and methodology that could be ported to other kinds of algorithmic assessment as well.
+ This paper is a quantitative examination of how a particular pretrial risk assessment tool   Northpointe s COMPAS system   functions. It concludes the software is no more accurate or fair than predictions made by people, and provides an alternate, more simplified model that would generate the same results. It is most valuable as a guide for how to similarly evaluate other pretrial risk assessment tools, providing a model and methodology that could be ported to other kinds of algorithmic assessment as well.
  
 
 
@@ -437,7 +437,7 @@ Human Resources/Public Benefits
 
 Automating Inequality
 Virginia Eubanks
- This book provides extensive case studies on automated welfare benefits determination in Indiana, a homeless registry in California, and predictive models for child welfare in Pennsylvania. The author describes how automated systems have failed to provide services in a fair and efficient manner, and especially focuses on how they impact poor, minority, and otherwise vulnerable populations. The resource is most helpful in approaching the problems of algorithms from an advocate’s perspective.
+ This book provides extensive case studies on automated welfare benefits determination in Indiana, a homeless registry in California, and predictive models for child welfare in Pennsylvania. The author describes how automated systems have failed to provide services in a fair and efficient manner, and especially focuses on how they impact poor, minority, and otherwise vulnerable populations. The resource is most helpful in approaching the problems of algorithms from an advocate s perspective.
  
 The Empirical Turn in Family Law
 Claire Huntington
@@ -452,7 +452,7 @@ Technological Due Process
 Danielle Keats Citron
  This article describes how automated decision systems can fail to provide adequate due process for people subject to administrative decisions. It explains how the creation of automated decision systems blurs the line between adjudication and rulemaking in how agencies make decisions, and argues for the need for enhanced due process protections for new algorithmic systems.
  
-“What happens when an algorithm cuts your health care”
+ What happens when an algorithm cuts your health care 
 Colin Lecher
  This article describes the use of algorithms in home health care assessments, focusing on the deployment of a new algorithmic system in Arkansas but also highlighting cases in Colorado, California, and Idaho. It provides anecdotal descriptions of how individuals have challenged home care algorithms in court, and describes the importance of explainability, transparency, and notice. This article provides a useful case study of automated decision making in the provision of public benefits and its failures in the specific instance of determining home care hours.
  
@@ -467,17 +467,17 @@ Healthcare
 
 Regulating Black-Box Medicine
 W. Nicholson Price
- This resource provides a short history and explanation of the use of algorithms in medicine that help in guiding care. It also discusses the FDA’s current regulatory scheme for such algorithms and suggests potential pitfalls and possible improvements. This article is particularly useful when considering the role of algorithms in high-risk domains and new ways to regulate algorithms.
+ This resource provides a short history and explanation of the use of algorithms in medicine that help in guiding care. It also discusses the FDA s current regulatory scheme for such algorithms and suggests potential pitfalls and possible improvements. This article is particularly useful when considering the role of algorithms in high-risk domains and new ways to regulate algorithms.
  
 
 
 
 Education
 
-“The Broken Promises of Choice in New York City Schools”
+ The Broken Promises of Choice in New York City Schools 
 Elizabeth A. Harris
 Ford Fessenden
- This article describes the process of selecting a high school under former Mayor Bloomberg’s school choice system, describing its structural inequities and focusing in particular on the opaqueness of the matching program. It provides useful background on how discrimination and segregation can persist despite the policy goals of an automated decision system.
+ This article describes the process of selecting a high school under former Mayor Bloomberg s school choice system, describing its structural inequities and focusing in particular on the opaqueness of the matching program. It provides useful background on how discrimination and segregation can persist despite the policy goals of an automated decision system.
  
 
 
@@ -495,7 +495,7 @@ Algorithmic Accountability Frameworks
 
 Algorithmic Impact Assessments: A practical framework for public agency accountability
 AI Now Institute
- This report proposes “Algorithmic Impact Assessments” (AIAs) as a framework to assess automated decision systems and ensure public accountability. It lays out the process and components of an AIA and can serve as a resource for government agencies and members of the public to understand what tools are needed to keep automated decision systems accountable.
+ This report proposes  Algorithmic Impact Assessments  (AIAs) as a framework to assess automated decision systems and ensure public accountability. It lays out the process and components of an AIA and can serve as a resource for government agencies and members of the public to understand what tools are needed to keep automated decision systems accountable.
  
 
 
@@ -507,10 +507,10 @@ MAPPING SYSTEMS, DATA AND VENDORS
 Public Records Request Guidance 
 
 Public records requests have been a useful tool in identifying where and how government agencies are using algorithmic tools. They can also provide useful information to help challenge government use of algorithmic tools. Yet, it is not always apparent what to ask for, what information is subject to public records law, and what information is useful for civil liberties analysis. The following guidance will help affiliate staffs determine what to look and ask for to assess and potentially challenge government use of algorithmic systems. 
-You should be aware that public records requests of algorithmic tools can become resource intense. Some of the information you will request may be held by a third party vendor, so a government agency may suggest that they do not have responsive records to your request because they are not technically retained by the agency. In these circumstances, you will need to be prepared to challenge the government’s response through an administrative appeal. You can also consider advocating for legislative reform of your state’s open records law to address this problem.
+You should be aware that public records requests of algorithmic tools can become resource intense. Some of the information you will request may be held by a third party vendor, so a government agency may suggest that they do not have responsive records to your request because they are not technically retained by the agency. In these circumstances, you will need to be prepared to challenge the government s response through an administrative appeal. You can also consider advocating for legislative reform of your state s open records law to address this problem.
 
 
-Because the collection and use of data is such a human process, we should not take for granted that the data is “correct,” or representative of a reality that we want to perpetuate in future.
+Because the collection and use of data is such a human process, we should not take for granted that the data is  correct,  or representative of a reality that we want to perpetuate in future.
 
 16
 
@@ -522,7 +522,7 @@ While many state public records laws are very similar to the federal law, severa
 In addition to tailoring your request to your state law, you should try to tailor your request in accordance with known or speculative information about the system. Potential sources of references to systems may include news articles, public statements or press releases by public officials, agency or legislative budgets, agency or legislative public hearing notes or minutes, or relevant databases (e.g. MuckRock Project Public Records Request Archive) . Compiling these reference sources in advance may make your request more specific and help if you have to appeal or challenge the response to your public records request. 
 You can draft your request using the annotated model public records request as a template but use your sources or reference documents to narrow your request. In addition to being specific, you should try to include examples of what you are looking for so it is clear to the public records officer or other government officials who are making determinations about what is responsive to your request. 
 
-Review your State’s Open Records Law
+Review your State s Open Records Law
 
 Compile Sources or References to the System
 
@@ -536,10 +536,10 @@ Annotated Model Public Records Request:
 
 Most of the provisions in this model request are in reference to a software based algorithmic-system. Be mindful that some systems may function as a hybrid, where government officials perform certain tasks or functions of the algorithm. Therefore, you must modify the language to capture these distinctions so your request is not rejected (in part or whole) because of semantics or misinterpretations. 
 
-Re: STATE’S PUBLIC RECORDS LAW Request
+Re: STATE S PUBLIC RECORDS LAW Request
 ACTUAL OR DESCRIPTIVE NAME OF SYSTEM
 Dear AGENCY PUBLIC RECORD OFFICER OR DESIGNEE: 
-The American Civil Liberties Union of ______________ is filing this request for records pursuant to STATE LAW NAME AND STATUTORY CITATION, to seek information on the NAME OF AGENCY’s ACTUAL OR DESCRIPTIVE NAME OF SYSTEM used to SUCCINCTLY DESCRIBE TO THE BEST OF YOUR ABILITY WHAT THE SYSTEM DOES OR HOW IT IS ALLEGEDLY USED. 
+The American Civil Liberties Union of ______________ is filing this request for records pursuant to STATE LAW NAME AND STATUTORY CITATION, to seek information on the NAME OF AGENCY s ACTUAL OR DESCRIPTIVE NAME OF SYSTEM used to SUCCINCTLY DESCRIBE TO THE BEST OF YOUR ABILITY WHAT THE SYSTEM DOES OR HOW IT IS ALLEGEDLY USED. 
 The American Civil Liberties Union of ______________ request the following records:
 1.	
 All records including information relating to the algorithm that DESCRIBE WHAT IT DOES within NAME OF AGENCY, DIVISION OR FACILITY, including but not limited to its source code, models, developer documentation, and operator manuals. 
@@ -592,13 +592,13 @@ EMAIL
 If any portion of this request is denied for any reason, please inform us of the reason for the denial in writing and provide the name and address of the person or body to whom an appeal should be directed.
 
 This provision seeks the actual algorithm and other relevant technical information. It is important to specific to the best of your knowledge what the system does. Questions to consider when describing the system: 
-•	
+ 	
 Does it predict behavior or actions?
 
-•	
+ 	
 Is it used to determine what resources a person will receive or how they may be treated?
 
-•	
+ 	
 Is it classifying an individual or group of people?
 
 
@@ -607,7 +607,7 @@ These provisions seek information about the variables a system may use to produc
 
 Use your source references to try to identify specific outputs of a system to specify here because if this provision is too broad the public records officer may reject the request because they do not know what may be response.
 
-This provision seeks information to help you determine what level of deference agency staff may give to the system’s outputs. Typically, the lack of any information, directives, and/or guidances suggests a fairly subjective process
+This provision seeks information to help you determine what level of deference agency staff may give to the system s outputs. Typically, the lack of any information, directives, and/or guidances suggests a fairly subjective process
 
 18
 
@@ -633,16 +633,16 @@ Little Sis Tracking
 
 Little Sis (https://littlesis.org/) is a free and open database detailing the connections between people and organizations.  Little Sis can be used to track the relationships between government officials, vendors, lobbyist, business leaders, philanthropic organizations, and independent donors.  The database is populated by its users so while it can be resource intensive to use this tool, it can help illuminate relationships and transactions that can be important in the algorithmic accountability contexts. 
 The database consist of:
-•	
+ 	
 Entities (people of organizations)
 
-•	
+ 	
 Relationships between entities in various categories (Position, Education, Membership, Donation/Grant, Service/Transaction, Ownershivp, Hierarchy, or Generic)
 
-•	
+ 	
 Lists that allow for the groups of Entities
 
-•	
+ 	
 Maps that visualize relationships between entities in the form of Diagrams
 
 
@@ -716,10 +716,10 @@ Before deployment, VENDOR must produce a test version of the SYSTEM.
 ii.	
 After production of test version, VENDOR must:
 1.	
-Conduct a feasibility analysis of said test version. Feasibility analyses will include, but are not limited to: evaluation of the predictive power of SYSTEM’s models, the choice of particular target variables over alternatives, the cost of archiving data used in the creation of SYSTEM models, the cost and feasibility of updating SYSTEM models with new data, [other requirements for feasibility].
+Conduct a feasibility analysis of said test version. Feasibility analyses will include, but are not limited to: evaluation of the predictive power of SYSTEM s models, the choice of particular target variables over alternatives, the cost of archiving data used in the creation of SYSTEM models, the cost and feasibility of updating SYSTEM models with new data, [other requirements for feasibility].
 
 2.	
-Conduct a performance analysis of said test version, including determining how to establish “confidence intervals” on SYSTEM prediction and how SYSTEM should represent confidence intervals and prediction uncertainty to SYSTEM operators. Performance analysis will also study potential operator use of the SYSTEM to understand patterns of use and how operators interpret and act on SYSTEM outputs.
+Conduct a performance analysis of said test version, including determining how to establish  confidence intervals  on SYSTEM prediction and how SYSTEM should represent confidence intervals and prediction uncertainty to SYSTEM operators. Performance analysis will also study potential operator use of the SYSTEM to understand patterns of use and how operators interpret and act on SYSTEM outputs.
 
 3.	
 Conduct a validation study of accuracy and performance of said test version on a data from one or more approved data sets that was not used in the construction of SYSTEM models, in which VENDOR shall determine predictive accuracy and the likelihood of error in reference to different identifiable populations subject to the SYSTEM. Different groups for analysis should include (but are not limited to) groups that differ by: [race, neighborhood, etc]
@@ -731,14 +731,14 @@ Conduct a validation study of accuracy and performance of said test version on a
 e.	
 Waiver of legal claims against activities intended to audit or assess SYSTEM Accountability
 i.	
-In the interest of promoting SYSTEM accountability, VENDOR hereby agrees not to assert any legal claims against [AGENCY or any AGENCY officials or agents] or any third party for conducting research on SYSTEM concerning any actions intended to test, audit, examine, or otherwise understand SYSTEM’s effects on an individual or group of individuals impacted by SYSTEM’s outputs, including but not limited to concerns over bias, due process, disparate impact, or fairness. Non-limiting examples of such legal claims include claims for infringement of patent, copyright, or trademark rights, trade secret misappropriation, breach of contract, interference with business relationships, or violations of state or federal anti-hacking laws.
+In the interest of promoting SYSTEM accountability, VENDOR hereby agrees not to assert any legal claims against [AGENCY or any AGENCY officials or agents] or any third party for conducting research on SYSTEM concerning any actions intended to test, audit, examine, or otherwise understand SYSTEM s effects on an individual or group of individuals impacted by SYSTEM s outputs, including but not limited to concerns over bias, due process, disparate impact, or fairness. Non-limiting examples of such legal claims include claims for infringement of patent, copyright, or trademark rights, trade secret misappropriation, breach of contract, interference with business relationships, or violations of state or federal anti-hacking laws.
 
 
 
 f.	
 Agency Review of System Before Acceptance/Launch:
 i.	
-VENDOR will prepare documentation to support AGENCY and VENDOR’s presentation of its methodology to [relevant reviewing committees].
+VENDOR will prepare documentation to support AGENCY and VENDOR s presentation of its methodology to [relevant reviewing committees].
 
 ii.	
 VENDOR will prepare a white paper explaining the process and results form the analyses conducted above. Such paper shall include findings of the feasibility analyses and recommendations about whether, when, and how to proceed with the development of TECHNOLOGY.
@@ -759,7 +759,7 @@ With AGENCY approval of this analysis and white paper, VENDOR will complete all 
 2.	
 EXPLANATION OF SYSTEM:
 a.	
-VENDOR will produce, under AGENCY direction, materials, such as training materials, for appropriate audience, an explanatory presentation for each model, and sample reports with explanations that can be used to explain the system in general to all stakeholders including [stakeholders’ names].
+VENDOR will produce, under AGENCY direction, materials, such as training materials, for appropriate audience, an explanatory presentation for each model, and sample reports with explanations that can be used to explain the system in general to all stakeholders including [stakeholders  names].
 
 b.	
 VENDOR will provide a technical manual for SYSTEM that provides user, design, and code documentation [as described in technical requirements documentation].
@@ -769,7 +769,7 @@ VENDOR will provide a technical manual for SYSTEM that provides user, design, an
 3.	
 IMPACT ASSESSMENT:
 a.	
-VENDOR agrees to assist and support AGENCY in any reasonable manner to produce and provide an Algorithmic Impact Assessment as part of AGENCY’s mission of public accountability.
+VENDOR agrees to assist and support AGENCY in any reasonable manner to produce and provide an Algorithmic Impact Assessment as part of AGENCY s mission of public accountability.
 
 b.	
 As part of this assistance and support, VENDOR will use historical data to provide a report evaluating the impact of TECHNOLOGY on [specify which communities, agency processes, financials, etc.]
@@ -789,16 +789,16 @@ During this same such period, VENDOR shall also pay the costs for (i) any extern
 
 
 b.	
-VENDOR shall provide AGENCY notice of any claims, suits or actions related to the SYSTEM that might impact AGENCY’s use of said system. AGENCY reserves the right to join such an action, at its sole expense, when it determines there is an issue involving a significant public interest.
+VENDOR shall provide AGENCY notice of any claims, suits or actions related to the SYSTEM that might impact AGENCY s use of said system. AGENCY reserves the right to join such an action, at its sole expense, when it determines there is an issue involving a significant public interest.
 
 c.	
-For claims, suits or actions instituted against the AGENCY of policy decisions and/or any work under or arising from this contract which is unrelated to the technical methodology and analytical analyses of the TECHNOLOGY, VENDOR agrees to cooperate and assist the AGENCY in defense of any such claims, suits or actions at the AGENCY’s expense.
+For claims, suits or actions instituted against the AGENCY of policy decisions and/or any work under or arising from this contract which is unrelated to the technical methodology and analytical analyses of the TECHNOLOGY, VENDOR agrees to cooperate and assist the AGENCY in defense of any such claims, suits or actions at the AGENCY s expense.
 
 d.	
-Upon request by AGENCY, VENDOR also agrees to revalidate SYSTEM if the SYSTEM’s logic is changed or modified or if there are significant changes to populations that are the intended target of the SYSTEM or whose data has been used to train the SYSTEM.
+Upon request by AGENCY, VENDOR also agrees to revalidate SYSTEM if the SYSTEM s logic is changed or modified or if there are significant changes to populations that are the intended target of the SYSTEM or whose data has been used to train the SYSTEM.
 
 e.	
-VENDOR also agrees to disclose to AGENCY, in a timely manner, any evidence, analysis, or reports of known or discovered flaws in SYSTEM’s logic, analytical model or any data sets listed per requirements above, including but not limited to issues of bias, discrimination, disparate impact, or fairness.
+VENDOR also agrees to disclose to AGENCY, in a timely manner, any evidence, analysis, or reports of known or discovered flaws in SYSTEM s logic, analytical model or any data sets listed per requirements above, including but not limited to issues of bias, discrimination, disparate impact, or fairness.
 
 
 
@@ -822,7 +822,7 @@ Any materials, processes, and products produced for AGENCY pursuant to this cont
 7.	
 SECURITY/CONFIDENTIALITY:
 a.	
-VENDOR must adhere to AGENCY’s security protocols regarding the storage of secure materials. VENDOR must also adhere to AGENCY’s security protocols regarding the transmission of secure materials, including use of encryption. Electronic transfer via e-mail, Internet, or facsimile (FAX) of any data capable of identifying any specific individuals or groups or of any secure test data is prohibited unless authorized by the AGENCY on a case-by-case basis.
+VENDOR must adhere to AGENCY s security protocols regarding the storage of secure materials. VENDOR must also adhere to AGENCY s security protocols regarding the transmission of secure materials, including use of encryption. Electronic transfer via e-mail, Internet, or facsimile (FAX) of any data capable of identifying any specific individuals or groups or of any secure test data is prohibited unless authorized by the AGENCY on a case-by-case basis.
 
 b.	
 All materials supplied by AGENCY  are to be held strictly confidential and must not be copied, duplicated, or disseminated in any manner or discussed with anyone other than persons authorized by the AGENCY.
@@ -873,12 +873,12 @@ REQUIREMENTS AND RESTRICTIONS FOR SYSTEM DESIGN, PRODUCTION, AND CONFIGURATION (
 
 
 
-The purpose of the feasibility analysis is to determine whether the task of the SYSTEM is even possible: given a set of data from the AGENCY, can the VENDOR accomplish the SYSTEM’s intended purpose. If the task is to accomplish some purpose without being biased, this analysis might also overlap with the validation study.
+The purpose of the feasibility analysis is to determine whether the task of the SYSTEM is even possible: given a set of data from the AGENCY, can the VENDOR accomplish the SYSTEM s intended purpose. If the task is to accomplish some purpose without being biased, this analysis might also overlap with the validation study.
 
 The purpose of this analysis is to establish that prediction uncertainty should be reflected in how the SYSTEM operates.
 
-The purpose of the validation study is to analyze the SYSTEM’s use on different comparison groups, to detail predictive accuracy/error/bias.
-“identifiable populations” could be enumerated to include groups that differ by race, neighborhood, gender, age, or any other protected attribute that should be analyzed within the validation study
+The purpose of the validation study is to analyze the SYSTEM s use on different comparison groups, to detail predictive accuracy/error/bias.
+ identifiable populations  could be enumerated to include groups that differ by race, neighborhood, gender, age, or any other protected attribute that should be analyzed within the validation study
 
 24
 
@@ -908,50 +908,50 @@ ONGOING MODEL ASSESSMENT AND SUPPORT (CONTINUED)
 
 GLOSSARY
 
-This list presents the technical terms that can come up in conversations around the use of algorithms in government. Note that many of these terms are not well-defined, even in the world of AI research. Terms like “algorithm,” “model,” and even “artificial intelligence” itself are often used vaguely and imprecisely. We try to reflect that imprecision below, while also giving definitions that are most useful for policy conversations. The terms are presented in an order from more general concepts and ideas to more specific terms, so that the reader can understand the terms in context.
+This list presents the technical terms that can come up in conversations around the use of algorithms in government. Note that many of these terms are not well-defined, even in the world of AI research. Terms like  algorithm,   model,  and even  artificial intelligence  itself are often used vaguely and imprecisely. We try to reflect that imprecision below, while also giving definitions that are most useful for policy conversations. The terms are presented in an order from more general concepts and ideas to more specific terms, so that the reader can understand the terms in context.
 
-“SUPERVISED” MACHINE LEARNING 
-A broad category of machine learning (“ML”) in which an algorithm uses input data to learn a pattern that it can then use to predict a particular outcome (a “target value” or “label”) when it sees different data. Generally, automated decision systems built with ML use “supervised” techniques. One example would be a system that predicts whether a new loan recipient is likely to default on their loan by learning from data on past loan recipients and whether or not they defaulted on a loan.
-“UNSUPERVISED” MACHINE LEARNING
-Machine learning that does not try to predict a “target variable” but merely learn patterns from the training data (e.g. an algorithm that clusters people together based on their features to identify social groups).
+ SUPERVISED  MACHINE LEARNING 
+A broad category of machine learning ( ML ) in which an algorithm uses input data to learn a pattern that it can then use to predict a particular outcome (a  target value  or  label ) when it sees different data. Generally, automated decision systems built with ML use  supervised  techniques. One example would be a system that predicts whether a new loan recipient is likely to default on their loan by learning from data on past loan recipients and whether or not they defaulted on a loan.
+ UNSUPERVISED  MACHINE LEARNING
+Machine learning that does not try to predict a  target variable  but merely learn patterns from the training data (e.g. an algorithm that clusters people together based on their features to identify social groups).
 MODELS
-The “rules” and relationships a machine learning algorithm learns to perform a task from training data. Those patterns might include the “weights” the algorithm learned to assign to different variables (“features”) in the training data to predict some output. 
+The  rules  and relationships a machine learning algorithm learns to perform a task from training data. Those patterns might include the  weights  the algorithm learned to assign to different variables ( features ) in the training data to predict some output. 
 TRAINING DATA
-The input data used by a machine learning algorithm to find patterns. For example, when creating an ML model for use in government, a developer might use records of past administrative decisions made by a government agency to “train” the system on how to make future decisions. For machine learning that examines images or videos, training data will include those images or videos themselves. Training data is generally made up of “features” (variables) and a “target variable” or “training label” that a machine learning model will attempt to predict.
-•	
-Structured training data is training data that follows an easily machine-readable format. For example, the excel spreadsheet of New York City’s Stop and Frisk database is in a structured format.
+The input data used by a machine learning algorithm to find patterns. For example, when creating an ML model for use in government, a developer might use records of past administrative decisions made by a government agency to  train  the system on how to make future decisions. For machine learning that examines images or videos, training data will include those images or videos themselves. Training data is generally made up of  features  (variables) and a  target variable  or  training label  that a machine learning model will attempt to predict.
+ 	
+Structured training data is training data that follows an easily machine-readable format. For example, the excel spreadsheet of New York City s Stop and Frisk database is in a structured format.
 
-•	
+ 	
 Unstructured training data is training data that machines cannot readily parse and understand. Images, videos, emails, and freeform text documents like emails are some of the most common examples of unstructured data.
 
 
 FEATURES
-The different variables machine learning algorithms use to predict outcomes. Features can be things like “a defendant’s number of prior arrests,” “age,” “credit score,” or anything that can be measured and put into a dataset.
+The different variables machine learning algorithms use to predict outcomes. Features can be things like  a defendant s number of prior arrests,   age,   credit score,  or anything that can be measured and put into a dataset.
 LABELS OR TARGET VARIABLES 
-The outcomes that machine learning algorithms attempt to predict. These can either be numerical (e.g. predicting stock prices based on historic data) or categorical (e.g. predicting whether or not a defendant will be fail to appear in court). In the case of supervised machine learning, the training data will have “labeled data” so that the algorithm can learn the relationship between the data and its label. 
+The outcomes that machine learning algorithms attempt to predict. These can either be numerical (e.g. predicting stock prices based on historic data) or categorical (e.g. predicting whether or not a defendant will be fail to appear in court). In the case of supervised machine learning, the training data will have  labeled data  so that the algorithm can learn the relationship between the data and its label. 
 MODEL PARAMETERS
-What many machine learning algorithms learn so that they can make predictions. “Weights,” a term that has seen use in policy contexts, can also be used to refer to the values learned by machine learning algorithms. In simple machine learning algorithms like “linear regression,” they represent the relative importance of each feature in a dataset for deciding an outcome. For instance, in predicting recidivism, an ML algorithm might learn to assign the value “-3” to age and “5” to number of past arrests to assign the relative importance of those features in deciding “riskiness.” In practice, the parameters learned by an algorithm can be so numerous and the relationships between them so complex that they make ML models hard to understand by a human: there will not be a direct relationship between the “weight” learned by the algorithm and the corresponding feature’s relative importance. This is especially the case in “neural networks” and algorithms described as “deep learning.”
+What many machine learning algorithms learn so that they can make predictions.  Weights,  a term that has seen use in policy contexts, can also be used to refer to the values learned by machine learning algorithms. In simple machine learning algorithms like  linear regression,  they represent the relative importance of each feature in a dataset for deciding an outcome. For instance, in predicting recidivism, an ML algorithm might learn to assign the value  -3  to age and  5  to number of past arrests to assign the relative importance of those features in deciding  riskiness.  In practice, the parameters learned by an algorithm can be so numerous and the relationships between them so complex that they make ML models hard to understand by a human: there will not be a direct relationship between the  weight  learned by the algorithm and the corresponding feature s relative importance. This is especially the case in  neural networks  and algorithms described as  deep learning. 
 DEEP LEARNING
-A class of machine learning algorithms that perform their tasks by building abstractions of the input data it analyzes. The most popular deep learning methods use “neural networks,” machine learning algorithm architectures that learn potentially hundreds of millions of parameters. These are most commonly applied to images, since neural networks can learn how to “understand” the different features of an image without a human explicitly telling the network how to extract meaning from the image. The models created through deep learning are notoriously difficult to understand by a human.
+A class of machine learning algorithms that perform their tasks by building abstractions of the input data it analyzes. The most popular deep learning methods use  neural networks,  machine learning algorithm architectures that learn potentially hundreds of millions of parameters. These are most commonly applied to images, since neural networks can learn how to  understand  the different features of an image without a human explicitly telling the network how to extract meaning from the image. The models created through deep learning are notoriously difficult to understand by a human.
 EXPLAINABILITY
-A property of a machine learning model that makes it easy for a human to understand why an ML model makes one prediction and not another. There is an active debate among policymakers and researchers about what sort of explanations are most valuable, and whether relying on explanations as a form of transparency places too big of a burden on individual citizens to hold government systems accountable themselves. Some explanations might not get at the underlying cause of the pattern and thus may not have much value (e.g. a model that explains that it denied someone a loan because they were born on a Tuesday is not very useful). A relatively new subfield of computer science research on “interpretability” studies how to make models and their decisions more understandable and useful.
+A property of a machine learning model that makes it easy for a human to understand why an ML model makes one prediction and not another. There is an active debate among policymakers and researchers about what sort of explanations are most valuable, and whether relying on explanations as a form of transparency places too big of a burden on individual citizens to hold government systems accountable themselves. Some explanations might not get at the underlying cause of the pattern and thus may not have much value (e.g. a model that explains that it denied someone a loan because they were born on a Tuesday is not very useful). A relatively new subfield of computer science research on  interpretability  studies how to make models and their decisions more understandable and useful.
 VALIDATION STUDY 
 Research that studies the accuracy, efficiency, or other properties of an automated decision system. Validation studies generally look at how well an automated decision system is at performing its task. A more comprehensive validation study can also analyze how well an automated decision system performs its task on different populations, studying, for example, if it is possible for the system to produce disparate impacts.
 RISK ASSESSMENTS
-Particular types of automated decision systems that evaluate people and assign them a risk score for some definition of “risk.” For example, risk assessments might assign criminal defendants a risk score representing how likely they are to fail to appear in court, using a machine learning model trained on past defendants and whether or not they failed to appear. The most well-studied types of risk assessments are in criminal justice, but risk assessments are also used in child welfare, homelessness services, and other domains, and are constantly being deployed into more contexts. Risk assessments have not always used machine learning: actuarial risk assessments have existed since before the current explosion of machine learning, and are based on more traditional statistical means of assessing risk. Actuarial risk assessments raise similar concerns to risk assessments built on machine learning.
+Particular types of automated decision systems that evaluate people and assign them a risk score for some definition of  risk.  For example, risk assessments might assign criminal defendants a risk score representing how likely they are to fail to appear in court, using a machine learning model trained on past defendants and whether or not they failed to appear. The most well-studied types of risk assessments are in criminal justice, but risk assessments are also used in child welfare, homelessness services, and other domains, and are constantly being deployed into more contexts. Risk assessments have not always used machine learning: actuarial risk assessments have existed since before the current explosion of machine learning, and are based on more traditional statistical means of assessing risk. Actuarial risk assessments raise similar concerns to risk assessments built on machine learning.
 SOURCE CODE
 The instructions written by a human to create a computer program.
-•	
+ 	
 Open source software are computer programs for which the source code is publicly available. 
 
-•	
+ 	
 Closed source software are computer programs for which the source code is not public.
 
 
 PREDICTIVE ANALYTICS 
-The use of statistics to make predictions about certain events or outcomes. Machine learning is a form of predictive analytics, but predictive analytics might also include analytical techniques that are not based on learning predictions from training data. “Predictive analytics” and “machine learning” are often conflated and used interchangeably.
+The use of statistics to make predictions about certain events or outcomes. Machine learning is a form of predictive analytics, but predictive analytics might also include analytical techniques that are not based on learning predictions from training data.  Predictive analytics  and  machine learning  are often conflated and used interchangeably.
 EXPERT SYSTEMS 
-Automated decision systems that help make decisions using rules explicitly created by a human. Contrast this with a system built using machine learning: with ML, decision rules are automatically learned by a machine learning algorithm. An example of an expert system would be a medical diagnosis system in which the rules for diagnosing disease were explicitly decided by a doctor (e.g. “if a patient has a temperature over 100 degrees and a blood pressure over 140/90, the patient has a fever”). Expert systems are historically considered artificial intelligence.
+Automated decision systems that help make decisions using rules explicitly created by a human. Contrast this with a system built using machine learning: with ML, decision rules are automatically learned by a machine learning algorithm. An example of an expert system would be a medical diagnosis system in which the rules for diagnosing disease were explicitly decided by a doctor (e.g.  if a patient has a temperature over 100 degrees and a blood pressure over 140/90, the patient has a fever ). Expert systems are historically considered artificial intelligence.
 
 28
 

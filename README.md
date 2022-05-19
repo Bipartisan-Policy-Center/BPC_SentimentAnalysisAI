@@ -77,13 +77,21 @@ For web/html based frameworks:
 
 ### Text Frameworks
 
-For pdf/text-based frameworks
+For pdf/text-based frameworks for IBM Analysis
 
 - Ensure that you have python3 installed on your machine by running `python --version`
 - run `pip install --upgrade "ibm-watson>=5.3.0"`
 - Change the `{API Key}` (line 8) to your own key and the `{url}` (line 14) to your service URL as provided by IBM
 - Change the name of the file called on `convert_file_to_string` to the name of the file for the framework you're analyzing (line 24)
-- run the command `python3 text_sentiment.py`
+- Run the command `python3 text_sentiment.py`
+
+
+.txt files for `textblob` analysis
+- Ensure that you have python3 installed on your machine by running `python --version`
+- Run the command `python3 legislation_analysis.py` to get the sentiment and keyword analysis
+- Save the sentiment in a file called `sentiment.csv`. Save each keyword under headers `keyword1`, `keyword2`, `keyword3`, `keyword4`, and `keyword5`
+- Run the command `python3 keyword_analysis.py` to get the keyword word cloud as a png image
+- Open the file `sentiment_analysis.R` in RStudio to generate the bar-chart visualizations
 
 ## Future work
 

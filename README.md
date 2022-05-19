@@ -95,7 +95,7 @@ For pdf/text-based frameworks for IBM Analysis
 
 The headers should look like this:
 
-![]sample_headers.png
+![](sample_headers.png)
 
 - Replace {PATH_TO sentiment.csv} in the `keyword_analysis.py` file in line 11 with the path to your `sentiment.csv` file
 - Run the command `python3 keyword_analysis.py` to get the keyword word cloud as a png image
@@ -108,19 +108,24 @@ Currently, this project examines AI Frameworks (Ethics, Impact, and Risk) from d
 ## Results
 
 Keyword Word Cloud
-![]visualizations/keyword.png
+
+![](visualizations/keyword.png)
 
 Sentiment Score by Country
-![]visualizations/sentiment_by_country.png
+
+![](visualizations/sentiment_by_country.png)
 
 Sentiment Score by Region
-![]visualizations/sentiment_by_region.png
+
+![](visualizations/sentiment_by_region.png)
 
 Sentiment Score by Sector
-![]visualizations/sentiment_by_sector.png
+
+![](visualizations/sentiment_by_sector.png)
 
 Sentiment Score by Type
-![]visualizations/sentiment_by_type.png
+
+![](visualizations/sentiment_by_type.png)
 
 ## Data used
 
